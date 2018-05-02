@@ -1,0 +1,4 @@
+DataSet,PubID,TrialID,TrtID,SubjectID,VarName,Varvalue,VarUnits,N,SE,SD
+NRC2001,13,1,1,_,Rumen,_,_,dOMRumA,51.2,kg/d
+NRC2001,13,1,1,_,Rumen,_,_,dOMRumA,6.4,%
+NRC2001,13,1,1,_,Milk,_,_,MilkPrt,3.1,%

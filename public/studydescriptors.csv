@@ -1,0 +1,5 @@
+DataSet,PubID,TrialID,VarName,VarValue,VarUnits
+NRC2001,1,1,Acknowledgement,"Committee NRC 2001, Mark Hanigan VT",_
+NRC2001,1,1,Reference,"Omara et al., 1997.  JDS 80:  2466-2474",_
+NRC2001,1,1,Year,1997,year
+NRC2001,1,1,"Location ",Ireland,_

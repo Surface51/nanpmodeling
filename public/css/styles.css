@@ -1,0 +1,19 @@
+#filters {
+    display: inline-flex;
+}
+
+#input-selection-group {
+    display: inline-flex;
+}
+
+#maincho {
+    overflow-x: auto;
+}
+
+#advanced_search_div{
+    display:none;
+}
+
+#hide-me {
+    display: none;
+}
