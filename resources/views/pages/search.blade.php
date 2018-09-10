@@ -5,30 +5,8 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header">Export Tables</div>
-
+                    <div class="card-header">Filter Data</div>
                     <div class="card-body">
-                        <a href="/all-study-descriptors-csv" class="btn btn-primary">Export Study Descriptors CSV</a>
-                        <a href="/all-dietary-ingredients-csv" class="btn btn-primary">Export Dietary Ingredients CSV</a>
-                        <a href="/all-dietary-nutrients-csv" class="btn btn-primary">Export Dietary Nutrients CSV</a>
-                        <a href="/all-subjects-csv" class="btn btn-primary">Export Subjects CSV</a>
-                        <a href="/all-performance-data-csv" class="btn btn-primary">Export Performance Data CSV</a>
-                        <a href="/all-in-vitro-data-csv" class="btn btn-primary">Export In Vitro Data CSV</a>
-                    </div>
-
-                </div>
-                <br>
-                <div class="card">
-                    <div class="card-header">Export Database</div>
-
-                    <div class="card-body">
-                        <a href="/download-database" class="btn btn-success">Export Database as SQL file</a>
-                    </div>
-
-                </div>
-                <br>
-                <div class="card">
-                    <div class="card-header">Filter Database
                         {!! Form::open(array('method' => 'get', 'route' => array('filter.all'))) !!}
                         <div class="quick-search col-md-12" id="filters">
                                 <div class="form-group col-md-2">
@@ -49,13 +27,13 @@
                                 </div>
 
                                 <div class="form-group col-md-2">
-                                    {{ Form::label('PubID') }}
+                                    {{ Form::label('References') }}
                                     <div class="input-group">
                                         <select class="form-control" name="pubid_all">
                                             @if(isset($_GET['pubid_all']))
                                                 <option value="{{$_GET['pubid_all']}}">{{$pubid_all}}</option>
                                             @else
-                                                <option value=" ">Select PubID</option>
+                                                <option value=" ">Select References</option>
                                             @endif
                                             @foreach($pubids_all as $key => $value)
                                                 <option value="{{$value}}">{{$key}}</option>
@@ -66,15 +44,15 @@
                                 </div>
 
                                 <div class="form-group col-md-1">
-                                    {{ Form::label('Filter') }}
+                                    {{ Form::label('Filters') }}
                                     <div class="input-group">
-                                        <button class="btn btn-default btn-primary">Filter</button>
+                                        <button class="btn btn-default btn-primary filter-button">Apply</button>
                                     </div>
                                 </div>
                                 <div class="form-group col-md-2">
-                                    {{ Form::label('Clear') }}
+                                    {{ Form::label('Filters') }}
                                     <div class="input-group">
-                                        <a href="/search" class="btn btn-default btn-primary">Clear All Filters</a>
+                                        <a href="/search" class="btn btn-default btn-primary clear-filter-button">Clear</a>
                                     </div>
                                 </div>
                             {{ Form::close() }}
@@ -273,13 +251,13 @@
                                     <div class="form-group col-md-12" id="filters">
                                         <div class="form-group col-md-1">
                                             <div class="input-group">
-                                                <button class="btn btn-default btn-primary">Filter</button>
+                                                <button class="btn btn-default btn-primary filter-button">Filter</button>
                                             </div>
                                         </div>
 
                                         <div class="form-group col-md-2">
                                             <div class="input-group">
-                                                <a href="/search" class="btn btn-default btn-primary">Clear All Filters</a>
+                                                <a href="/search" class="btn btn-default btn-primary clear-filter-button">Clear All Filters</a>
                                             </div>
                                         </div>
                                     </div>
@@ -288,16 +266,42 @@
                         </div>
                     </div>
                 </div>
+                <br>
+                <div class="card">
+                    <div class="card-header export-tables-title">Export Individual Tables</div>
+
+                    <div class="card-body">
+                        <a href="/all-study-descriptors-csv" class="btn btn-primary" id="download-button">Study Descritors CSV</a>
+                        <a href="/all-dietary-ingredients-csv" class="btn btn-primary" id="download-button">Dietary Ingredients CSV</a>
+                        <a href="/all-dietary-nutrients-csv" class="btn btn-primary" id="download-button">Dietary Nutrients CSV</a>
+                        <a href="/all-subjects-csv" class="btn btn-primary" id="download-button">Subjects CSV</a>
+                        <a href="/all-performance-data-csv" class="btn btn-primary" id="download-button">Performance Data CSV</a>
+                        <a href="/all-infusions-data-csv" class="btn btn-primary" id="download-button">Infusions Data CSV</a>
+                        <a href="/all-in-vitro-data-csv" class="btn btn-primary" id="download-button">In Vitro Data CSV</a>
+                        <a href="/all-genome-transcripts-csv" class="btn btn-primary" id="download-button">Genome/Transcripts... CSV</a>
+                    </div>
+
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-header">Export Database</div>
+
+                    <div class="card-body">
+                        <a href="/download-database" class="btn btn-success expo-database-button">Export All Database Tables as SQL file</a>
+                    </div>
+
+                </div>
+                <br>
+                </div>
             </div>
         </div>
 
-
+<div class="container-fluid">
                 <br>
                 <div class="card">
-                    <br>
                     @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
                         <div class="form-group col-md-12">
-                            <a class="btn btn-primary" href="{{ route('download.filteredStudies',
+                            <a class="btn btn-primary filter-download-button" href="{{ route('download.filteredStudies',
                                 array(
                                 'id' => $_GET['dataset_all'],
                                 'dataset' => $_GET['dataset_all'],
@@ -308,32 +312,35 @@
                     @endif
 
                     <div role="tabpanel" class="tab-pane active" id="maincho">
-                        <p class="table-label">Study Descriptors Table</p>
-                        <div class="container-fluid">
-                            <table class="table table-bordered">
-                                <thead>
-                                <tr id='table-rows'>
-                                    <th>DataSet</th>
-                                    <th>PubID</th>
-                                    <th>TrialID</th>
-                                    <th>VarName</th>
-                                    <th>VarValue</th>
-                                    <th>VarUnits</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                @include('partials.studydescriptors')
-                                </tbody>
-                            </table>
+                        <div class="card-header">
+                            Study Descriptors Table
+                        </div>
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <table class="table table-bordered">
+                                    <thead>
+                                    <tr id='table-rows'>
+                                        <th>DataSet</th>
+                                        <th>PubID</th>
+                                        <th>TrialID</th>
+                                        <th>VarName</th>
+                                        <th>VarValue</th>
+                                        <th>VarUnits</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    @include('partials.studydescriptors')
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <br>
                 <div class="card">
-                    <br>
                     @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
                         <div class="form-group col-md-12">
-                            <a class="btn btn-primary" href="{{ route('download.filteredIngredients',
+                            <a class="btn btn-primary filter-download-button" href="{{ route('download.filteredIngredients',
                                 array(
                                 'id' => $_GET['dataset_all'],
                                 'dataset' => $_GET['dataset_all'],
@@ -343,37 +350,38 @@
                         </div>
                     @endif
                     <div role="tabpanel" class="tab-pane active" id="maincho">
-                        <p class="table-label">Dietary Ingredients Table</p>
-                        <div class="container-fluid">
-                            <table class="table table-bordered">
-                                <thead>
-                                <tr id='table-rows'>
-                                    <th>DataSet</th>
-                                    <th>PubID</th>
-                                    <th>TrialID</th>
-                                    <th>TrtID</th>
-                                    <th>IFN</th>
-                                    <th>VarName</th>
-                                    <th>Varvalue</th>
-                                    <th>VarUnits</th>
-                                    <th>N</th>
-                                    <th>SE</th>
-                                    <th>SD</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                @include('partials.ingredients')
-                                </tbody>
-                            </table>
+                        <div class="card-header">Dietary Ingredients Table</div>
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <table class="table table-bordered">
+                                    <thead>
+                                    <tr id='table-rows'>
+                                        <th>DataSet</th>
+                                        <th>PubID</th>
+                                        <th>TrialID</th>
+                                        <th>TrtID</th>
+                                        <th>IFN</th>
+                                        <th>VarName</th>
+                                        <th>Varvalue</th>
+                                        <th>VarUnits</th>
+                                        <th>N</th>
+                                        <th>SE</th>
+                                        <th>SD</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    @include('partials.ingredients')
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <br>
                 <div class="card">
-                    <br>
                     @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
                         <div class="form-group col-md-12">
-                            <a class="btn btn-primary" href="{{ route('download.filteredNutrients',
+                            <a class="btn btn-primary filter-download-button" href="{{ route('download.filteredNutrients',
                                 array(
                                 'id' => $_GET['dataset_all'],
                                 'dataset' => $_GET['dataset_all'],
@@ -382,37 +390,38 @@
                         </div>
                     @endif
                     <div role="tabpanel" class="tab-pane active" id="maincho">
-                        <p class="table-label">Dietary Nutrients Table</p>
-                        <div class="container-fluid">
-                            <table class="table table-bordered">
-                                <thead>
-                                <tr id='table-rows'>
-                                    <th>DataSet</th>
-                                    <th>PubID</th>
-                                    <th>TrialID</th>
-                                    <th>TrtID</th>
-                                    <th>SubjectID</th>
-                                    <th>VarName</th>
-                                    <th>Varvalue</th>
-                                    <th>VarUnits</th>
-                                    <th>N</th>
-                                    <th>SE</th>
-                                    <th>SD</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                @include('partials.nutrients')
-                                </tbody>
-                            </table>
+                        <div class="card-header">Dietary Nutrients Table</div>
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <table class="table table-bordered">
+                                    <thead>
+                                    <tr id='table-rows'>
+                                        <th>DataSet</th>
+                                        <th>PubID</th>
+                                        <th>TrialID</th>
+                                        <th>TrtID</th>
+                                        <th>SubjectID</th>
+                                        <th>VarName</th>
+                                        <th>Varvalue</th>
+                                        <th>VarUnits</th>
+                                        <th>N</th>
+                                        <th>SE</th>
+                                        <th>SD</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    @include('partials.nutrients')
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <br>
                 <div class="card">
-                    <br>
                     @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
                         <div class="form-group col-md-12">
-                            <a class="btn btn-primary" href="{{ route('download.filteredSubjects',
+                            <a class="btn btn-primary filter-download-button" href="{{ route('download.filteredSubjects',
                                 array(
                                 'id' => $_GET['dataset_all'],
                                 'dataset' => $_GET['dataset_all'],
@@ -422,37 +431,38 @@
                         </div>
                     @endif
                     <div role="tabpanel" class="tab-pane active" id="maincho">
-                        <p class="table-label">Subjects Table</p>
-                        <div class="container-fluid">
-                            <table class="table table-bordered">
-                                <thead>
-                                <tr id='table-rows'>
-                                    <th>DataSet</th>
-                                    <th>PubID</th>
-                                    <th>TrialID</th>
-                                    <th>TrtID</th>
-                                    <th>SubjectID</th>
-                                    <th>VarName</th>
-                                    <th>Varvalue</th>
-                                    <th>VarUnits</th>
-                                    <th>N</th>
-                                    <th>SE</th>
-                                    <th>SD</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                @include('partials.subjects')
-                                </tbody>
-                            </table>
+                        <div class="card-header">Subjects Table</div>
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <table class="table table-bordered">
+                                    <thead>
+                                    <tr id='table-rows'>
+                                        <th>DataSet</th>
+                                        <th>PubID</th>
+                                        <th>TrialID</th>
+                                        <th>TrtID</th>
+                                        <th>SubjectID</th>
+                                        <th>VarName</th>
+                                        <th>Varvalue</th>
+                                        <th>VarUnits</th>
+                                        <th>N</th>
+                                        <th>SE</th>
+                                        <th>SD</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    @include('partials.subjects')
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <br>
                 <div class="card">
-                    <br>
                     @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
                         <div class="form-group col-md-12">
-                            <a class="btn btn-primary" href="{{ route('download.filteredPerformances',
+                            <a class="btn btn-primary filter-download-button" href="{{ route('download.filteredPerformances',
                                 array(
                                 'id' => $_GET['dataset_all'],
                                 'dataset' => $_GET['dataset_all'],
@@ -462,41 +472,85 @@
                         </div>
                     @endif
                     <div role="tabpanel" class="tab-pane active" id="maincho">
-                        <p class="table-label">Performance Data Table</p>
-                        <div class="container-fluid">
-                            <table class="table table-bordered">
-                                <thead>
-                                <tr id='table-rows'>
-                                    <th>DataSet</th>
-                                    <th>PubID</th>
-                                    <th>TrialID</th>
-                                    <th>TrtID</th>
-                                    <th>SubjectID</th>
-                                    <th>Site_Sample</th>
-                                    <th>Day_Sample</th>
-                                    <th>Time_Sample</th>
-                                    <th>VarName</th>
-                                    <th>VarValue</th>
-                                    <th>VarUnits</th>
-                                    <th>N</th>
-                                    <th>SE</th>
-                                    <th>SD</th>
-                                    <th>VarType</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                @include('partials.performances')
-                                </tbody>
-                            </table>
+                        <div class="card-header">Performance Data Table</div>
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <table class="table table-bordered">
+                                    <thead>
+                                    <tr id='table-rows'>
+                                        <th>DataSet</th>
+                                        <th>PubID</th>
+                                        <th>TrialID</th>
+                                        <th>TrtID</th>
+                                        <th>SubjectID</th>
+                                        <th>Site_Sample</th>
+                                        <th>Day_Sample</th>
+                                        <th>Time_Sample</th>
+                                        <th>VarName</th>
+                                        <th>VarValue</th>
+                                        <th>VarUnits</th>
+                                        <th>N</th>
+                                        <th>SE</th>
+                                        <th>SD</th>
+                                        <th>VarType</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    @include('partials.performances')
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <br>
                 <div class="card">
-                    <br>
                     @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
                         <div class="form-group col-md-12">
-                            <a class="btn btn-primary" href="{{ route('download.filteredInVitroDatas',
+                            <a class="btn btn-primary filter-download-button" href="{{ route('download.filteredInfusions',
+                                            array(
+                                            'id' => $_GET['dataset_all'],
+                                            'dataset' => $_GET['dataset_all'],
+                                            'pubid' => $_GET['pubid_all'],
+                                            )) }}">Export Filtered Infusion Data CSV
+                            </a>
+                        </div>
+                    @endif
+                    <div role="tabpanel" class="tab-pane active" id="maincho">
+                        <div class="card-header">Infusion Data Table</div>
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <table class="table table-bordered">
+                                    <thead>
+                                    <tr id='table-rows'>
+                                        <th>DataSet</th>
+                                        <th>PubID</th>
+                                        <th>TrialID</th>
+                                        <th>TrtID</th>
+                                        <th>SubjectID</th>
+                                        <th>InfusionLocation</th>
+                                        <th>VarName</th>
+                                        <th>VarValue</th>
+                                        <th>VarUnits</th>
+                                        <th>DayofPeriodStart</th>
+                                        <th>DayofPeriodStop</th>
+                                        <th>TimeofDayStart</th>
+                                        <th>TimeofDayStop</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    @include('partials.infusions')
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
+                        <div class="form-group col-md-12">
+                            <a class="btn btn-primary filter-download-button" href="{{ route('download.filteredInVitroDatas',
                                 array(
                                 'id' => $_GET['dataset_all'],
                                 'dataset' => $_GET['dataset_all'],
@@ -506,39 +560,93 @@
                         </div>
                     @endif
                     <div role="tabpanel" class="tab-pane active" id="maincho">
-                        <p class="table-label">In Vitro Data Table</p>
-                        <div class="container-fluid">
-                            <table class="table table-bordered">
-                                <thead>
-                                <tr id='table-rows'>
-                                    <th>DataSet</th>
-                                    <th>PubID</th>
-                                    <th>TrialID</th>
-                                    <th>TrtID</th>
-                                    <th>SubjectID</th>
-                                    <th>PlateID</th>
-                                    <th>WellID</th>
-                                    <th>SubTrtID</th>
-                                    <th>Site_sample</th>
-                                    <th>Cell_Type</th>
-                                    <th>Day_Sample</th>
-                                    <th>Time_Sample</th>
-                                    <th>VarName</th>
-                                    <th>VarValue</th>
-                                    <th>VarUnits</th>
-                                    <th>N</th>
-                                    <th>SE</th>
-                                    <th>SD</th>
-                                    <th>VarType</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                @include('partials.invitros')
-                                </tbody>
-                            </table>
+                        <div class="card-header">In Vitro Data Table</div>
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <table class="table table-bordered">
+                                    <thead>
+                                    <tr id='table-rows'>
+                                        <th>DataSet</th>
+                                        <th>PubID</th>
+                                        <th>TrialID</th>
+                                        <th>TrtID</th>
+                                        <th>SubjectID</th>
+                                        <th>PlateID</th>
+                                        <th>WellID</th>
+                                        <th>SubTrtID</th>
+                                        <th>Site_sample</th>
+                                        <th>Cell_Type</th>
+                                        <th>Day_Sample_InVivo</th>
+                                        <th>Day_Sample_InVitro</th>
+                                        <th>Time_Sample</th>
+                                        <th>VarName</th>
+                                        <th>VarValue</th>
+                                        <th>VarUnits</th>
+                                        <th>N</th>
+                                        <th>SE</th>
+                                        <th>SD</th>
+                                        <th>VarType</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    @include('partials.invitros')
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
+        <br>
+        <div class="card">
+            @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
+                <div class="form-group col-md-12">
+                    <a class="btn btn-primary filter-download-button" href="{{ route('download.filteredGenomes',
+                                array(
+                                'id' => $_GET['dataset_all'],
+                                'dataset' => $_GET['dataset_all'],
+                                'pubid' => $_GET['pubid_all'],
+                                )) }}">Export Filtered Genome Transcript Data CSV
+                    </a>
+                </div>
+            @endif
+            <div role="tabpanel" class="tab-pane active" id="maincho">
+                <div class="card-header">Genome Transcripts Table</div>
+                <div class="card-body">
+                    <div class="container-fluid">
+                        <table class="table table-bordered">
+                            <thead>
+                            <tr id='table-rows'>
+                                <th>DataSet</th>
+                                <th>PubID</th>
+                                <th>TrialID</th>
+                                <th>TrtID</th>
+                                <th>SubjectID</th>
+                                <th>PlateID</th>
+                                <th>WellID</th>
+                                <th>SubTrtID</th>
+                                <th>Site_sample</th>
+                                <th>Cell_Type</th>
+                                <th>Day_Sample_InVivo</th>
+                                <th>Day_Sample_InVitro</th>
+                                <th>Time_Sample</th>
+                                <th>VarName</th>
+                                <th>VarValue</th>
+                                <th>VarUnits</th>
+                                <th>N</th>
+                                <th>SE</th>
+                                <th>SD</th>
+                                <th>VarType</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            @include('partials.genomes')
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
 @endsection
 
 @section('scripts')

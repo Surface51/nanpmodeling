@@ -1,3 +1,38 @@
+/*#9b8f7e - footer tan;*/
+/*#193c58 - blue;*/
+/*#c3cdaf - tan*/
+/*#a91d45 - red*/
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.table {
+    background-color: #F4F8F2;
+    color: #193c58;
+}
+
+.table tr:nth-child(even){
+    background-color: #dbd7a9;
+    color: #193c58;
+}
+
+thead {
+    background-color: #c3cdaf;
+    color: #193c58;
+    font-size: 14px;
+    /*text-transform: uppercase;*/
+}
+
+.table-bordered thead th {
+    border:1px solid #193c58;
+    border-bottom: 3px solid #193c58;
+}
+
+.table-bordered, .table-bordered td, .table-bordered th, .table-bordered thead td{
+    border:1px solid #193c58;
+}
+
 #filters {
     display: inline-flex;
 }
@@ -16,4 +51,52 @@
 
 #hide-me {
     display: none;
+}
+
+/*Main Page Styles*/
+.card {
+    border: 1px solid #193c58;
+}
+
+.card-header {
+    color: white;
+    background-color: #193c58;
+}
+
+.export-tables-title {
+    font-size: 16px;
+    /*text-transform: uppercase;*/
+}
+
+#download-button {
+    margin: 5px;
+    background-color: #c3cdaf;
+    border-color: #c3cdaf;
+    color: #193c58;
+}
+
+#download-button:hover {
+    background-color: white;
+}
+
+.expo-database-button {
+    color:  #193c58;
+    background-color: #F0A830;
+    border-color: #F0A830;
+}
+
+.filter-button {
+    color: white;
+    background-color: #3B8686;
+    border: #3B8686;
+}
+
+.clear-filter-button {
+    color: white;
+    background-color: #3B8686;
+    border: #3B8686;
+}
+
+.filter-download-button {
+    margin-top: 20px;
 }

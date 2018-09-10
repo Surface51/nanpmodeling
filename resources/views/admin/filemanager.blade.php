@@ -86,6 +86,32 @@
                     </div>
                 </div>
 
+                    {{--<br>--}}
+
+                    {{--<div class="row justify-content-center">--}}
+                        {{--<div class="col-md-12">--}}
+                            {{--<div class="card">--}}
+                                {{--<div class="card-header">Import Excel Workbook</div>--}}
+                                {{--<form action="/import-workbook" method="post" enctype="multipart/form-data">--}}
+                                    {{--<div class="card-body">--}}
+                                        {{--@csrf--}}
+                                        {{--<div class="form-group">--}}
+                                            {{--<input type="file" class="form-control-file" name="file" id="inputFile" aria-describedby="fileHelp">--}}
+                                            {{--<small id="fileHelp" class="form-text text-muted">Please upload your import files. Each Sheet should be--}}
+                                            {{--named appropriately to the table you wish it to be imported too.</small>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+
+                                    {{--<div class="form-group col-md-1">--}}
+                                        {{--<div class="input-group">--}}
+                                            {{--<button class="btn btn-default btn-primary btn-sm">Upload File</button>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</form>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+
             </div>
         </div>
     </div>

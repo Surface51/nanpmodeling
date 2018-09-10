@@ -14,6 +14,7 @@ class CreateStudyDescriptorsTable extends Migration
     public function up()
     {
         Schema::create('study_descriptors', function (Blueprint $table) {
+            $table->increments('id');
             $table->string('ref');
             $table->string('DataSet');
             $table->integer('PubID');

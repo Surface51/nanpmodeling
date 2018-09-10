@@ -9,18 +9,21 @@ class PerformanceData extends Model
     protected $table = 'performance_datas';
 
     protected $fillable = [
+        'ref',
         'DataSet',
         'PubID',
         'TrialID',
+        'TrtID',
         'SubjectID',
+        'Site_Sample',
         'Day_Sample',
         'Time_Sample',
         'VarName',
         'VarValue',
         'VarUnits',
         'N',
-        'SE',
-        'SD',
+        'SEM',
+        'SED',
         'VarType'
 
     ];

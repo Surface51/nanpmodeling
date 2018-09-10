@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\GenomeTranscript;
+use App\Infusion;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
 use App\StudyDescriptor;
@@ -43,7 +45,7 @@ class DownloadsController extends Controller
 
     public function downloadFilteredStudies(Request $request)
     {
-        $table = FilterEngine::filterStudyDescriptors($request);
+        $table = FilterEngine::filterToDownloadStudyDescriptors($request);
         $filename = "studydescriptors.csv";
         $handle = fopen($filename, 'w+');
         fputcsv($handle, array(
@@ -94,7 +96,7 @@ class DownloadsController extends Controller
 
     public function downloadFilteredIngredients(Request $request)
     {
-        $table = FilterEngine::filterDietaryIngredients($request);
+        $table = FilterEngine::filterToDownloadDietaryIngredients($request);
         $filename = "dietaryingredients.csv";
         $handle = fopen($filename, 'w+');
         fputcsv($handle, array(
@@ -147,7 +149,7 @@ class DownloadsController extends Controller
 
     public function downloadFilteredNutrients(Request $request)
     {
-        $table = FilterEngine::filterDietaryNutrients($request);
+        $table = FilterEngine::filterToDownloadDietaryNutrients($request);
         $filename = "dietarynutrients.csv";
         $handle = fopen($filename, 'w+');
         fputcsv($handle, array(
@@ -199,7 +201,7 @@ class DownloadsController extends Controller
 
     public function downloadFilteredSubjects(Request $request)
     {
-        $table = FilterEngine::filterSubjects($request);
+        $table = FilterEngine::filterToDownloadSubjects($request);
         $filename = "subjects.csv";
         $handle = fopen($filename, 'w+');
         fputcsv($handle, array(
@@ -229,14 +231,16 @@ class DownloadsController extends Controller
         $filename = "performances.csv";
         $handle = fopen($filename, 'w+');
         fputcsv($handle, array(
-            'DataSet', 'PubID', 'TrialID', 'TrtID', 'SubjectID', 'VarName', 'Varvalue', 'VarUnits', 'N', 'SE', 'SD'
+            'DataSet', 'PubID', 'TrialID', 'TrtID', 'SubjectID', 'Site_Sample', 'Day_Sample', 'Time_Sample',
+            'VarName', 'VarValue', 'VarUnits', 'N', 'SEM', 'SED', 'VarType'
         ));
 
         foreach($table as $row) {
             fputcsv($handle, array(
                 $row['DataSet'], $row['PubID'], $row['TrialID'], $row['TrtID'],
-                $row['SubjectID'], $row['VarName'], $row['Varvalue'], $row['VarUnits'],
-                $row['N'], $row['SE'], $row['SD']
+                $row['SubjectID'], $row['Site_Sample'], $row['Day_Sample'], $row['Time_Sample'],
+                $row['VarName'], $row['VarValue'], $row['VarUnits'],
+                $row['N'], $row['SEM'], $row['SED'], $row['VarType']
             ));
         }
 
@@ -251,18 +255,76 @@ class DownloadsController extends Controller
 
     public function downloadFilteredPerformances(Request $request)
     {
-        $table = FilterEngine::filterPerformances($request);
+        $table = FilterEngine::filterToDownloadPerformances($request);
         $filename = "performances.csv";
         $handle = fopen($filename, 'w+');
         fputcsv($handle, array(
-            'DataSet', 'PubID', 'TrialID', 'TrtID', 'SubjectID', 'VarName', 'Varvalue', 'VarUnits', 'N', 'SE', 'SD'
+            'DataSet', 'PubID', 'TrialID', 'TrtID', 'SubjectID', 'Site_Sample', 'Day_Sample', 'Time_Sample',
+            'VarName', 'VarValue', 'VarUnits', 'N', 'SEM', 'SED', 'VarType'
         ));
 
         foreach($table as $row) {
             fputcsv($handle, array(
                 $row['DataSet'], $row['PubID'], $row['TrialID'], $row['TrtID'],
-                $row['SubjectID'], $row['VarName'], $row['Varvalue'], $row['VarUnits'],
-                $row['N'], $row['SE'], $row['SD']
+                $row['SubjectID'], $row['Site_Sample'], $row['Day_Sample'], $row['Time_Sample'],
+                $row['VarName'], $row['VarValue'], $row['VarUnits'],
+                $row['N'], $row['SEM'], $row['SED'], $row['VarType']
+            ));
+        }
+
+        fclose($handle);
+
+        $headers = array(
+            'Content-Type' => 'text/csv',
+        );
+
+        return Response::download($filename);
+    }
+
+    public function downloadInfusions()
+    {
+        $table = Infusion::all();
+        $filename = "infusions.csv";
+        $handle = fopen($filename, 'w+');
+        fputcsv($handle, array(
+            'DataSet', 'PubID', 'TrialID', 'TrtID', 'SubjectID', 'InfusionLocation', 'VarName', 'VarValue',
+            'VarUnits', 'DayofPeriodStart', 'DayofPeriodStop', 'TimeofDayStart', 'TimeofDayStop'
+        ));
+
+        foreach($table as $row) {
+            fputcsv($handle, array(
+                $row['DataSet'], $row['PubID'], $row['TrialID'], $row['TrtID'],
+                $row['SubjectID'], $row['InfusionLocation'], $row['VarName'], $row['VarValue'],
+                $row['VarUnits'], $row['DayofPeriodStart'], $row['DayofPeriodStop'],
+                $row['TimeofDayStart'], $row['TimeofDayStop']
+            ));
+        }
+
+        fclose($handle);
+
+        $headers = array(
+            'Content-Type' => 'text/csv',
+        );
+
+        return Response::download($filename);
+    }
+
+    public function downloadFilteredInfusions(Request $request)
+    {
+        $table = FilterEngine::filterToDownloadInfusions($request);
+        $filename = "infusions.csv";
+        $handle = fopen($filename, 'w+');
+        fputcsv($handle, array(
+            'DataSet', 'PubID', 'TrialID', 'TrtID', 'SubjectID', 'InfusionLocation', 'VarName', 'VarValue',
+            'VarUnits', 'DayofPeriodStart', 'DayofPeriodStop', 'TimeofDayStart', 'TimeofDayStop'
+        ));
+
+        foreach($table as $row) {
+            fputcsv($handle, array(
+                $row['DataSet'], $row['PubID'], $row['TrialID'], $row['TrtID'],
+                $row['SubjectID'], $row['InfusionLocation'], $row['VarName'], $row['VarValue'],
+                $row['VarUnits'], $row['DayofPeriodStart'], $row['DayofPeriodStop'],
+                $row['TimeofDayStart'], $row['TimeofDayStop']
             ));
         }
 
@@ -282,14 +344,14 @@ class DownloadsController extends Controller
         $handle = fopen($filename, 'w+');
         fputcsv($handle, array(
             'DataSet', 'PubID', 'TrialID', 'TrtID', 'SubjectID', 'PlateID', 'WellID', 'SubTrtID',
-            'Site_sample', 'Cell_Type', 'Day_Sample', 'Time_Sample', 'VarName', 'VarValue', 'VarUnits', 'N', 'SE', 'SD', 'VarType'
+            'Site_sample', 'Cell_Type', 'Day_Sample', 'Day_Sample2', 'Time_Sample', 'VarName', 'VarValue', 'VarUnits', 'N', 'SE', 'SD', 'VarType'
         ));
 
         foreach($table as $row) {
             fputcsv($handle, array(
                 $row['DataSet'], $row['PubID'], $row['TrialID'], $row['TrtID'],
                 $row['SubjectID'], $row['PlateID'], $row['WellID'], $row['SubTrtID'],
-                $row['Site_sample'], $row['Cell_Type'], $row['Day_Sample'], $row['Time_Sample'],
+                $row['Site_sample'], $row['Cell_Type'], $row['Day_Sample'], $row['Day_Sample2'] , $row['Time_Sample'],
                 $row['VarName'], $row['VarValue'], $row['VarUnits'],
                 $row['N'], $row['SE'], $row['SD'], $row['VarType']
             ));
@@ -304,21 +366,80 @@ class DownloadsController extends Controller
         return Response::download($filename);
     }
 
-    public function downloadFilteredInvitro(Request $request)
+    public function downloadFilteredInvitroDatas(Request $request)
     {
-        $table = FilterEngine::filterInvitros($request);
+        $table = FilterEngine::filterToDownloadInvitros($request);
         $filename = "invitrodata.csv";
         $handle = fopen($filename, 'w+');
         fputcsv($handle, array(
             'DataSet', 'PubID', 'TrialID', 'TrtID', 'SubjectID', 'PlateID', 'WellID', 'SubTrtID',
-            'Site_sample', 'Cell_Type', 'Day_Sample', 'Time_Sample', 'VarName', 'VarValue', 'VarUnits', 'N', 'SE', 'SD', 'VarType'
+            'Site_sample', 'Cell_Type', 'Day_Sample', 'Day_Sample2', 'Time_Sample', 'VarName', 'VarValue', 'VarUnits', 'N', 'SE', 'SD', 'VarType'
         ));
 
         foreach($table as $row) {
             fputcsv($handle, array(
                 $row['DataSet'], $row['PubID'], $row['TrialID'], $row['TrtID'],
                 $row['SubjectID'], $row['PlateID'], $row['WellID'], $row['SubTrtID'],
-                $row['Site_sample'], $row['Cell_Type'], $row['Day_Sample'], $row['Time_Sample'],
+                $row['Site_sample'], $row['Cell_Type'], $row['Day_Sample'], $row['Day_Sample2'] , $row['Time_Sample'],
+                $row['VarName'], $row['VarValue'], $row['VarUnits'],
+                $row['N'], $row['SE'], $row['SD'], $row['VarType']
+            ));
+        }
+
+        fclose($handle);
+
+        $headers = array(
+            'Content-Type' => 'text/csv',
+        );
+
+        return Response::download($filename);
+    }
+
+    public function downloadGenomes()
+    {
+        $table = GenomeTranscript::all();
+        $filename = "genome.csv";
+        $handle = fopen($filename, 'w+');
+        fputcsv($handle, array(
+            'DataSet', 'PubID', 'TrialID', 'TrtID', 'SubjectID', 'PlateID', 'WellID', 'SubTrtID',
+            'Site_sample', 'Cell_Type', 'Day_Sample', 'Day_Sample2', 'Time_Sample', 'VarName', 'VarValue', 'VarUnits', 'N', 'SE', 'SD', 'VarType'
+        ));
+
+        foreach($table as $row) {
+            fputcsv($handle, array(
+                $row['DataSet'], $row['PubID'], $row['TrialID'], $row['TrtID'],
+                $row['SubjectID'], $row['PlateID'], $row['WellID'], $row['SubTrtID'],
+                $row['Site_sample'], $row['Cell_Type'], $row['Day_Sample'], $row['Day_Sample2'] , $row['Time_Sample'],
+                $row['VarName'], $row['VarValue'], $row['VarUnits'],
+                $row['N'], $row['SE'], $row['SD'], $row['VarType']
+            ));
+        }
+
+        fclose($handle);
+
+        $headers = array(
+            'Content-Type' => 'text/csv',
+        );
+
+        return Response::download($filename);
+    }
+
+
+    public function downloadFilteredGenomes(Request $request)
+    {
+        $table = FilterEngine::filterToDownloadGenomes($request);
+        $filename = "genome.csv";
+        $handle = fopen($filename, 'w+');
+        fputcsv($handle, array(
+            'DataSet', 'PubID', 'TrialID', 'TrtID', 'SubjectID', 'PlateID', 'WellID', 'SubTrtID',
+            'Site_sample', 'Cell_Type', 'Day_Sample', 'Day_Sample2', 'Time_Sample', 'VarName', 'VarValue', 'VarUnits', 'N', 'SE', 'SD', 'VarType'
+        ));
+
+        foreach($table as $row) {
+            fputcsv($handle, array(
+                $row['DataSet'], $row['PubID'], $row['TrialID'], $row['TrtID'],
+                $row['SubjectID'], $row['PlateID'], $row['WellID'], $row['SubTrtID'],
+                $row['Site_sample'], $row['Cell_Type'], $row['Day_Sample'], $row['Day_Sample2'], $row['Time_Sample'],
                 $row['VarName'], $row['VarValue'], $row['VarUnits'],
                 $row['N'], $row['SE'], $row['SD'], $row['VarType']
             ));

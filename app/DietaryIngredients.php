@@ -8,13 +8,14 @@ class DietaryIngredients extends Model
 {
     protected $table = 'dietary_ingredients';
     protected $fillable = [
+        'ref',
         'DataSet',
         'PubID',
         'TrialID',
         'TrtID',
         'IFN',
         'VarName',
-        'VarValue',
+        'Varvalue',
         'VarUnits',
         'N',
         'SE',

@@ -14,6 +14,8 @@ class CreateInVitroDatasTable extends Migration
     public function up()
     {
         Schema::create('in_vitro_datas', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('ref');
             $table->string('DataSet');
             $table->integer(('PubID'));
             $table->integer('TrialID');
@@ -25,6 +27,7 @@ class CreateInVitroDatasTable extends Migration
             $table->string('Site_sample');
             $table->string('Cell_Type');
             $table->string('Day_Sample');
+            $table->string('Day_Sample2');
             $table->string('Time_Sample');
             $table->string('VarName');
             $table->string('VarValue');

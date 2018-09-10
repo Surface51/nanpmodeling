@@ -22,8 +22,8 @@ class StudyDescriptorsController extends Controller
         // validate
         // read more on validation at http://laravel.com/docs/validation
         $rules = array(
-            'DataSet'       => 'required',
-            'PubID'      => 'required'
+            'DataSet' => 'required',
+            'PubID' => 'required'
         );
         $validator = Validator::make(Input::all(), $rules);
 
@@ -40,8 +40,8 @@ class StudyDescriptorsController extends Controller
             $ack->DataSet = Input::get('DataSet');
             $ack->PubID = Input::get('PubID');
             $ack->TrialID = Input::get('TrialID');
-            $ack->VarName = 'Acknowledgement';
-            $ack->VarValue = Input::get('Acknowledgement');
+            $ack->VarName = 'Availability';
+            $ack->VarValue = Input::get('Availability');
             $ack->VarUnits = '-';
             $ack->save();
 
@@ -65,6 +65,16 @@ class StudyDescriptorsController extends Controller
             $year->VarUnits = 'year';
             $year->save();
 
+            $year = new StudyDescriptor();
+            $year->ref = $refID;
+            $year->DataSet = Input::get('DataSet');
+            $year->PubID = Input::get('PubID');
+            $year->TrialID = Input::get('TrialID');
+            $year->VarName = 'DataType';
+            $year->VarValue = Input::get('DataType');
+            $year->VarUnits = '-';
+            $year->save();
+
             $loc = new StudyDescriptor();
             $loc->ref = $refID;
             $loc->DataSet = Input::get('DataSet');
@@ -85,13 +95,14 @@ class StudyDescriptorsController extends Controller
         $DataSet = StudyDescriptor::where('ref', $ref)->pluck('DataSet')->first();
         $PubID = StudyDescriptor::where('ref', $ref)->pluck('PubID')->first();
         $TrialID = StudyDescriptor::where('ref', $ref)->pluck('TrialID')->first();
-        $Acknowledgement = StudyDescriptor::where('ref', $ref)->where('VarName', 'Acknowledgement')->pluck('VarValue')->first();
+        $Availability = StudyDescriptor::where('ref', $ref)->where('VarName', 'Availability')->pluck('VarValue')->first();
         $Reference = StudyDescriptor::where('ref', $ref)->where('VarName', 'Reference')->pluck('VarValue')->first();
         $Year = StudyDescriptor::where('ref', $ref)->where('VarName', 'Year')->pluck('VarValue')->first();
+        $DataType = StudyDescriptor::where('ref', $ref)->where('VarName', 'DataType')->pluck('VarValue')->first();
         $Location = StudyDescriptor::where('ref', $ref)->where('VarName', 'Location')->pluck('VarValue')->first();
 
         return view('study.edit',
-            compact('study', 'DataSet', 'PubID', 'TrialID', 'Acknowledgement', 'Reference', 'Year', 'Location', 'ref'));
+            compact('study', 'DataSet', 'PubID', 'TrialID', 'Availability', 'Reference', 'Year', 'DataType', 'Location', 'ref'));
 
     }
 
@@ -100,8 +111,8 @@ class StudyDescriptorsController extends Controller
         // validate
         // read more on validation at http://laravel.com/docs/validation
         $rules = array(
-            'DataSet'       => 'required',
-            'PubID'      => 'required',
+            'DataSet' => 'required',
+            'PubID' => 'required',
             'TrialID' => 'required'
         );
         $validator = Validator::make(Input::all(), $rules);
@@ -113,9 +124,9 @@ class StudyDescriptorsController extends Controller
                 ->withInput();
         } else {
             // store
-            $acknowledgement = StudyDescriptor::where('ref', $ref)->where('VarName', 'Acknowledgement');
-            $acknowledgement->update([
-                'VarValue' => Input::get('Acknowledgement')
+            $availability = StudyDescriptor::where('ref', $ref)->where('VarName', 'Availability');
+            $availability->update([
+                'VarValue' => Input::get('Availability')
             ]);
 
             $reference = StudyDescriptor::where('ref', $ref)->where('VarName', 'Reference');
@@ -126,6 +137,11 @@ class StudyDescriptorsController extends Controller
             $year = StudyDescriptor::where('ref', $ref)->where('VarName', 'Year');
             $year->update([
                 'VarValue' => Input::get('Year')
+            ]);
+
+            $datatype = StudyDescriptor::where('ref', $ref)->where('VarName', 'DataType');
+            $datatype->update([
+                'VarValue' => Input::get('DataType')
             ]);
 
             $location = StudyDescriptor::where('ref', $ref)->where('VarName', 'Location');

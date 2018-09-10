@@ -30,8 +30,10 @@ Route::get('/all-study-descriptors-csv', 'DownloadsController@downloadStudys')->
 Route::get('/all-dietary-ingredients-csv', 'DownloadsController@downloadIngredients')->name('dietaryingredients.download');
 Route::get('/all-dietary-nutrients-csv', 'DownloadsController@downloadNutrients')->name('dietarynutrients.download');
 Route::get('/all-subjects-csv', 'DownloadsController@downloadSubjects')->name('subjects.download');
-Route::get('/all-performance-data-csv', 'DownloadsController@downloadPerformance')->name('performancedata.download');
+Route::get('/all-performance-data-csv', 'DownloadsController@downloadPerformances')->name('performancedata.download');
+Route::get('/all-infusions-data-csv', 'DownloadsController@downloadInfusions')->name('infusiondata.download');
 Route::get('/all-in-vitro-data-csv', 'DownloadsController@downloadInvitro')->name('invitrodata.download');
+Route::get('/all-genome-transcripts-csv', 'DownloadsController@downloadGenomes')->name('genome.download');
 
 // download links for filtered tables
 Route::get('/filtered-study-descriptors-csv/{query}', 'DownloadsController@downloadFilteredStudies')->name('download.filteredStudies');
@@ -39,7 +41,9 @@ Route::get('/filtered-dietary-ingredients-csv/{query}', 'DownloadsController@dow
 Route::get('/filtered-dietary-nutrients-csv/{query}', 'DownloadsController@downloadFilteredNutrients')->name('download.filteredNutrients');
 Route::get('/filtered-subjects-csv/{query}', 'DownloadsController@downloadFilteredSubjects')->name('download.filteredSubjects');
 Route::get('/filtered-performances-csv/{query}', 'DownloadsController@downloadFilteredPerformances')->name('download.filteredPerformances');
+Route::get('/filtered-infusions-csv/{query}', 'DownloadsController@downloadFilteredInfusions')->name('download.filteredInfusions');
 Route::get('/filtered-in-vitros-csv/{query}', 'DownloadsController@downloadFilteredInVitroDatas')->name('download.filteredInVitroDatas');
+Route::get('/filtered-genomes/{query}', 'DownloadsController@downloadFilteredGenomes')->name('download.filteredGenomes');
 Route::get('/filtered-all-csv/{query}', 'DownloadsController@downloadFilteredAll')->name('download.filteredAll');
 
 
@@ -59,6 +63,8 @@ Route::group(['middleware' => 'auth'], function() {
     Route::get('/administrators-dashboard/study-descriptors', 'AdministratorsController@studies')->name('admin.studies');
     Route::get('/administrators-dashboard/dietary-ingredients', 'AdministratorsController@ingredients')->name('admin.ingredients');
     Route::post('/import-files', 'AdministratorsController@importFile')->name('import.files');
+    Route::post('/import-workbook', 'AdministratorsController@importWorkbook')->name('import.workbook');
+    Route::get('/import-count', 'AdministratorsController@countSheets');
 
     //Study Descriptors
     Route::get('/administrators-dashboard/study-descriptors/create', 'StudyDescriptorsController@create')->name('study.create');

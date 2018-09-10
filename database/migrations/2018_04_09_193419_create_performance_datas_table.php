@@ -14,6 +14,8 @@ class CreatePerformanceDatasTable extends Migration
     public function up()
     {
         Schema::create('performance_datas', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('ref');
             $table->string('DataSet');
             $table->integer('PubID');
             $table->integer('TrialID');

@@ -1,5 +1,6 @@
 DataSet,PubID,TrialID,VarName,VarValue,VarUnits
-NRC2001,1,1,Acknowledgement,"Committee NRC 2001, Mark Hanigan VT",_
-NRC2001,1,1,Reference,"Omara et al., 1997.  JDS 80:  2466-2474",_
-NRC2001,1,1,Year,1997,year
-NRC2001,1,1,"Location ",Ireland,_
+NRC2019,391,1,Availability,"Not published",-
+NRC2019,391,1,Reference,"Aguilar et al.",-
+NRC2019,391,1,Year,2019,year
+NRC2019,391,1,DataType,"Treatment Means",-
+NRC2019,391,1,Location,Virginia,-

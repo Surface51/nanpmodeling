@@ -14,6 +14,7 @@ class CreateDietaryIngredientsTable extends Migration
     public function up()
     {
         Schema::create('dietary_ingredients', function (Blueprint $table) {
+            $table->increments('id');
             $table->string('DataSet');
             $table->integer('PubID');
             $table->integer('TrialID');
@@ -25,6 +26,7 @@ class CreateDietaryIngredientsTable extends Migration
             $table->string('N');
             $table->string('SE');
             $table->string('SD');
+            $table->string('ref');
         });
     }
 

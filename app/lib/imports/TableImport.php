@@ -1,5 +1,7 @@
 <?php
 namespace App\lib\imports;
+ini_set('max_execution_time', 300); //3 minutes
+
 
 use App\Infusion;
 use App\StudyDescriptor;
@@ -8,36 +10,44 @@ use App\DietaryNutrients;
 use App\Subject;
 use App\PerformanceData;
 use App\InVitroData;
+use Illuminate\Support\Facades\DB;
 
 class TableImport
 {
     public static function importFile($file, $data)
     {
+
+        DB::connection()->disableQueryLog();
         $path = $file;
         $type = basename($path, ".csv");
         if($type == 'study_descriptors') {
-            $duplicate = StudyDescriptor::where('DataSet', $data[0])->where('PubID', $data[1])->where('VarName', $data[3])->where('VarValue', $data[4])->first();
+            $ref = $data->dataset . $data->pubid . $data->trialid;
+            $duplicate = StudyDescriptor::where('DataSet', $data->dataset)
+                ->where('ref', $ref)
+                ->where('Varvalue', $data->varvalue)
+                ->first();
             if(empty($duplicate)) {
-                $study_descriptors = new StudyDescriptor();
-                $study_descriptors->DataSet = $data[0];
-                $study_descriptors->PubID = $data[1];
-                $study_descriptors->TrialID = $data[2];
-                $study_descriptors->VarName = $data[3];
-                $study_descriptors->VarValue = $data[4];
-                $study_descriptors->VarUnits = $data[5];
-                $study_descriptors->ref = $data[0] . $data[1] . $data[2];
+                $study_descriptors = StudyDescriptor::create([
+                    'DataSet' => $data->dataset,
+                    'PubID' => $data->pubid,
+                    'TrialID' => $data->trialid,
+                    'VarName' => $data->varname,
+                    'VarValue' => $data->varvalue,
+                    'VarUnits' => $data->varunits,
+                    'ref' => $data->dataset . $data->pubid . $data->trialid
+                ]);
                 $study_descriptors->save();
 
                 return $study_descriptors;
             }
 
             $duplicate->update([
-                'DataSet' => $data[0],
-                'PubID' => $data[1],
-                'TrialID' => $data[2],
-                'VarName' => $data[3],
-                'VarValue' => $data[4],
-                'VarUnits' => $data[5],
+                'DataSet' => $data->dataset,
+                'PubID' => $data->pubid,
+                'TrialID' => $data->trialid,
+                'VarName' => $data->varname,
+                'VarValue' => $data->varvalue,
+                'VarUnits' => $data->varunits,
             ]);
             $duplicate->save();
 
@@ -46,38 +56,44 @@ class TableImport
         }
 
         if($type == 'dietary_ingredients') {
-            $duplicate = DietaryIngredients::where('DataSet', $data[0])->where('PubID', $data[1])->where('VarName', $data[3])->where('VarValue', $data[4])->first();
+            $ref = $data->dataset . $data->pubid . $data->trialid . $data->trtid . $data->ifn;
+            $duplicate = DietaryIngredients::where('DataSet', $data->dataset)
+                ->where('ref', $ref)
+                ->where('VarName', $data->varname)
+                ->where('Varvalue', $data->varvalue)
+                ->first();
             if(empty($duplicate)) {
-                $dietary_ingredients = new DietaryIngredients();
-                $dietary_ingredients->DataSet = $data[0];
-                $dietary_ingredients->PubID = $data[1];
-                $dietary_ingredients->TrialID = $data[2];
-                $dietary_ingredients->TrtID = $data[3];
-                $dietary_ingredients->IFN = $data[4];
-                $dietary_ingredients->VarName = $data[5];
-                $dietary_ingredients->Varvalue = $data[6];
-                $dietary_ingredients->VarUnits = $data[7];
-                $dietary_ingredients->N = $data[8];
-                $dietary_ingredients->SE = $data[9];
-                $dietary_ingredients->SD = $data[10];
-                $dietary_ingredients->ref = $data[0] . $data[1] . $data[2];
+                $dietary_ingredients = DietaryIngredients::create([
+                'DataSet' => $data->dataset,
+                'PubID' => $data->pubid,
+                'TrialID' => $data->trialid,
+                'TrtID' => $data->trtid,
+                'IFN' => $data->ifn,
+                'VarName' => $data->varname,
+                'Varvalue' => $data->varvalue,
+                'VarUnits' => $data->varunits,
+                'N' => $data->n,
+                'SE' => $data->se,
+                'SD' => $data->sd,
+                'ref' => $data->dataset . $data->pubid . $data->trialid . $data->trtid . $data->ifn
+                ]);
                 $dietary_ingredients->save();
 
                 return $dietary_ingredients;
             }
 
             $duplicate->update([
-                'DataSet' => $data[0],
-                'PubID' => $data[1],
-                'TrialID' => $data[2],
-                'TrtID' => $data[3],
-                'IFN' => $data[4],
-                'VarName' => $data[5],
-                'Varvalue' => $data[6],
-                'VarUnits' => $data[7],
-                'N' => $data[8],
-                'SE' => $data[9],
-                'SD' => $data[10]
+                'DataSet' => $data->dataset,
+                'PubID' => $data->pubid,
+                'TrialID' => $data->trialid,
+                'TrtID' => $data->trtid,
+                'IFN' => $data->ifn,
+                'VarName' => $data->varname,
+                'Varvalue' => $data->varvalue,
+                'VarUnits' => $data->varunits,
+                'N' => $data->n,
+                'SE' => $data->se,
+                'SD' => $data->sd
             ]);
             $duplicate->save();
 
@@ -85,86 +101,205 @@ class TableImport
         }
 
         if($type == 'dietary_nutrients') {
-            $dietary_nutrients = new DietaryNutrients();
-            $dietary_nutrients->DataSet = $data[0];
-            $dietary_nutrients->PubID = $data[1];
-            $dietary_nutrients->TrialID = $data[2];
-            $dietary_nutrients->TrtID = $data[3];
-            $dietary_nutrients->SubjectID = $data[4];
-            $dietary_nutrients->VarName = $data[5];
-            $dietary_nutrients->Varvalue = $data[6];
-            $dietary_nutrients->VarUnits = $data[7];
-            $dietary_nutrients->N = $data[8];
-            $dietary_nutrients->SE = $data[9];
-            $dietary_nutrients->SD = $data[10];
-            $dietary_nutrients->save();
+            $ref = $data->dataset . $data->pubid . $data->trialid . $data->trtid . $data->subjectid;
+            $duplicate = DietaryNutrients::where('DataSet', $data->dataset)
+                ->where('ref', $ref)
+                ->where('VarName', $data->varname)
+                ->where('Varvalue', $data->varvalue)
+                ->first();
+            if(empty($duplicate)) {
+                $dietary_nutrients = DietaryNutrients::create([
+                    'DataSet' => $data->dataset,
+                    'PubID' => $data->pubid,
+                    'TrialID' => $data->trialid,
+                    'TrtID' => $data->trtid,
+                    'SubjectID' => $data->subjectid,
+                    'VarName' => $data->varname,
+                    'Varvalue' => $data->varvalue,
+                    'VarUnits' => $data->varunits,
+                    'N' => $data->n,
+                    'SE' => $data->se,
+                    'SD' => $data->sd,
+                    'ref' => $data->dataset . $data->pubid . $data->trialid . $data->trtid . $data->subjectid
+                ]);
+                $dietary_nutrients->save();
 
-            return $dietary_nutrients;
+                return $dietary_nutrients;
+            }
+
+            $duplicate->update([
+                'DataSet' => $data->dataset,
+                'PubID' => $data->pubid,
+                'TrialID' => $data->trialid,
+                'TrtID' => $data->trtid,
+                'SubjectID' => $data->subjectid,
+                'VarName' => $data->varname,
+                'Varvalue' => $data->varvalue,
+                'VarUnits' => $data->varunits,
+                'N' => $data->n,
+                'SE' => $data->se,
+                'SD' => $data->sd
+            ]);
+            $duplicate->save();
+
+            return $duplicate;
         }
 
         if($type == 'subjects') {
-            $subjects = new Subject();
-            $subjects->DataSet = $data[0];
-            $subjects->PubID = $data[1];
-            $subjects->TrialID = $data[2];
-            $subjects->TrtID = $data[3];
-            $subjects->SubjectID = $data[4];
-            $subjects->VarName = $data[5];
-            $subjects->Varvalue = $data[6];
-            $subjects->VarUnits = $data[7];
-            $subjects->N = $data[8];
-            $subjects->SE = $data[9];
-            $subjects->SD = $data[10];
-            $subjects->save();
+            $ref = $data->dataset . $data->pubid . $data->trialid . $data->trtid . $data->subjectid;
+            $duplicate = Subject::where('DataSet', $data->dataset)
+                ->where('ref', $ref)
+                ->where('VarName', $data->varname)
+                ->where('Varvalue', $data->varvalue)
+                ->first();
+            if(empty($duplicate)) {
+                $subjects = Subject::create([
+                    'DataSet' => $data->dataset,
+                    'PubID' => $data->pubid,
+                    'TrialID' => $data->trialid,
+                    'TrtID' => $data->trtid,
+                    'SubjectID' => $data->subjectid,
+                    'VarName' => $data->varname,
+                    'Varvalue' => $data->varvalue,
+                    'VarUnits' => $data->varunits,
+                    'N' => $data->n,
+                    'SE' => $data->se,
+                    'SD' => $data->sd,
+                    'ref' => $data->dataset . $data->pubid . $data->trialid . $data->trtid . $data->subjectid
+                ]);
 
-            return $subjects;
+                $subjects->save();
+
+                return $subjects;
+            }
+
+            $duplicate->update([
+                'DataSet' => $data->dataset,
+                'PubID' => $data->pubid,
+                'TrialID' => $data->trialid,
+                'TrtID' => $data->trtid,
+                'SubjectID' => $data->subjectid,
+                'VarName' => $data->varname,
+                'Varvalue' => $data->varvalue,
+                'VarUnits' => $data->varunits,
+                'N' => $data->n,
+                'SE' => $data->se,
+                'SD' => $data->sd
+            ]);
+            $duplicate->save();
+
+            return $duplicate;
+
         }
 
         if($type == 'in_vitro_data') {
-            $in_vitro_data = new InVitroData();
-            $in_vitro_data->DataSet = $data[0];
-            $in_vitro_data->PubID = $data[1];
-            $in_vitro_data->TrialID = $data[2];
-            $in_vitro_data->TrtID = $data[3];
-            $in_vitro_data->SubjectID = $data[4];
-            $in_vitro_data->PlateID = $data[5];
-            $in_vitro_data->WellID = $data[6];
-            $in_vitro_data->SubTrtID = $data[7];
-            $in_vitro_data->Site_sample = $data[8];
-            $in_vitro_data->Cell_Type = $data[9];
-            $in_vitro_data->Day_Sample = $data[10];
-            $in_vitro_data->Time_Sample = $data[11];
-            $in_vitro_data->VarName = $data[12];
-            $in_vitro_data->VarUnits = $data[13];
-            $in_vitro_data->N = $data[14];
-            $in_vitro_data->SE = $data[15];
-            $in_vitro_data->SD = $data[16];
-            $in_vitro_data->VarType = $data[17];
-            $in_vitro_data->save();
+            $ref = $data->dataset . $data->pubid . $data->trialid . $data->trtid . $data->subjectid . $data->varname;
+            $duplicate = InVitroData::where('DataSet', $data->dataset)
+                ->where('ref', $ref)
+                ->where('Varvalue', $data->varvalue)
+                ->first();
+            if (empty($duplicate)) {
+                $in_vitro_data = InVitroData::create([
+                    'DataSet' => $data->dataset,
+                    'PubID' => $data->pubid,
+                    'TrialID' => $data->trialid,
+                    'TrtID' => $data->trtid,
+                    'SubjectID' => $data->subjectid,
+                    'PlateID' => $data->plateid,
+                    'WellID' => $data->wellid,
+                    'SubTrtID' => $data->subtrtid,
+                    'Site_sample' => $data->site_sample,
+                    'Cell_Type' => $data->cell_type,
+                    'Day_Sample' => $data->day_sample,
+                    'Time_Sample' => $data->time_sample,
+                    'VarName' => $data->varname,
+                    'VarUnits' => $data->varunits,
+                    'N' => $data->n,
+                    'SE' => $data->se,
+                    'SD' => $data->sd,
+                    'VarType' => $data->vartype
+                ]);
+                $in_vitro_data->save();
 
-            return $in_vitro_data;
+                return $in_vitro_data;
+            }
+
+            $duplicate->update([
+                'DataSet' => $data->dataset,
+                'PubID' => $data->pubid,
+                'TrialID' => $data->trialid,
+                'TrtID' => $data->trtid,
+                'SubjectID' => $data->subjectid,
+                'PlateID' => $data->plateid,
+                'WellID' => $data->wellid,
+                'SubTrtID' => $data->subtrtid,
+                'Site_sample' => $data->site_sample,
+                'Cell_Type' => $data->cell_type,
+                'Day_Sample' => $data->day_sample,
+                'Time_Sample' => $data->time_sample,
+                'VarName' => $data->varname,
+                'VarUnits' => $data->varunits,
+                'N' => $data->n,
+                'SE' => $data->se,
+                'SD' => $data->sd,
+                'VarType' => $data->vartype
+            ]);
+            $duplicate->save();
+
+            return $duplicate;
         }
 
         if($type == 'performance_data') {
-            $performance_data = new PerformanceData();
-            $performance_data->DataSet = $data[0];
-            $performance_data->PubID = $data[1];
-            $performance_data->TrialID = $data[2];
-            $performance_data->TrtID = $data[3];
-            $performance_data->SubjectID = $data[4];
-            $performance_data->Site_Sample = $data[5];
-            $performance_data->Day_Sample = $data[6];
-            $performance_data->Time_Sample = $data[7];
-            $performance_data->VarName = $data[8];
-            $performance_data->VarValue = $data[9];
-            $performance_data->VarUnits = $data[10];
-            $performance_data->N = $data[11];
-            $performance_data->SE = $data[12];
-            $performance_data->SD = $data[13];
-            $performance_data->VarType = $data[14];
-            $performance_data->save();
+            $ref = $data->dataset . $data->pubid . $data->trialid . $data->trtid . $data->subjectid;
+            $duplicate = PerformanceData::where('DataSet', $data->dataset)
+                ->where('ref', $ref)
+                ->where('VarName', $data->varname)
+                ->where('VarValue', $data->varvalue)
+                ->first();
+            if (empty($duplicate)) {
+                $performance_data = PerformanceData::create([
+                    'DataSet' => $data->dataset,
+                    'PubID' => $data->pubid,
+                    'TrialID' => $data->trialid,
+                    'TrtID' => $data->trtid,
+                    'SubjectID' => $data->subjectid,
+                    'Site_Sample' => $data->site_sample,
+                    'Day_Sample' => $data->day_sample,
+                    'Time_Sample' => $data->time_sample,
+                    'VarName' => $data->varname,
+                    'VarValue' => $data->varvalue,
+                    'VarUnits' => $data->varunits,
+                    'N' => $data->n,
+                    'SEM' => $data->sem,
+                    'SED' => $data->sed,
+                    'VarType' => $data->vartype,
+                    'ref' => $data->dataset . $data->pubid . $data->trialid . $data->trtid . $data->subjectid
+                ]);
+                $performance_data->save();
 
-            return $performance_data;
+                return $performance_data;
+            }
+
+            $duplicate->update([
+                'DataSet' => $data->dataset,
+                'PubID' => $data->pubid,
+                'TrialID' => $data->trialid,
+                'TrtID' => $data->trtid,
+                'SubjectID' => $data->subjectid,
+                'Site_Sample' => $data->site_sample,
+                'Day_Sample' => $data->day_sample,
+                'Time_Sample' => $data->time_sample,
+                'VarName' => $data->varname,
+                'VarValue' => $data->varvalue,
+                'VarUnits' => $data->varunits,
+                'N' => $data->n,
+                'SEM' => $data->sem,
+                'SED' => $data->sed,
+                'VarType' => $data->vartype
+            ]);
+            $duplicate->save();
+
+            return $duplicate;
         }
 
         if($type == 'infusion') {
