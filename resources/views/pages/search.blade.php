@@ -5,6 +5,15 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card">
+                    <div class="card-header">Abbreviations List</div>
+
+                    <div class="card-body">
+
+                    </div>
+
+                </div>
+                <br>
+                <div class="card">
                     <div class="card-header">Filter Data</div>
                     <div class="card-body">
                         {!! Form::open(array('method' => 'get', 'route' => array('filter.all'))) !!}
@@ -298,6 +307,7 @@
 
 <div class="container-fluid">
                 <br>
+                @if(count($stdys))
                 <div class="card">
                     @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
                         <div class="form-group col-md-12">
@@ -336,7 +346,9 @@
                         </div>
                     </div>
                 </div>
+                @endif
                 <br>
+                @if(count($ingredients))
                 <div class="card">
                     @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
                         <div class="form-group col-md-12">
@@ -377,7 +389,9 @@
                         </div>
                     </div>
                 </div>
+                @endif
                 <br>
+                @if(count($nutrients))
                 <div class="card">
                     @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
                         <div class="form-group col-md-12">
@@ -417,7 +431,9 @@
                         </div>
                     </div>
                 </div>
+                @endif
                 <br>
+                @if(count($subjects))
                 <div class="card">
                     @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
                         <div class="form-group col-md-12">
@@ -458,7 +474,9 @@
                         </div>
                     </div>
                 </div>
+                @endif
                 <br>
+                @if(count($performances))
                 <div class="card">
                     @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
                         <div class="form-group col-md-12">
@@ -503,7 +521,9 @@
                         </div>
                     </div>
                 </div>
+                @endif
                 <br>
+                @if(count($infusions))
                 <div class="card">
                     @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
                         <div class="form-group col-md-12">
@@ -546,7 +566,9 @@
                         </div>
                     </div>
                 </div>
+                @endif
                 <br>
+                @if(count($invitros))
                 <div class="card">
                     @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
                         <div class="form-group col-md-12">
@@ -596,7 +618,9 @@
                         </div>
                     </div>
                 </div>
+                @endif
         <br>
+        @if(count($genomes))
         <div class="card">
             @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
                 <div class="form-group col-md-12">
@@ -646,6 +670,7 @@
                 </div>
             </div>
         </div>
+        @endif
 </div>
 @endsection
 
