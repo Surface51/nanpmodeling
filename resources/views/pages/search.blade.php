@@ -4,11 +4,33 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-md-12">
-                <div class="card">
+                <div class="card" id="abbreviations">
                     <div class="card-header">Abbreviations List</div>
 
                     <div class="card-body">
+                                <div class="container-fluid">
+                                    <form action="/search" method="get" autocomplete="off" class="navbar-form navbar-left">
+                                        <div class="form-group">
+                                            <input type="text" name="search" id="search" class="form-control" placeholder="Search Abbreviations" />
+                                        </div>
+                                        <div class="table-responsive">
+                                            <h3 align="center">Total Terms : <span id="total_records"></span></h3>
+                                            <table class="table table-striped table-bordered">
+                                                <thead>
+                                                <tr>
+                                                    <th>Abbreviation</th>
+                                                    <th>Name</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody class="abbreviations">
 
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -16,10 +38,15 @@
                 <div class="card">
                     <div class="card-header">Filter Data</div>
                     <div class="card-body">
-                        {!! Form::open(array('method' => 'get', 'route' => array('filter.all'))) !!}
+                        {{--{!! Form::open(array('method' => 'get', 'route' => array('filter.all'))) !!}--}}
+                        {!! Form::open(array('method' => 'get', 'route' => array('filterVariables.all'))) !!}
+
                         <div class="quick-search col-md-12" id="filters">
                                 <div class="form-group col-md-2">
-                                    {{ Form::label('DataSet') }}
+                                    {{--{{ Form::label('DataSet') }}--}}
+                                    <div class="w3-container">
+                                    <p class="w3-tooltip">DataSet <span class="w3-text">(<em>Filter Results by DataSet</em>)</span></p>
+                                    </div>
                                     <div class="input-group">
                                         <select class="form-control" name="dataset_all">
                                             @if(isset($_GET['dataset_all']))
@@ -36,7 +63,10 @@
                                 </div>
 
                                 <div class="form-group col-md-2">
-                                    {{ Form::label('References') }}
+                                    {{--{{ Form::label('References') }}--}}
+                                    <div class="w3-container">
+                                        <p class="w3-tooltip">References <span class="w3-text">(<em>Filter Results by Reference</em>)</span></p>
+                                    </div>
                                     <div class="input-group">
                                         <select class="form-control" name="pubid_all">
                                             @if(isset($_GET['pubid_all']))
@@ -64,12 +94,12 @@
                                         <a href="/search" class="btn btn-default btn-primary clear-filter-button">Clear</a>
                                     </div>
                                 </div>
-                            {{ Form::close() }}
+                            {{--{{ Form::close() }}--}}
                             </div>
 
-                        <button class="advance-search" id="buttonAdvancedSearch">Advanced Filters</button>
-                            <div class="advanced_search_div" id="advanced_search_div">
-                                {!! Form::open(array('method' => 'get', 'route' => array('filterVariables.all'))) !!}
+                        {{--<button class="advance-search" id="buttonAdvancedSearch">Advanced Filters</button>--}}
+                            {{--<div class="advanced_search_div" id="advanced_search_div">--}}
+                                {{--{!! Form::open(array('method' => 'get', 'route' => array('filterVariables.all'))) !!}--}}
                                 <div class="form-group col-md-12" id="filters">
                                     <div class="form-group col-md-2">
                                         <br>
@@ -221,13 +251,13 @@
 
                                         <div class="form-group col-md-12">
                                             <div class="form-group col-md-2">
-                                                {{ Form::label('PubID') }}
+                                                {{ Form::label('Reference') }}
                                                 <div class="input-group">
                                                     <select class="form-control" name="pubid_all">
                                                         @if(isset($_GET['pubid_all']))
                                                             <option value="{{$_GET['pubid_all']}}">{{$pubid_all}}</option>
                                                         @else
-                                                            <option value=" ">Select PubID</option>
+                                                            <option value=" ">Select Reference</option>
                                                         @endif
                                                         @foreach($pubids_all as $key => $value)
                                                             <option value="{{$value}}">{{$key}}</option>
@@ -271,7 +301,7 @@
                                         </div>
                                     </div>
                                 {{ Form::close() }}
-                            </div>
+                            {{--</div>--}}
                         </div>
                     </div>
                 </div>
@@ -280,14 +310,14 @@
                     <div class="card-header export-tables-title">Export Individual Tables</div>
 
                     <div class="card-body">
-                        <a href="/all-study-descriptors-csv" class="btn btn-primary" id="download-button">Study Descritors CSV</a>
+                        <a href="/all-study-descriptors-csv" class="btn btn-primary" id="download-button">Study Descriptors CSV</a>
                         <a href="/all-dietary-ingredients-csv" class="btn btn-primary" id="download-button">Dietary Ingredients CSV</a>
                         <a href="/all-dietary-nutrients-csv" class="btn btn-primary" id="download-button">Dietary Nutrients CSV</a>
                         <a href="/all-subjects-csv" class="btn btn-primary" id="download-button">Subjects CSV</a>
                         <a href="/all-performance-data-csv" class="btn btn-primary" id="download-button">Performance Data CSV</a>
                         <a href="/all-infusions-data-csv" class="btn btn-primary" id="download-button">Infusions Data CSV</a>
                         <a href="/all-in-vitro-data-csv" class="btn btn-primary" id="download-button">In Vitro Data CSV</a>
-                        <a href="/all-genome-transcripts-csv" class="btn btn-primary" id="download-button">Genome/Transcripts... CSV</a>
+                        <a href="/all-genome-transcripts-csv" class="btn btn-primary" id="download-button">Gen_Prot_Transcr CSV</a>
                     </div>
 
                 </div>
@@ -295,8 +325,14 @@
                 <div class="card">
                     <div class="card-header">Export Database</div>
 
-                    <div class="card-body">
-                        <a href="/download-database" class="btn btn-success expo-database-button">Export All Database Tables as SQL file</a>
+                    <div class="button-container col-md-8">
+                        <div class="card-body col-md-4">
+                            <a id="db-button" href="/download-database" class="btn btn-success expo-database-button">Export All Database Tables as SQL file</a>
+                        </div>
+
+                        <div class="card-body col-md-4">
+                            <a id="csv-button" href="/download-zip-csv" class="btn btn-success expo-database-button">Export All CSV's as ZIP file</a>
+                        </div>
                     </div>
 
                 </div>
@@ -675,4 +711,30 @@
 @endsection
 
 @section('scripts')
+    <script>
+    $(document).ready(function(){
+
+        fetch_customer_data();
+
+        function fetch_customer_data(query = '')
+        {
+            $.ajax({
+                url:"{{ route('live_search.action') }}",
+                method:'GET',
+                data:{query:query},
+                dataType:'json',
+                success:function(data)
+                {
+                    $('.abbreviations').html(data.table_data);
+                    $('#total_records').text(data.total_data);
+                }
+            })
+        }
+
+        $(document).on('keyup', '#search', function(){
+            var query = $(this).val();
+            fetch_customer_data(query);
+        });
+    });
+    </script>
 @stop

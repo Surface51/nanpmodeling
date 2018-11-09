@@ -1,0 +1,2442 @@
+DataSet,PubID,TrialID,TrtID,SubjectID,InfusionLocation,VarName,VarValue,VarUnits,DayofPeriodStart,DayofPeriodStop,TimeofDayStart,TimeofDayStop
+NRC2019,6,-,214,-,Abomasum,Inf_DM_g,0,g/d,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_DM_g,32,g/d,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_DM_g,0,g/d,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_DM_g,32,g/d,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_DM_g,42,g/d,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_DM_g,30,g/d,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_DM_g,42,g/d,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_DM_g,400,g/d,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_DM_g,12,g/d,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_DM_g,30,g/d,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_DM_g,42,g/d,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_DM_g,400,g/d,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_DM_g,10,g/d,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_DM_g,25,g/d,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_DM_g,35,g/d,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_DM_g,333,g/d,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_DM_g,8,g/d,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_DM_g,20,g/d,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_DM_g,28,g/d,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_DM_g,266,g/d,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_DM_g,0,g/d,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_DM_g,20,g/d,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_DM_g,30,g/d,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_DM_g,40,g/d,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_DM_g,250,g/d,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_DM_g,319.6,g/d,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_DM_g,291.7,g/d,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_DM_g,304.7,g/d,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_DM_g,301.3,g/d,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_DM_g,65,g/d,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_DM_g,63,g/d,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_DM_g,61,g/d,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_DM_g,55,g/d,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_DM_g,10,g/d,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_DM_g,23.875,g/d,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_DM_g,37.75,g/d,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_DM_g,51.625,g/d,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_DM_g,65.5,g/d,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_DM_g,0,g/d,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_DM_g,6.5,g/d,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_DM_g,12.5,g/d,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_DM_g,25.5,g/d,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_DM_g,31.5,g/d,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_DM_g,0,g/d,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_DM_g,10,g/d,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_DM_g,20,g/d,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_DM_g,30,g/d,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_DM_g,40,g/d,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_DM_g,0,g/d,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_DM_g,15,g/d,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_DM_g,30,g/d,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_DM_g,45,g/d,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_DM_g,60,g/d,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_DM_g,0,g/d,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_DM_g,50,g/d,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_DM_g,16,g/d,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_DM_g,66,g/d,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_DM_g,0,g/d,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_DM_g,33,g/d,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_DM_g,98,g/d,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_DM_g,594.5,g/d,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_DM_g,602.1,g/d,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_DM_g,609.7,g/d,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_DM_g,617.3,g/d,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_DM_g,562.8,g/d,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_DM_g,530.64,g/d,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_DM_g,535.44,g/d,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_DM_g,468.72,g/d,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_DM_g,548.64,g/d,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_DM_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_DM_g,79,g/d,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_DM_g,72,g/d,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_DM_g,151,g/d,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_Arg_g,14.7,g/d,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_Arg_g,14.7,g/d,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_Arg_g,12.2,g/d,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_Arg_g,9.8,g/d,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_Arg_g,20.6,g/d,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_Arg_g,20.6,g/d,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_Arg_g,20.6,g/d,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_Arg_g,20.6,g/d,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_Arg_g,39.36,g/d,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_Arg_g,39.36,g/d,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_Arg_g,39.36,g/d,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_Arg_g,39.36,g/d,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_Arg_g,39.36,g/d,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_Arg_g,0,g/d,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_Glu_g,42,g/d,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_Glu_g,32,g/d,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_Glu_g,22,g/d,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_Glu_g,7.875,g/d,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_Glu_g,15.75,g/d,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_Glu_g,23.625,g/d,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_Glu_g,31.5,g/d,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_Glu_g,25.9,g/d,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_Glu_g,25.9,g/d,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_Glu_g,25.9,g/d,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_Glu_g,25.9,g/d,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_Glu_g,0,g/d,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_His_g,10.8,g/d,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_His_g,10.8,g/d,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_His_g,9,g/d,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_His_g,7.2,g/d,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_His_g,8.5,g/d,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_His_g,8.5,g/d,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_His_g,8.5,g/d,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_His_g,8.5,g/d,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_His_g,6.5,g/d,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_His_g,6.5,g/d,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_His_g,6.5,g/d,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_His_g,6.5,g/d,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_His_g,7.6,g/d,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_His_g,15.2,g/d,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_His_g,22.8,g/d,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_His_g,32.16,g/d,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_His_g,32.16,g/d,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_His_g,32.16,g/d,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_His_g,32.16,g/d,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_His_g,20,g/d,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_His_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_His_g,20,g/d,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_Ile_g,24.7,g/d,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_Ile_g,24.7,g/d,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_Ile_g,20.5,g/d,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_Ile_g,16.4,g/d,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_Ile_g,14.9,g/d,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_Ile_g,14.9,g/d,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_Ile_g,14.9,g/d,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_Ile_g,15,g/d,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_Ile_g,35.7,g/d,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_Ile_g,35.7,g/d,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_Ile_g,35.7,g/d,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_Ile_g,35.7,g/d,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_Ile_g,57.36,g/d,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_Ile_g,57.36,g/d,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_Ile_g,57.36,g/d,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_Ile_g,57.36,g/d,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_Ile_g,57.36,g/d,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_Ile_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_Ile_g,22,g/d,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_Ile_g,22,g/d,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_Leu_g,37.2,g/d,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_Leu_g,37.2,g/d,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_Leu_g,31,g/d,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_Leu_g,24.7,g/d,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_Leu_g,27.9,g/d,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_Leu_g,27.9,g/d,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_Leu_g,27.9,g/d,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_Leu_g,35,g/d,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_Leu_g,59.3,g/d,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_Leu_g,59.3,g/d,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_Leu_g,59.3,g/d,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_Leu_g,59.3,g/d,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_Leu_g,94.08,g/d,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_Leu_g,94.08,g/d,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_Leu_g,94.08,g/d,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_Leu_g,94.08,g/d,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_Leu_g,94.08,g/d,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_Leu_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_Leu_g,50,g/d,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_Leu_g,50,g/d,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_Lys_g,24,g/d,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_Lys_g,24,g/d,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_Lys_g,30,g/d,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_Lys_g,30,g/d,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_Lys_g,30,g/d,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_Lys_g,30.7,g/d,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_Lys_g,30,g/d,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_Lys_g,30,g/d,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_Lys_g,30.7,g/d,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_Lys_g,25,g/d,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_Lys_g,25,g/d,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_Lys_g,25.6,g/d,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_Lys_g,20,g/d,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_Lys_g,20,g/d,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_Lys_g,20.4,g/d,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_Lys_g,10,g/d,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_Lys_g,20,g/d,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_Lys_g,30,g/d,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_Lys_g,23,g/d,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_Lys_g,23,g/d,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_Lys_g,23,g/d,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_Lys_g,23,g/d,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_Lys_g,10,g/d,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_Lys_g,10,g/d,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_Lys_g,10,g/d,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_Lys_g,10,g/d,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_Lys_g,10,g/d,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_Lys_g,19,g/d,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_Lys_g,19,g/d,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_Lys_g,15,g/d,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_Lys_g,30,g/d,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_Lys_g,45,g/d,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_Lys_g,60,g/d,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_Lys_g,50,g/d,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_Lys_g,50,g/d,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_Lys_g,21,g/d,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_Lys_g,21,g/d,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_Lys_g,50.3,g/d,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_Lys_g,50.3,g/d,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_Lys_g,50.3,g/d,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_Lys_g,50.3,g/d,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_Lys_g,98.16,g/d,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_Lys_g,98.16,g/d,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_Lys_g,98.16,g/d,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_Lys_g,98.16,g/d,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_Lys_g,98.16,g/d,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_Lys_g,38,g/d,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_Lys_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_Lys_g,38,g/d,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_Met_g,8,g/d,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_Met_g,8,g/d,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_Met_g,12,g/d,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_Met_g,12,g/d,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_Met_g,11.7,g/d,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_Met_g,12,g/d,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_Met_g,12,g/d,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_Met_g,11.7,g/d,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_Met_g,10,g/d,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_Met_g,10,g/d,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_Met_g,9.7,g/d,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_Met_g,8,g/d,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_Met_g,8,g/d,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_Met_g,7.8,g/d,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_Met_g,10,g/d,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_Met_g,10,g/d,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_Met_g,10,g/d,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_Met_g,8,g/d,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_Met_g,16,g/d,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_Met_g,32,g/d,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_Met_g,6,g/d,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_Met_g,12,g/d,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_Met_g,18,g/d,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_Met_g,24,g/d,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_Met_g,6,g/d,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_Met_g,6,g/d,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_Met_g,10,g/d,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_Met_g,20,g/d,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_Met_g,30,g/d,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_Met_g,40,g/d,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_Met_g,16,g/d,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_Met_g,16,g/d,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_Met_g,12,g/d,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_Met_g,12,g/d,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_Met_g,20,g/d,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_Met_g,20,g/d,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_Met_g,20,g/d,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_Met_g,20,g/d,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_Met_g,27.36,g/d,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_Met_g,27.36,g/d,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_Met_g,27.36,g/d,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_Met_g,27.36,g/d,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_Met_g,21,g/d,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_Met_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_Met_g,21,g/d,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_Phe_g,19.9,g/d,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_Phe_g,19.9,g/d,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_Phe_g,16.6,g/d,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_Phe_g,13.2,g/d,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_Phe_g,59.6,g/d,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_Phe_g,59.6,g/d,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_Phe_g,59.6,g/d,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_Phe_g,59.6,g/d,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_Phe_g,94.08,g/d,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_Phe_g,94.08,g/d,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_Phe_g,94.08,g/d,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_Phe_g,94.08,g/d,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_Phe_g,0,g/d,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_Thr_g,16.4,g/d,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_Thr_g,16.4,g/d,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_Thr_g,13.7,g/d,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_Thr_g,10.9,g/d,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_Thr_g,26,g/d,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_Thr_g,26,g/d,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_Thr_g,26,g/d,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_Thr_g,26,g/d,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_Thr_g,42.24,g/d,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_Thr_g,42.24,g/d,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_Thr_g,42.24,g/d,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_Thr_g,42.24,g/d,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_Thr_g,42.24,g/d,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_Thr_g,0,g/d,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_Trp_g,4.3,g/d,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_Trp_g,4.3,g/d,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_Trp_g,3.6,g/d,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_Trp_g,2.9,g/d,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_Trp_g,9.1,g/d,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_Trp_g,9.1,g/d,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_Trp_g,9.1,g/d,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_Trp_g,9.1,g/d,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_Trp_g,14.16,g/d,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_Trp_g,14.16,g/d,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_Trp_g,14.16,g/d,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_Trp_g,14.16,g/d,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_Trp_g,0,g/d,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_Val_g,29.4,g/d,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_Val_g,29.4,g/d,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_Val_g,24.5,g/d,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_Val_g,19.6,g/d,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_Val_g,18.3,g/d,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_Val_g,18.3,g/d,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_Val_g,18.3,g/d,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_Val_g,15,g/d,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_Val_g,40,g/d,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_Val_g,40,g/d,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_Val_g,40,g/d,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_Val_g,40,g/d,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_Val_g,63.84,g/d,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_Val_g,63.84,g/d,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_Val_g,63.84,g/d,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_Val_g,63.84,g/d,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_Val_g,63.84,g/d,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_Val_g,0,g/d,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_CP_g,0,g/d,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_CP_g,32,g/d,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_CP_g,0,g/d,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_CP_g,32,g/d,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_CP_g,42,g/d,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_CP_g,30,g/d,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_CP_g,42,g/d,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_CP_g,385,g/d,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_CP_g,12,g/d,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_CP_g,30,g/d,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_CP_g,42,g/d,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_CP_g,385,g/d,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_CP_g,10,g/d,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_CP_g,25,g/d,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_CP_g,35,g/d,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_CP_g,321,g/d,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_CP_g,8,g/d,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_CP_g,20,g/d,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_CP_g,28,g/d,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_CP_g,256,g/d,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_CP_g,0,g/d,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_CP_g,20,g/d,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_CP_g,30,g/d,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_CP_g,40,g/d,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_CP_g,0,g/d,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_CP_g,69.6,g/d,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_CP_g,41.7,g/d,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_CP_g,54.7,g/d,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_CP_g,51.3,g/d,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_CP_g,65,g/d,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_CP_g,63,g/d,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_CP_g,61,g/d,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_CP_g,55,g/d,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_CP_g,10,g/d,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_CP_g,23.875,g/d,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_CP_g,37.75,g/d,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_CP_g,51.625,g/d,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_CP_g,65.5,g/d,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_CP_g,0,g/d,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_CP_g,6.5,g/d,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_CP_g,12.5,g/d,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_CP_g,25.5,g/d,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_CP_g,31.5,g/d,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_CP_g,0,g/d,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_CP_g,10,g/d,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_CP_g,20,g/d,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_CP_g,30,g/d,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_CP_g,40,g/d,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_CP_g,0,g/d,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_CP_g,15,g/d,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_CP_g,30,g/d,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_CP_g,45,g/d,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_CP_g,60,g/d,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_CP_g,0,g/d,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_CP_g,50,g/d,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_CP_g,16,g/d,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_CP_g,66,g/d,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_CP_g,0,g/d,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_CP_g,33,g/d,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_CP_g,98,g/d,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_CP_g,594.5,g/d,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_CP_g,602.1,g/d,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_CP_g,609.7,g/d,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_CP_g,617.3,g/d,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_CP_g,0,g/d,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_CP_g,562.8,g/d,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_CP_g,530.64,g/d,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_CP_g,535.44,g/d,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_CP_g,468.72,g/d,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_CP_g,548.64,g/d,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_CP_g,0,g/d,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_CP_g,79,g/d,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_CP_g,72,g/d,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_CP_g,151,g/d,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_St_g,0,g,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_St_g,0,g,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_St_g,0,g,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_St_g,0,g,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_St_g,0,g,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_St_g,0,g,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_St_g,0,g,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_St_g,0,g,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_St_g,0,g,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_Glc_g,250,g,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_Glc_g,250,g,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_Glc_g,250,g,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_Glc_g,250,g,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_Glc_g,250,g,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_Glc_g,0,g,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_VFA_g,0,g,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_EE_g,0,g,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_EE_g,0,g,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_EE_g,0,g,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_EE_g,0,g,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_EE_g,0,g,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_EE_g,0,g,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_EE_g,0,g,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_EE_g,0,g,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_NDF_g,0,g,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_ADF_g,0,g,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_Lg_g,0,g,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_NDFIP_g,0,g,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_ADFIP_g,0,g,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_Ash_g,15,g,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_Ash_g,15,g,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_Ash_g,12.5,g,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_Ash_g,10,g,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_Ash_g,0,g,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_Ca_g,0,g,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_ttdcSt,98,% of Starch,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_CPARum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_CPBRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_CPCRum_CP,98,% of Crude Protein,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_CPCRum_CP,98,% of Crude Protein,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_CPCRum_CP,98,% of Crude Protein,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_CPCRum_CP,98,% of Crude Protein,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_CPCRum_CP,100,% of Crude Protein,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_CPCRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_CPCRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_CPCRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_CPCRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_CPCRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_CPCRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_CPCRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_CPCRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_CPCRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_CPCRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_CPCRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_CPCRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_CPCRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_CPCRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_CPCRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_CPCRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_CPCRum_CP,0,% of Crude Protein,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_kCPBPass,0,g/g,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_dcRUP,100,%,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_Acet,0,% of VFA,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_Prop,0,% of VFA,-,-,-,-
+NRC2019,6,-,214,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,6,-,215,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,6,-,216,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,6,-,217,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,46,-,46,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,46,-,46.1,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,46,-,46.2,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,46,-,46.3,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,46,-,47,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,46,-,47.1,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,46,-,47.2,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,46,-,47.3,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,46,-,48,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,46,-,48.1,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,46,-,48.2,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,46,-,48.3,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,46,-,49,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,46,-,49.1,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,46,-,49.2,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,46,-,49.3,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,86,-,163,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,86,-,164,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,86,-,165,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,86,-,166,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,185,-,637,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,185,-,638,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,185,-,639,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,185,-,640,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,185,-,641,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,330,-,1125,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,330,-,1126,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,330,-,1127,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,330,-,1128,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,331,-,1129,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,331,-,1130,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,331,-,1131,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,331,-,1132,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,331,-,1133,-,Duodenum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,332,-,1134,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,332,-,1135,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,332,-,1136,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,332,-,1137,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,332,-,1138,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,333,-,1139,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,333,-,1140,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,333,-,1141,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,333,-,1142,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,333,-,1143,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,333,-,1144,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,333,-,1145,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,333,-,1146,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,333,-,1147,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,333,-,1148,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,334,-,1149,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,334,-,1150,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,334,-,1151,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,334,-,1152,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,335,-,1153,-,Jugular,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,335,-,1154,-,Jugular,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,335,-,1155,-,Jugular,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,1000,-,4000,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,1000,-,4001,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,1000,-,4002,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,1000,-,4003,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,390,-,1408,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,390,-,1409,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,390,-,1410,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,390,-,1411,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,390,-,1412,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,390,-,1413,-,Abomasum,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,3000,-,12000,-,Jugular,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,3000,-,12001,-,Jugular,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,3000,-,12002,-,Jugular,Inf_Butr,0,% of VFA,-,-,-,-
+NRC2019,3000,-,12003,-,Jugular,Inf_Butr,0,% of VFA,-,-,-,-

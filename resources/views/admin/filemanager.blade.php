@@ -81,6 +81,11 @@
                                         <a href={{ asset('assets/subjects_template') }}><i class="fa fa-download" aria-hidden="true"></i>
                                             Subjects Template</a>
                                     </div>
+
+                                    <div class="col-md-4">
+                                        <a href={{ asset('assets/genome_transcripts_template.csv') }}><i class="fa fa-download" aria-hidden="true"></i>
+                                            Genome Transcripts Template</a>
+                                    </div>
                                 </div>
                         </div>
                     </div>

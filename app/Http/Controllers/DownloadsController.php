@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\GenomeTranscript;
 use App\Infusion;
+use App\lib\imports\TableImport;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
 use App\StudyDescriptor;
@@ -465,5 +466,24 @@ class DownloadsController extends Controller
             ->dumpToFile($filename);
 
         return Response::download($filename);
+    }
+
+
+
+    public function downloadZipCsv(Request $request) {
+        $files_to_zip = array(
+            $studies = TableImport::createFilteredStudiesFile($request),
+            $ingredients = TableImport::createFilteredIngredientsFile($request),
+            $nutrients = TableImport::createFilteredNutrientsFile($request),
+            $subjects = TableImport::createFilteredSubjectsFile($request),
+            $performances = TableImport::createFilteredPerformancesFile($request),
+            $infusions = TableImport::createFilteredInfusionsFile($request),
+            $invitros = TableImport::createFilteredInvitroDatasFile($request),
+            $genomes = TableImport::createFilteredGenomesFile($request)
+        );
+
+        $result = TableImport::create_zip($files_to_zip,'my-archive.zip');
+
+        return Response::download('my-archive.zip');
     }
 }

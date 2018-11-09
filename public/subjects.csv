@@ -1,5 +1,5 @@
 DataSet,PubID,TrialID,TrtID,SubjectID,VarName,Varvalue,VarUnits,N,SE,SD
-NRC2019,1,1,179,-,Species,"Dairy cows",-,-,-,-
+NRC2019,1,1,179,-,Species,"Dairy cows",-,1,-,-
 NRC2019,1,1,180,-,Species,"Dairy cows",-,-,-,-
 NRC2019,1,1,181,-,Species,"Dairy cows",-,-,-,-
 NRC2019,1,1,182,-,Species,"Dairy cows",-,-,-,-
@@ -6602,3 +6602,4 @@ NRC2019,3000,1,12000,-,Parity,M,-,-,-,-
 NRC2019,3000,1,12001,-,Parity,M,-,-,-,-
 NRC2019,3000,1,12002,-,Parity,M,-,-,-,-
 NRC2019,3000,1,12003,-,Parity,M,-,-,-,-
+"Test Data 2018",33,77,1,1,TestVar,,%,3,3,3

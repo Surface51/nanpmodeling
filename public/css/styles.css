@@ -58,6 +58,11 @@ thead {
     border: 1px solid #193c58;
 }
 
+#abbreviations {
+    height: 300px;
+    overflow: scroll;
+}
+
 .card-header {
     color: white;
     background-color: #193c58;
@@ -99,4 +104,12 @@ thead {
 
 .filter-download-button {
     margin-top: 20px;
+}
+
+.button-container {
+    display: inline-flex;
+}
+
+#csv-button {
+    margin-left: 20px;
 }

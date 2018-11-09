@@ -2440,3 +2440,4 @@ NRC2019,3000,-,12000,-,Jugular,Inf_Butr,0,"% of VFA",-,-,-,-
 NRC2019,3000,-,12001,-,Jugular,Inf_Butr,0,"% of VFA",-,-,-,-
 NRC2019,3000,-,12002,-,Jugular,Inf_Butr,0,"% of VFA",-,-,-,-
 NRC2019,3000,-,12003,-,Jugular,Inf_Butr,0,"% of VFA",-,-,-,-
+"Test Data 2018",69,77,1,1,"Test Location",TestVar,1700,%,10,11,10,11

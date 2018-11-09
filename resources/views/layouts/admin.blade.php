@@ -17,6 +17,7 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
     <!-- Styles -->
@@ -82,11 +83,12 @@
             <a href="/administrators-dashboard/file-manager">File Manager</a>
             <a href="/administrators-dashboard/study-descriptors">Manage Study Descriptors</a>
             <a href="/administrators-dashboard/dietary-ingredients">Manage Dietary Ingredients</a>
-            <a href="#">Manage Dietary Nutrients</a>
-            <a href="#">Manage Subjects</a>
-            <a href="#">Manage Performance Data</a>
-            <a href="#">Manage In Vitro Data</a>
-            <a href="#">Manage Infusions</a>
+            <a href="/administrators-dashboard/dietary-nutrients">Manage Dietary Nutrients</a>
+            <a href="/administrators-dashboard/subjects">Manage Subjects</a>
+            <a href="/administrators-dashboard/performance-data">Manage Performance Data</a>
+            <a href="/administrators-dashboard/invitros">Manage In Vitro Data</a>
+            <a href="/administrators-dashboard/infusions">Manage Infusions</a>
+            <a href="/administrators-dashboard/genome-transcripts">Manage Genome Transcripts</a>
         </div>
     </main>
 </div>

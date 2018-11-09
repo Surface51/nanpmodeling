@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Abbreviation;
 use App\DietaryIngredients;
 use App\DietaryNutrients;
 use App\GenomeTranscript;
@@ -17,6 +18,7 @@ class FiltersController extends Controller
 {
     public function filterAll(Request $request)
     {
+        $abbreviations = Abbreviation::all();
         $stdys = StudyDescriptor::all()->take(10);
         $ingredients = DietaryIngredients::all()->take(10);
         $nutrients = DietaryNutrients::all()->take(10);
@@ -29,7 +31,8 @@ class FiltersController extends Controller
         $datasets_all = FilterEngine::returnDataSets($request);
         $pubids_all = FilterEngine::returnPubIds($request);
         $performance_pubids_all = FilterEngine::returnPubIds($request);
-        $variable_names = PerformanceData::distinct()->pluck('VarName')->toArray();
+//        $variable_names = PerformanceData::distinct()->pluck('VarName')->toArray();
+        $variable_names = Abbreviation::distinct()->pluck('abbreviation')->toArray();
 
 
         $dataset_all = '';
@@ -38,7 +41,9 @@ class FiltersController extends Controller
         }
         $pubid_all = '';
         if($request->pubid_all){
-            $pubid_all = $request->pubid_all;
+//            $pubid_all = $request->pubid_all;
+            $pubid_all = StudyDescriptor::where('PubID', $request->pubid_all)->where('VarName', 'Reference')->distinct()->pluck('VarValue');
+            $pubid_all = $pubid_all[0];
         }
         $start_date = '';
         if($request->start_date){
@@ -108,12 +113,14 @@ class FiltersController extends Controller
             'end_date',
             'variable_name',
             'variable_names',
-            'performance_pubids_all'
+            'performance_pubids_all',
+            'abbreviations'
         ));
     }
 
     public function filterVariablesAll(Request $request)
     {
+        $abbreviations = Abbreviation::all();
         $stdys = StudyDescriptor::all()->take(10);
         $ingredients = DietaryIngredients::all()->take(10);
         $nutrients = DietaryNutrients::all()->take(10);
@@ -203,7 +210,6 @@ class FiltersController extends Controller
             $genomes = GenomeTranscript::whereIn('PubID', $pubids_all)->get();
         }
 
-//        $performances = PerformanceData::all();
         if($dataset_all != '' || $pubid_all != ''){
             $stdys = FilterEngine::filterStudyDescriptors($request);
             $ingredients = FilterEngine::filterDietaryIngredients($request);
@@ -253,7 +259,8 @@ class FiltersController extends Controller
             'compare_value_3',
             'variable_names',
             'performance_pubids_all',
-            'performance_pubid_all'
+            'performance_pubid_all',
+            'abbreviations'
         ));
     }
 }

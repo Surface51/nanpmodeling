@@ -33,6 +33,7 @@
                                             <th>N</th>
                                             <th>SE</th>
                                             <th>SD</th>
+                                            <th>IngrNum</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -43,6 +44,7 @@
                             </div>
 
                         </div>
+                        {{ $ingredients->links() }}
                     </div>
                 </div>
             </div>

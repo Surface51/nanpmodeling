@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Abbreviation;
 use App\DietaryIngredients;
 use App\DietaryNutrients;
 use App\InVitroData;
@@ -19,6 +20,7 @@ class PagesController extends Controller
 {
     public function filters(Request $request)
     {
+        $abbreviations = Abbreviation::all();
         $stdys = StudyDescriptor::all();
         $ingredients = DietaryIngredients::all();
         $nutrients = DietaryNutrients::all();
@@ -252,7 +254,8 @@ class PagesController extends Controller
             'pubids_performances',
             'trialids_performances',
             'trtids_performances',
-            'subjectid_performances'
+            'subjectid_performances',
+            'abbreviations'
         ));
     }
 
@@ -619,5 +622,55 @@ class PagesController extends Controller
         );
 
         return Response::download($filename);
+    }
+
+
+    function action(Request $request)
+    {
+        if($request->ajax())
+        {
+            $output = '';
+            $query = $request->get('query');
+            if($query != '')
+            {
+                $data = DB::table('abbreviations')
+                    ->where('abbreviation', 'like', '%'.$query.'%')
+                    ->orWhere('name', 'like', '%'.$query.'%')
+                    ->get();
+
+            }
+            else
+            {
+                $data = DB::table('abbreviations')
+                    ->get();
+            }
+            $total_row = $data->count();
+            if($total_row > 0)
+            {
+                foreach($data as $row)
+                {
+                    $output .= '
+                        <tr>
+                         <td>'.$row->abbreviation.'</td>
+                         <td>'.$row->name.'</td>
+                        </tr>
+                        ';
+                }
+            }
+            else
+            {
+                $output = '
+       <tr>
+        <td align="center" colspan="5">No Data Found</td>
+       </tr>
+       ';
+            }
+            $data = array(
+                'table_data'  => $output,
+                'total_data'  => $total_row
+            );
+
+            echo json_encode($data);
+        }
     }
 }

@@ -32,28 +32,18 @@
                                         </div>
 
                                         <div class="form-group col-md-8">
-                                            {{ Form::label('Availability', 'Availability') }}
-                                            {{ Form::text('Availability', Input::old('Availability'), array('class' => 'form-control')) }}
+                                            {{ Form::label('VarName', 'VarName') }}
+                                            {{ Form::text('VarName', Input::old('VarName'), array('class' => 'form-control')) }}
                                         </div>
 
                                         <div class="form-group col-md-8">
-                                            {{ Form::label('Reference', 'Reference') }}
-                                            {{ Form::text('Reference', Input::old('Reference'), array('class' => 'form-control')) }}
+                                            {{ Form::label('VarValue', 'VarValue') }}
+                                            {{ Form::text('VarValue', Input::old('VarValue'), array('class' => 'form-control')) }}
                                         </div>
 
                                         <div class="form-group col-md-8">
-                                            {{ Form::label('Year', 'Year') }}
-                                            {{ Form::text('Year', Input::old('Year'), array('class' => 'form-control')) }}
-                                        </div>
-
-                                        <div class="form-group col-md-8">
-                                            {{ Form::label('DataType', 'DataType') }}
-                                            {{ Form::text('DataType', Input::old('DataType'), array('class' => 'form-control')) }}
-                                        </div>
-
-                                        <div class="form-group col-md-8">
-                                            {{ Form::label('Location', 'Location') }}
-                                            {{ Form::text('Location', Input::old('Location'), array('class' => 'form-control')) }}
+                                            {{ Form::label('VarUnits', 'VarUnits') }}
+                                            {{ Form::text('VarUnits', Input::old('VarUnits'), array('class' => 'form-control')) }}
                                         </div>
 
                                         {{ Form::submit('Create the Study Descriptor', array('class' => 'btn btn-primary')) }}

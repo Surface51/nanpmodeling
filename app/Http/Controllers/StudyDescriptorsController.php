@@ -35,78 +35,28 @@ class StudyDescriptorsController extends Controller
         } else {
             $refID = Input::get('DataSet') . Input::get('PubID') . Input::get('TrialID');
             // store
-            $ack = new StudyDescriptor();
-            $ack->ref = $refID;
-            $ack->DataSet = Input::get('DataSet');
-            $ack->PubID = Input::get('PubID');
-            $ack->TrialID = Input::get('TrialID');
-            $ack->VarName = 'Availability';
-            $ack->VarValue = Input::get('Availability');
-            $ack->VarUnits = '-';
-            $ack->save();
-
-            $ref = new StudyDescriptor();
-            $ref->ref = $refID;
-            $ref->DataSet = Input::get('DataSet');
-            $ref->PubID = Input::get('PubID');
-            $ref->TrialID = Input::get('TrialID');
-            $ref->VarName = 'Reference';
-            $ref->VarValue = Input::get('Reference');
-            $ref->VarUnits = '-';
-            $ref->save();
-
-            $year = new StudyDescriptor();
-            $year->ref = $refID;
-            $year->DataSet = Input::get('DataSet');
-            $year->PubID = Input::get('PubID');
-            $year->TrialID = Input::get('TrialID');
-            $year->VarName = 'Year';
-            $year->VarValue = Input::get('Year');
-            $year->VarUnits = 'year';
-            $year->save();
-
-            $year = new StudyDescriptor();
-            $year->ref = $refID;
-            $year->DataSet = Input::get('DataSet');
-            $year->PubID = Input::get('PubID');
-            $year->TrialID = Input::get('TrialID');
-            $year->VarName = 'DataType';
-            $year->VarValue = Input::get('DataType');
-            $year->VarUnits = '-';
-            $year->save();
-
-            $loc = new StudyDescriptor();
-            $loc->ref = $refID;
-            $loc->DataSet = Input::get('DataSet');
-            $loc->PubID = Input::get('PubID');
-            $loc->TrialID = Input::get('TrialID');
-            $loc->VarName = 'Location';
-            $loc->VarValue = Input::get('Location');
-            $loc->VarUnits = '-';
-            $loc->save();
+            $study = new StudyDescriptor();
+            $study->ref = $refID;
+            $study->DataSet = Input::get('DataSet');
+            $study->PubID = Input::get('PubID');
+            $study->TrialID = Input::get('TrialID');
+            $study->VarName = Input::get('VarName');
+            $study->VarValue = Input::get('VarValue');
+            $study->VarUnits = Input::get('VarUnits');
+            $study->save();
 
             return Redirect::to('/administrators-dashboard/study-descriptors')->with('alerts', 'Successfully created Study Descriptor');
         }
     }
 
-    public function edit($ref)
+    public function edit($id)
     {
-        $study = StudyDescriptor::where('ref', $ref)->get();
-        $DataSet = StudyDescriptor::where('ref', $ref)->pluck('DataSet')->first();
-        $PubID = StudyDescriptor::where('ref', $ref)->pluck('PubID')->first();
-        $TrialID = StudyDescriptor::where('ref', $ref)->pluck('TrialID')->first();
-        $Availability = StudyDescriptor::where('ref', $ref)->where('VarName', 'Availability')->pluck('VarValue')->first();
-        $Reference = StudyDescriptor::where('ref', $ref)->where('VarName', 'Reference')->pluck('VarValue')->first();
-        $Year = StudyDescriptor::where('ref', $ref)->where('VarName', 'Year')->pluck('VarValue')->first();
-        $DataType = StudyDescriptor::where('ref', $ref)->where('VarName', 'DataType')->pluck('VarValue')->first();
-        $Location = StudyDescriptor::where('ref', $ref)->where('VarName', 'Location')->pluck('VarValue')->first();
+        $study = StudyDescriptor::where('id', $id)->first();
 
-        return view('study.edit',
-            compact('study', 'DataSet', 'PubID', 'TrialID', 'Availability', 'Reference', 'Year', 'DataType', 'Location', 'ref'));
-
+        return view('study.edit', compact('study'));
     }
 
-    public function update($ref)
+    public function update(Request $request, $id)
     {
         // validate
         // read more on validation at http://laravel.com/docs/validation
@@ -119,44 +69,21 @@ class StudyDescriptorsController extends Controller
 
         // process the login
         if ($validator->fails()) {
-            return Redirect::to('administrators-dashboard/study-descriptors/edit/' . $ref)
+            return Redirect::to('administrators-dashboard/study-descriptors/edit/' . $id)
                 ->withErrors($validator)
                 ->withInput();
         } else {
             // store
-            $availability = StudyDescriptor::where('ref', $ref)->where('VarName', 'Availability');
-            $availability->update([
-                'VarValue' => Input::get('Availability')
-            ]);
-
-            $reference = StudyDescriptor::where('ref', $ref)->where('VarName', 'Reference');
-            $reference->update([
-                'VarValue' => Input::get('Reference')
-            ]);
-
-            $year = StudyDescriptor::where('ref', $ref)->where('VarName', 'Year');
-            $year->update([
-                'VarValue' => Input::get('Year')
-            ]);
-
-            $datatype = StudyDescriptor::where('ref', $ref)->where('VarName', 'DataType');
-            $datatype->update([
-                'VarValue' => Input::get('DataType')
-            ]);
-
-            $location = StudyDescriptor::where('ref', $ref)->where('VarName', 'Location');
-            $location->update([
-                'VarValue' => Input::get('Location')
-            ]);
+            StudyDescriptor::where('id', $id)->update($request->except(['_token']));
 
             return Redirect::to('/administrators-dashboard/study-descriptors')->with('alerts', 'Successfully Updated Study!');
 
         }
     }
 
-    public function destroy($ref)
+    public function destroy($id)
     {
-        $studies = StudyDescriptor::where('ref', $ref)->get();
+        $studies = StudyDescriptor::where('id', $id)->get();
 
         foreach($studies as $study)
         {
