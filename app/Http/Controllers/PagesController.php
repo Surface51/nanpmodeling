@@ -653,6 +653,7 @@ class PagesController extends Controller
                         <tr>
                          <td>'.$row->abbreviation.'</td>
                          <td>'.$row->name.'</td>
+                         <td>'.$row->table.'</td>
                         </tr>
                         ';
                 }

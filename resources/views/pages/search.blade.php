@@ -20,6 +20,7 @@
                                                 <tr>
                                                     <th>Abbreviation</th>
                                                     <th>Name</th>
+                                                    <th>Table</th>
                                                 </tr>
                                                 </thead>
                                                 <tbody class="abbreviations">
@@ -38,12 +39,11 @@
                 <div class="card">
                     <div class="card-header">Filter Data</div>
                     <div class="card-body">
-                        {{--{!! Form::open(array('method' => 'get', 'route' => array('filter.all'))) !!}--}}
-                        {!! Form::open(array('method' => 'get', 'route' => array('filterVariables.all'))) !!}
+                        {!! Form::open(array('method' => 'get', 'route' => array('filterVariables.all'), 'class' => 'form-wrapper')) !!}
 
+                        <div class="col-lg-6">
                         <div class="quick-search col-md-12" id="filters">
-                                <div class="form-group col-md-2">
-                                    {{--{{ Form::label('DataSet') }}--}}
+                                <div class="form-group col-md-6">
                                     <div class="w3-container">
                                     <p class="w3-tooltip">DataSet <span class="w3-text">(<em>Filter Results by DataSet</em>)</span></p>
                                     </div>
@@ -62,8 +62,7 @@
                                     </div>
                                 </div>
 
-                                <div class="form-group col-md-2">
-                                    {{--{{ Form::label('References') }}--}}
+                                <div class="form-group col-md-6">
                                     <div class="w3-container">
                                         <p class="w3-tooltip">References <span class="w3-text">(<em>Filter Results by Reference</em>)</span></p>
                                     </div>
@@ -81,27 +80,10 @@
                                         </select>
                                     </div>
                                 </div>
-
-                                <div class="form-group col-md-1">
-                                    {{ Form::label('Filters') }}
-                                    <div class="input-group">
-                                        <button class="btn btn-default btn-primary filter-button">Apply</button>
-                                    </div>
-                                </div>
-                                <div class="form-group col-md-2">
-                                    {{ Form::label('Filters') }}
-                                    <div class="input-group">
-                                        <a href="/search" class="btn btn-default btn-primary clear-filter-button">Clear</a>
-                                    </div>
-                                </div>
-                            {{--{{ Form::close() }}--}}
                             </div>
 
-                        {{--<button class="advance-search" id="buttonAdvancedSearch">Advanced Filters</button>--}}
-                            {{--<div class="advanced_search_div" id="advanced_search_div">--}}
-                                {{--{!! Form::open(array('method' => 'get', 'route' => array('filterVariables.all'))) !!}--}}
                                 <div class="form-group col-md-12" id="filters">
-                                    <div class="form-group col-md-2">
+                                    <div class="form-group col-md-6">
                                         <br>
                                         <div class="input-group">
                                             {{ Form::text('start_date', null,
@@ -109,7 +91,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="form-group col-md-2">
+                                    <div class="form-group col-md-6">
                                         <br>
                                         <div class="input-group">
                                             {{ Form::text('end_date', null,
@@ -117,9 +99,10 @@
                                         </div>
                                     </div>
                                 </div>
-
+                        </div>
+                        <div class="col-lg-6">
                                 <div class="col-md-12" id="input-selection-group">
-                                    <div class="form-group col-md-2" id="input-query-selection">
+                                    <div class="form-group col-md-4" id="input-query-selection">
                                         {{ Form::label('Select Variable') }}
                                         <div class="input-group">
                                             <select class="form-control" name="variable_name">
@@ -136,7 +119,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="form-group col-md-1" id="input-query-selection">
+                                    <div class="form-group col-md-2" id="input-query-selection">
                                         {{ Form::label('Operation') }}
                                         <div class="input-group">
                                             <select class="form-control" name="operator">
@@ -154,7 +137,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="form-group col-md-1" id="input-query-selection">
+                                    <div class="form-group col-md-2" id="input-query-selection">
                                         {{ Form::label('Value') }}
                                         <div class="input-group">
                                             {{ Form::text('compare_value', null,
@@ -165,7 +148,7 @@
 
                                 <div class="add-query-1">
                                 <div class="col-md-12" id="input-selection-group">
-                                    <div class="form-group col-md-2" id="input-query-selection">
+                                    <div class="form-group col-md-4" id="input-query-selection">
                                         <div class="input-group">
                                             <select class="form-control" name="variable_name_2">
                                                 @if(isset($_GET['variable_name_2']))
@@ -181,7 +164,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="form-group col-md-1" id="input-query-selection">
+                                    <div class="form-group col-md-2" id="input-query-selection">
                                         <div class="input-group">
                                             <select class="form-control" name="operator_2">
                                                 @if(isset($_GET['operator_2']))
@@ -198,7 +181,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="form-group col-md-1" id="input-query-selection">
+                                    <div class="form-group col-md-2" id="input-query-selection">
                                         <div class="input-group">
                                             {{ Form::text('compare_value_2', null,
                                             ['class' => 'form-control', 'rel'=> 'tooltip', 'title' => 'Input Value', 'placeholder' => 'value']) }}
@@ -208,7 +191,7 @@
 
                                     <div class="add-query-2">
                                         <div class="col-md-12" id="input-selection-group">
-                                            <div class="form-group col-md-2" id="input-query-selection">
+                                            <div class="form-group col-md-4" id="input-query-selection">
                                                 <div class="input-group">
                                                     <select class="form-control" name="variable_name_3">
                                                         @if(isset($_GET['variable_name_3']))
@@ -224,7 +207,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="form-group col-md-1" id="input-query-selection">
+                                            <div class="form-group col-md-2" id="input-query-selection">
                                                 <div class="input-group">
                                                     <select class="form-control" name="operator_3">
                                                         @if(isset($_GET['operator_3']))
@@ -241,7 +224,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="form-group col-md-1" id="input-query-selection">
+                                            <div class="form-group col-md-2" id="input-query-selection">
                                                 <div class="input-group">
                                                     {{ Form::text('compare_value_3', null,
                                                     ['class' => 'form-control', 'rel'=> 'tooltip', 'title' => 'Input Value', 'placeholder' => 'value']) }}
@@ -250,58 +233,26 @@
                                         </div>
 
                                         <div class="form-group col-md-12">
-                                            <div class="form-group col-md-2">
-                                                {{ Form::label('Reference') }}
-                                                <div class="input-group">
-                                                    <select class="form-control" name="pubid_all">
-                                                        @if(isset($_GET['pubid_all']))
-                                                            <option value="{{$_GET['pubid_all']}}">{{$pubid_all}}</option>
-                                                        @else
-                                                            <option value=" ">Select Reference</option>
-                                                        @endif
-                                                        @foreach($pubids_all as $key => $value)
-                                                            <option value="{{$value}}">{{$key}}</option>
-                                                        @endforeach
-                                                        <option value=" ">No Filter</option>
-                                                    </select>
-                                                </div>
-                                            </div>
 
-                                            <div class="form-group col-md-2" id="hide-me">
-                                                {{ Form::label('DataSet') }}
-                                                <div class="input-group">
-                                                    <select class="form-control" name="dataset_all">
-                                                        @if(isset($_GET['dataset_all']))
-                                                            <option value="{{$_GET['dataset_all']}}">{{$dataset_all}}</option>
-                                                        @else
-                                                            <option value=" ">Select DataSet</option>
-                                                        @endif
-                                                        @foreach($datasets_all as $dataset_all)
-                                                            <option value="{{$dataset_all}}">{{$dataset_all}}</option>
-                                                        @endforeach
-                                                        <option value=" ">No Filter</option>
-                                                    </select>
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
 
 
-                                    <div class="form-group col-md-12" id="filters">
-                                        <div class="form-group col-md-1">
+                                    <div class="form-group col-md-10" id="filters">
+                                        <div class="form-group col-md-6">
                                             <div class="input-group">
                                                 <button class="btn btn-default btn-primary filter-button">Filter</button>
                                             </div>
                                         </div>
 
-                                        <div class="form-group col-md-2">
+                                        <div class="form-group col-md-6">
                                             <div class="input-group">
                                                 <a href="/search" class="btn btn-default btn-primary clear-filter-button">Clear All Filters</a>
                                             </div>
                                         </div>
                                     </div>
                                 {{ Form::close() }}
-                            {{--</div>--}}
+                            </div>
                         </div>
                     </div>
                 </div>

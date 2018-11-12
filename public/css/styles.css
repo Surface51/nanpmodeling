@@ -113,3 +113,7 @@ thead {
 #csv-button {
     margin-left: 20px;
 }
+
+.form-wrapper {
+    display: inline-flex;
+}

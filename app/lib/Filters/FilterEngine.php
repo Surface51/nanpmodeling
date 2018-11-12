@@ -568,12 +568,15 @@ class FilterEngine
             if($start_date != '' && $end_date != ''){
                 $pubids_study = StudyDescriptor::whereBetween('VarValue', [$start_date, $end_date])->distinct()->pluck('PubID')->toArray();
                 $pubids_studies = StudyDescriptor::whereIn('PubID', $pubids_study)->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
-            } elseif ($request->dataset_all != null) {
+            } elseif ($request->dataset_all != null && $request->pubid_all == '') {
+                $pubids_study = StudyDescriptor::where('DataSet', $request->dataset_all)->distinct()->pluck('PubID')->toArray();
+                $pubids_studies = StudyDescriptor::whereIn('PubID', $pubids_study)->where('DataSet', $request->dataset_all)->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
+            } elseif($request->pubid_all != null) {
                 $pubids_study = StudyDescriptor::where('DataSet', $request->dataset_all)->distinct()->pluck('PubID')->toArray();
                 $pubids_studies = StudyDescriptor::whereIn('PubID', $pubids_study)->where('DataSet', $request->dataset_all)->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
             } else {
                 $pubids_study = StudyDescriptor::distinct()->pluck('PubID')->toArray();
-                $pubids_studies = StudyDescriptor::whereIn('PubID', $pubids_study)->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
+                $pubids_studies = StudyDescriptor::whereIn('PubID', $pubids_study)->where('VarName', 'Reference')->distinct()->pluck('id', 'VarValue')->toArray();
 
             }
 
