@@ -105,17 +105,11 @@
                                     <div class="form-group col-md-4" id="input-query-selection">
                                         {{ Form::label('Select Variable') }}
                                         <div class="input-group">
-                                            <select class="form-control" name="variable_name">
-                                                @if(isset($_GET['variable_name']))
-                                                    <option value="{{$_GET['variable_name']}}">{{$variable_name}}</option>
-                                                @else
-                                                    <option value=" ">Select Variable Name</option>
-                                                @endif
-                                                @foreach($variable_names as $variable_name)
-                                                    <option value="{{$variable_name}}">{{$variable_name}}</option>
-                                                @endforeach
-                                                <option value=" ">No Filter</option>
-                                            </select>
+                                            @if(isset($_GET['variable_name']))
+                                                <input value="{{$_GET['variable_name']}}" type="search" name="variable_name" class="form-control" id="variable_name" autocomplete="off">
+                                            @else
+                                                <input type="search" name="variable_name" class="form-control" id="variable_name" placeholder="Search" autocomplete="off">
+                                            @endif
                                         </div>
                                     </div>
 
@@ -150,17 +144,22 @@
                                 <div class="col-md-12" id="input-selection-group">
                                     <div class="form-group col-md-4" id="input-query-selection">
                                         <div class="input-group">
-                                            <select class="form-control" name="variable_name_2">
-                                                @if(isset($_GET['variable_name_2']))
-                                                    <option value="{{$_GET['variable_name_2']}}">{{$variable_name_2}}</option>
-                                                @else
-                                                    <option value=" ">Select Variable Name</option>
-                                                @endif
-                                                @foreach($variable_names as $variable_name)
-                                                    <option value="{{$variable_name}}">{{$variable_name}}</option>
-                                                @endforeach
-                                                <option value=" ">No Filter</option>
-                                            </select>
+                                            {{--<select class="form-control" name="variable_name_2">--}}
+                                                {{--@if(isset($_GET['variable_name_2']))--}}
+                                                    {{--<option value="{{$_GET['variable_name_2']}}">{{$variable_name_2}}</option>--}}
+                                                {{--@else--}}
+                                                    {{--<option value=" ">Select Variable Name</option>--}}
+                                                {{--@endif--}}
+                                                {{--@foreach($variable_names as $variable_name)--}}
+                                                    {{--<option value="{{$variable_name}}">{{$variable_name}}</option>--}}
+                                                {{--@endforeach--}}
+                                                {{--<option value=" ">No Filter</option>--}}
+                                                    @if(isset($_GET['variable_name_2']))
+                                                        <input value="{{$_GET['variable_name_2']}}" type="search" name="variable_name_2" class="form-control" id="variable_name_2" autocomplete="off">
+                                                    @else
+                                                        <input type="search" name="variable_name_2" class="form-control" id="variable_name_2" placeholder="Search" autocomplete="off">
+                                                    @endif
+                                            {{--</select>--}}
                                         </div>
                                     </div>
 
@@ -193,17 +192,11 @@
                                         <div class="col-md-12" id="input-selection-group">
                                             <div class="form-group col-md-4" id="input-query-selection">
                                                 <div class="input-group">
-                                                    <select class="form-control" name="variable_name_3">
-                                                        @if(isset($_GET['variable_name_3']))
-                                                            <option value="{{$_GET['variable_name_3']}}">{{$variable_name_3}}</option>
-                                                        @else
-                                                            <option value=" ">Select Variable Name</option>
-                                                        @endif
-                                                        @foreach($variable_names as $variable_name)
-                                                            <option value="{{$variable_name}}">{{$variable_name}}</option>
-                                                        @endforeach
-                                                        <option value=" ">No Filter</option>
-                                                    </select>
+                                                    @if(isset($_GET['variable_name_3']))
+                                                        <input value="{{$_GET['variable_name_3']}}" type="search" name="variable_name_3" class="form-control" id="variable_name_3" autocomplete="off">
+                                                    @else
+                                                        <input type="search" name="variable_name_3" class="form-control" id="variable_name_3" placeholder="Search" autocomplete="off">
+                                                    @endif
                                                 </div>
                                             </div>
 
@@ -308,7 +301,7 @@
                         </div>
                     @endif
 
-                    <div role="tabpanel" class="tab-pane active" id="maincho">
+                    <div role="tabpanel" class="tab-pane active" id="studies-table">
                         <div class="card-header">
                             Study Descriptors Table
                         </div>
@@ -348,7 +341,7 @@
                             </a>
                         </div>
                     @endif
-                    <div role="tabpanel" class="tab-pane active" id="maincho">
+                    <div role="tabpanel" class="tab-pane active" id="ingredients-table">
                         <div class="card-header">Dietary Ingredients Table</div>
                         <div class="card-body">
                             <div class="container-fluid">
@@ -390,7 +383,7 @@
                                 )) }}">Export Filtered Dietary Nutrients CSV</a>
                         </div>
                     @endif
-                    <div role="tabpanel" class="tab-pane active" id="maincho">
+                    <div role="tabpanel" class="tab-pane active"  id="nutrients-table">
                         <div class="card-header">Dietary Nutrients Table</div>
                         <div class="card-body">
                             <div class="container-fluid">
@@ -433,7 +426,7 @@
                             </a>
                         </div>
                     @endif
-                    <div role="tabpanel" class="tab-pane active" id="maincho">
+                    <div role="tabpanel" class="tab-pane active" id="subjects-table">
                         <div class="card-header">Subjects Table</div>
                         <div class="card-body">
                             <div class="container-fluid">
@@ -476,7 +469,7 @@
                             </a>
                         </div>
                     @endif
-                    <div role="tabpanel" class="tab-pane active" id="maincho">
+                    <div role="tabpanel" class="tab-pane active" id="performances-table">
                         <div class="card-header">Performance Data Table</div>
                         <div class="card-body">
                             <div class="container-fluid">
@@ -511,7 +504,7 @@
                 @endif
                 <br>
                 @if(count($infusions))
-                <div class="card">
+                <div class="card" >
                     @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
                         <div class="form-group col-md-12">
                             <a class="btn btn-primary filter-download-button" href="{{ route('download.filteredInfusions',
@@ -523,7 +516,7 @@
                             </a>
                         </div>
                     @endif
-                    <div role="tabpanel" class="tab-pane active" id="maincho">
+                    <div role="tabpanel" class="tab-pane active" id="infusions-table">
                         <div class="card-header">Infusion Data Table</div>
                         <div class="card-body">
                             <div class="container-fluid">
@@ -568,7 +561,7 @@
                             </a>
                         </div>
                     @endif
-                    <div role="tabpanel" class="tab-pane active" id="maincho">
+                    <div role="tabpanel" class="tab-pane active" id="invitros-table">
                         <div class="card-header">In Vitro Data Table</div>
                         <div class="card-body">
                             <div class="container-fluid">
@@ -608,7 +601,7 @@
                 @endif
         <br>
         @if(count($genomes))
-        <div class="card">
+        <div class="card" >
             @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
                 <div class="form-group col-md-12">
                     <a class="btn btn-primary filter-download-button" href="{{ route('download.filteredGenomes',
@@ -620,7 +613,7 @@
                     </a>
                 </div>
             @endif
-            <div role="tabpanel" class="tab-pane active" id="maincho">
+            <div role="tabpanel" class="tab-pane active" id="genomes-table">
                 <div class="card-header">Genome Transcripts Table</div>
                 <div class="card-body">
                     <div class="container-fluid">
@@ -663,7 +656,8 @@
 
 @section('scripts')
     <script>
-    $(document).ready(function(){
+
+        $(document).ready(function(){
 
         fetch_customer_data();
 
@@ -687,5 +681,111 @@
             fetch_customer_data(query);
         });
     });
+
+    $(document).ready(function($) {
+        // Set the Options for "Bloodhound" suggestion engine
+        var engine = new Bloodhound({
+            remote: {
+                url: '/find?variable_name=%QUERY%',
+                wildcard: '%QUERY%'
+            },
+            datumTokenizer: Bloodhound.tokenizers.whitespace('variable_name'),
+            queryTokenizer: Bloodhound.tokenizers.whitespace
+        });
+
+        $('#variable_name').typeahead({
+            hint: true,
+            highlight: true,
+            minLength: 1
+        }, {
+            name: 'abbreviations',
+            source: engine,
+            display: function(data) {
+                return data.abbreviation  //Input value to be set when you select a suggestion.
+            },
+            templates: {
+                empty: [
+                    '<div class="list-group search-results-dropdown"><div class="list-group-item">Nothing found.</div></div>'
+                ],
+                header: [
+                    '<div class="list-group search-results-dropdown">'
+                ],
+                suggestion: function(data) {
+                    return '<div style="font-weight:normal; margin-top:-10px ! important;" class="list-group-item">' + data.abbreviation + '</div></div>'
+                }
+            }
+        });
+    });
+
+        $(document).ready(function($) {
+            // Set the Options for "Bloodhound" suggestion engine
+            var engine = new Bloodhound({
+                remote: {
+                    url: '/find2?variable_name_2=%QUERY%',
+                    wildcard: '%QUERY%'
+                },
+                datumTokenizer: Bloodhound.tokenizers.whitespace('variable_name_2'),
+                queryTokenizer: Bloodhound.tokenizers.whitespace
+            });
+
+            $('#variable_name_2').typeahead({
+                hint: true,
+                highlight: true,
+                minLength: 1
+            }, {
+                name: 'abbreviations',
+                source: engine,
+                display: function(data) {
+                    return data.abbreviation  //Input value to be set when you select a suggestion.
+                },
+                templates: {
+                    empty: [
+                        '<div class="list-group search-results-dropdown"><div class="list-group-item">Nothing found.</div></div>'
+                    ],
+                    header: [
+                        '<div class="list-group search-results-dropdown">'
+                    ],
+                    suggestion: function(data) {
+                        return '<div style="font-weight:normal; margin-top:-10px ! important;" class="list-group-item">' + data.abbreviation + '</div></div>'
+                    }
+                }
+            });
+        });
+
+        $(document).ready(function($) {
+            // Set the Options for "Bloodhound" suggestion engine
+            var engine = new Bloodhound({
+                remote: {
+                    url: '/find3?variable_name_3=%QUERY%',
+                    wildcard: '%QUERY%'
+                },
+                datumTokenizer: Bloodhound.tokenizers.whitespace('variable_name_3'),
+                queryTokenizer: Bloodhound.tokenizers.whitespace
+            });
+
+            $('#variable_name_3').typeahead({
+                hint: true,
+                highlight: true,
+                minLength: 1
+            }, {
+                name: 'abbreviations',
+                source: engine,
+                display: function(data) {
+                    return data.abbreviation  //Input value to be set when you select a suggestion.
+                },
+                templates: {
+                    empty: [
+                        '<div class="list-group search-results-dropdown"><div class="list-group-item">Nothing found.</div></div>'
+                    ],
+                    header: [
+                        '<div class="list-group search-results-dropdown">'
+                    ],
+                    suggestion: function(data) {
+                        return '<div style="font-weight:normal; margin-top:-10px ! important;" class="list-group-item">' + data.abbreviation + '</div></div>'
+                    }
+                }
+            });
+        });
+
     </script>
 @stop

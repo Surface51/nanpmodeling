@@ -19,14 +19,14 @@ class FiltersController extends Controller
     public function filterAll(Request $request)
     {
         $abbreviations = Abbreviation::all();
-        $stdys = StudyDescriptor::all()->take(10);
-        $ingredients = DietaryIngredients::all()->take(10);
-        $nutrients = DietaryNutrients::all()->take(10);
-        $subjects = Subject::all()->take(10);
-        $performances = PerformanceData::all()->take(10);
-        $infusions = Infusion::all()->take(10);
-        $invitros = InVitroData::all()->take(10);
-        $genomes = GenomeTranscript::all()->take(10);
+        $stdys = StudyDescriptor::all()->take(25);
+        $ingredients = DietaryIngredients::all()->take(25);
+        $nutrients = DietaryNutrients::all()->take(25);
+        $subjects = Subject::all()->take(25);
+        $performances = PerformanceData::all()->take(25);
+        $infusions = Infusion::all()->take(25);
+        $invitros = InVitroData::all()->take(25);
+        $genomes = GenomeTranscript::all()->take(25);
 
         $datasets_all = FilterEngine::returnDataSets($request);
         $pubids_all = FilterEngine::returnPubIds($request);
@@ -63,14 +63,14 @@ class FiltersController extends Controller
         }
 
         if($start_date != '' || $end_date != '' && $pubid_all == '' && $dataset_all == '') {
-            $stdys = StudyDescriptor::whereIn('PubID', $pubids_all)->limit(10)->get();
-            $ingredients = DietaryNutrients::whereIn('PubID', $pubids_all)->limit(10)->get();
-            $nutrients = DietaryNutrients::whereIn('PubID', $pubids_all)->limit(10)->get();
-            $subjects = Subject::whereIn('PubID', $pubids_all)->limit(10)->get();
-            $performances = PerformanceData::whereIn('PubID', $pubids_all)->limit(10)->get();
-            $infusions = Infusion::whereIn('PubID', $pubids_all)->limit(10)->get();
-            $invitros = InVitroData::whereIn('PubID', $pubids_all)->limit(10)->get();
-            $genomes = GenomeTranscript::whereIn('PubID', $pubids_all)->limit(10)->get();
+            $stdys = StudyDescriptor::whereIn('PubID', $pubids_all)->limit(25)->get();
+            $ingredients = DietaryNutrients::whereIn('PubID', $pubids_all)->limit(25)->get();
+            $nutrients = DietaryNutrients::whereIn('PubID', $pubids_all)->limit(25)->get();
+            $subjects = Subject::whereIn('PubID', $pubids_all)->limit(25)->get();
+            $performances = PerformanceData::whereIn('PubID', $pubids_all)->limit(25)->get();
+            $infusions = Infusion::whereIn('PubID', $pubids_all)->limit(25)->get();
+            $invitros = InVitroData::whereIn('PubID', $pubids_all)->limit(25)->get();
+            $genomes = GenomeTranscript::whereIn('PubID', $pubids_all)->limit(25)->get();
 
         }
 
@@ -119,14 +119,14 @@ class FiltersController extends Controller
     public function filterVariablesAll(Request $request)
     {
         $abbreviations = Abbreviation::all();
-        $stdys = StudyDescriptor::all()->take(10);
-        $ingredients = DietaryIngredients::all()->take(10);
-        $nutrients = DietaryNutrients::all()->take(10);
-        $subjects = Subject::all()->take(10);
-        $performances = PerformanceData::all()->take(10);
-        $infusions  = Infusion::all()->take(10);
-        $invitros = InVitroData::all()->take(10);
-        $genomes = GenomeTranscript::all()->take(10);
+        $stdys = StudyDescriptor::all()->take(100);
+        $ingredients = DietaryIngredients::all()->take(100);
+        $nutrients = DietaryNutrients::all()->take(100);
+        $subjects = Subject::all()->take(100);
+        $performances = PerformanceData::all()->take(100);
+        $infusions  = Infusion::all()->take(100);
+        $invitros = InVitroData::all()->take(100);
+        $genomes = GenomeTranscript::all()->take(100);
 
         $datasets_all = FilterEngine::returnDataSets($request);
         $pubids_all = FilterEngine::returnPubIds($request);
@@ -228,13 +228,13 @@ class FiltersController extends Controller
         if($request->variable_name != null) {
             $performances = FilterEngine::filterPerformancesByAdvanced($request);
             $performance_pubids_all = FilterEngine::filterPerformancesByAdvancedPubIDs($request);
-            $stdys = StudyDescriptor::whereIn('PubID', $performance_pubids_all)->limit(10)->get();
-            $ingredients = DietaryNutrients::whereIn('PubID', $performance_pubids_all)->limit(10)->get();
-            $nutrients = DietaryNutrients::whereIn('PubID', $performance_pubids_all)->limit(10)->get();
-            $subjects = Subject::whereIn('PubID', $performance_pubids_all)->limit(10)->get();
-            $invitros = InVitroData::whereIn('PubID', $performance_pubids_all)->limit(10)->get();
-            $infusions = Infusion::whereIn('PubID', $performance_pubids_all)->limit(10)->get();
-            $genomes = GenomeTranscript::whereIn('PubID', $performance_pubids_all)->limit(10)->get();
+            $stdys = StudyDescriptor::whereIn('PubID', $performance_pubids_all)->limit(100)->get();
+            $ingredients = DietaryNutrients::whereIn('PubID', $performance_pubids_all)->limit(100)->get();
+            $nutrients = DietaryNutrients::whereIn('PubID', $performance_pubids_all)->limit(100)->get();
+            $subjects = Subject::whereIn('PubID', $performance_pubids_all)->limit(100)->get();
+            $invitros = InVitroData::whereIn('PubID', $performance_pubids_all)->limit(100)->get();
+            $infusions = Infusion::whereIn('PubID', $performance_pubids_all)->limit(100)->get();
+            $genomes = GenomeTranscript::whereIn('PubID', $performance_pubids_all)->limit(100)->get();
         }
 
         return view('pages.search', compact(

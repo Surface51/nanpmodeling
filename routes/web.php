@@ -49,6 +49,9 @@ Route::get('/filtered-all-csv/{query}', 'DownloadsController@downloadFilteredAll
 //ajax abbreviation search
 Route::post('/searching', 'PagesController@searchAbbreviations');
 Route::get('/live_search/action', 'PagesController@action')->name('live_search.action');
+Route::get('/find', 'PagesController@find')->name('typeahead.search');
+Route::get('/find2', 'PagesController@find2')->name('typeahead.search2');
+Route::get('/find3', 'PagesController@find3')->name('typeahead.search3');
 
 
 

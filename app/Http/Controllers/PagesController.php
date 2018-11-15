@@ -674,4 +674,28 @@ class PagesController extends Controller
             echo json_encode($data);
         }
     }
+
+    public function find(Request $request) {
+
+        $result=Abbreviation::where('abbreviation', 'LIKE', "%{$request->input('variable_name')}%")
+            ->orWhere('name', 'LIKE', "%{$request->input('variable_name')}%")->get();
+        return response()->json($result);
+
+    }
+
+    public function find2(Request $request) {
+
+        $result=Abbreviation::where('abbreviation', 'LIKE', "%{$request->input('variable_name_2')}%")
+            ->orWhere('name', 'LIKE', "%{$request->input('variable_name_2')}%")->get();
+        return response()->json($result);
+
+    }
+
+    public function find3(Request $request) {
+
+        $result=Abbreviation::where('abbreviation', 'LIKE', "%{$request->input('variable_name_3')}%")
+            ->orWhere('name', 'LIKE', "%{$request->input('variable_name_3')}%")->get();
+        return response()->json($result);
+
+    }
 }

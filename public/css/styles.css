@@ -117,3 +117,9 @@ thead {
 .form-wrapper {
     display: inline-flex;
 }
+
+#studies-table, #ingredients-table, #nutrients-table, #subjects-table, #performances-table, #infusions-table,
+#invitros-table, #genomes-table{
+    height: 400px;
+    overflow: scroll;
+}
