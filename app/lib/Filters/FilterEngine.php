@@ -280,6 +280,15 @@ class FilterEngine
             if ($request->pubid_all != null) {
                 $q->where('PubID', $request->pubid_all);
             }
+            if($request->variable_name != null) {
+                $q->where('VarName', $request->variable_name)->where('VarValue', $request->operator, (int)$request->compare_value);
+            }
+            if($request->variable_name_2 != null) {
+                $q->orWhere('VarName', $request->variable_name_2)->where('VarValue', $request->operator_2, (int)$request->compare_value_2);
+            }
+            if($request->variable_name_3 != null) {
+                $q->orWhere('VarName', $request->variable_name_3)->where('VarValue', $request->operator_3, (int)$request->compare_value_3);
+            }
         })->get();
 
         return $performances;
@@ -330,6 +339,15 @@ class FilterEngine
             }
             if ($request->pubid_all != null) {
                 $q->where('PubID', $request->pubid_all);
+            }
+            if($request->variable_name != null) {
+                $q->where('VarName', $request->variable_name)->where('VarValue', $request->operator, (int)$request->compare_value);
+            }
+            if($request->variable_name_2 != null) {
+                $q->orWhere('VarName', $request->variable_name_2)->where('VarValue', $request->operator_2, (int)$request->compare_value_2);
+            }
+            if($request->variable_name_3 != null) {
+                $q->orWhere('VarName', $request->variable_name_3)->where('VarValue', $request->operator_3, (int)$request->compare_value_3);
             }
         })->get();
 
@@ -382,6 +400,15 @@ class FilterEngine
             if ($request->pubid_all != null) {
                 $q->where('PubID', $request->pubid_all);
             }
+            if($request->variable_name != null) {
+                $q->where('VarName', $request->variable_name)->where('VarValue', $request->operator, (int)$request->compare_value);
+            }
+            if($request->variable_name_2 != null) {
+                $q->orWhere('VarName', $request->variable_name_2)->where('VarValue', $request->operator_2, (int)$request->compare_value_2);
+            }
+            if($request->variable_name_3 != null) {
+                $q->orWhere('VarName', $request->variable_name_3)->where('VarValue', $request->operator_3, (int)$request->compare_value_3);
+            }
         })->get();
 
         return $invitros;
@@ -432,7 +459,16 @@ class FilterEngine
             if ($request->pubid_all != null) {
                 $q->where('PubID', $request->pubid_all);
             }
-        })->limit(20)->get();
+            if($request->variable_name != null) {
+                $q->where('VarName', $request->variable_name)->where('VarValue', $request->operator, (int)$request->compare_value);
+            }
+            if($request->variable_name_2 != null) {
+                $q->orWhere('VarName', $request->variable_name_2)->where('VarValue', $request->operator_2, (int)$request->compare_value_2);
+            }
+            if($request->variable_name_3 != null) {
+                $q->orWhere('VarName', $request->variable_name_3)->where('VarValue', $request->operator_3, (int)$request->compare_value_3);
+            }
+        })->get();
 
         return $genomes;
     }

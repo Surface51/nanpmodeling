@@ -3,11 +3,11 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Nicolaslopezj\Searchable\SearchableTrait;
+//use Nicolaslopezj\Searchable\SearchableTrait;
 
 class Abbreviation extends Model
 {
-    use SearchableTrait;
+//    use SearchableTrait;
 
     protected $table = 'abbreviations';
     protected $fillable = [
