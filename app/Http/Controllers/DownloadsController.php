@@ -460,7 +460,7 @@ class DownloadsController extends Controller
 
         $filename = 'fulldownload' . '_' . date("Y-m-d") . '.sql';
         MySql::create()
-            ->setDbName('ModelingTemplate')
+            ->setDbName('modeling')
             ->setUserName('homestead')
             ->setPassword('secret')
             ->dumpToFile($filename);
@@ -471,6 +471,7 @@ class DownloadsController extends Controller
 
 
     public function downloadZipCsv(Request $request) {
+        $current = time();
         $files_to_zip = array(
             $studies = TableImport::createFilteredStudiesFile($request),
             $ingredients = TableImport::createFilteredIngredientsFile($request),
@@ -482,8 +483,9 @@ class DownloadsController extends Controller
             $genomes = TableImport::createFilteredGenomesFile($request)
         );
 
-        $result = TableImport::create_zip($files_to_zip,'my-archive.zip');
+        $filename = 'my-archive' . $current . '.zip';
+        $result = TableImport::create_zip($files_to_zip, $filename);
 
-        return Response::download('my-archive.zip');
+        return Response::download($filename);
     }
 }

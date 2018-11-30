@@ -123,3 +123,60 @@ thead {
     height: 400px;
     overflow: scroll;
 }
+
+
+table {
+    width: 100%;
+}
+
+table, td {
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+thead {
+    display: table; /* to take the same width as tr */
+    width: 100%;
+}
+
+tbody {
+    display: block; /* to enable vertical scrolling */
+    max-height: 265px; /* e.g. */
+    overflow-y: scroll; /* keeps the scrollbar even if it doesn't need it; display purpose */
+    width: 100%;
+}
+
+th, td {
+    width: auto; /* to enable "word-break: break-all" */
+    padding: 5px;
+    word-break: break-all; /* 4. */
+}
+
+tr {
+    /*display: table; !* display purpose; th's border *!*/
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    border-bottom: none;
+    border-left: none;
+}
+
+#studies-table th,  #studies-table td {
+    width: 15%;
+}
+
+#ingredients-table td, #ingredients-table th, #nutrients-table td, #nutrients-table th, #subjects-table td,
+#subjects-table th{
+    width: 13em;
+}
+
+#performances-table td, #performances-table th, #invitros-table td, #invitros-table th {
+    width: 12em;
+}
+
+#abbreviations th, #abbreviations td {
+    width: 33%;
+}
+

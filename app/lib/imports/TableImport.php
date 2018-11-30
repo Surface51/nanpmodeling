@@ -569,6 +569,7 @@ class TableImport
     public static function createFilteredPerformancesFile(Request $request)
     {
         $table = FilterEngine::filterToDownloadPerformances($request);
+
         $filename = "performances.csv";
         $handle = fopen($filename, 'w+');
         fputcsv($handle, array(
@@ -576,13 +577,16 @@ class TableImport
             'VarName', 'VarValue', 'VarUnits', 'N', 'SEM', 'SED', 'VarType'
         ));
 
-        foreach($table as $row) {
-            fputcsv($handle, array(
-                $row['DataSet'], $row['PubID'], $row['TrialID'], $row['TrtID'],
-                $row['SubjectID'], $row['Site_Sample'], $row['Day_Sample'], $row['Time_Sample'],
-                $row['VarName'], $row['VarValue'], $row['VarUnits'],
-                $row['N'], $row['SEM'], $row['SED'], $row['VarType']
-            ));
+
+        foreach($table->chunk(100) as $chunk) {
+           foreach($chunk as $row) {
+               fputcsv($handle, array(
+                   $row['DataSet'], $row['PubID'], $row['TrialID'], $row['TrtID'],
+                   $row['SubjectID'], $row['Site_Sample'], $row['Day_Sample'], $row['Time_Sample'],
+                   $row['VarName'], $row['VarValue'], $row['VarUnits'],
+                   $row['N'], $row['SEM'], $row['SED'], $row['VarType']
+               ));
+           }
         }
 
         fclose($handle);

@@ -9,6 +9,7 @@ use App\InVitroData;
 use App\PerformanceData;
 use App\StudyDescriptor;
 use App\Subject;
+use Illuminate\Support\Facades\DB;
 
 class FilterEngine
 {
@@ -18,27 +19,6 @@ class FilterEngine
      * @return mixed
      * Filter Study Descriptors - Limit results to display only 10
      */
-//    public static function filterStudyDescriptors($request)
-//    {
-//        $stdys = StudyDescriptor::where(function ($q) use ($request){
-//            if($request->dataset != null) {
-//                $q->where('DataSet', $request->dataset);
-//            }
-//            if ($request->pubid != null) {
-//                $q->where('PubID', $request->pubid);
-//            }
-//            if($request->dataset_all != null) {
-//                $q->where('DataSet', $request->dataset_all);
-//            }
-//            if ($request->pubid_all != null) {
-//                $q->where('PubID', $request->pubid_all);
-//            }
-//        })->limit(10)->get();
-//
-//        return $stdys;
-//
-//    }
-
     public static function filterStudyDescriptors($request) {
         $stdys = StudyDescriptor::where(function ($q) use ($request) {
             if($request->dataset != null) {
@@ -53,7 +33,7 @@ class FilterEngine
             if ($request->pubid_all != null) {
                 $q->where('PubID', $request->pubid_all);
             }
-        })->get();
+        })->limit(20)->get();
         return $stdys;
     }
 
@@ -81,6 +61,20 @@ class FilterEngine
 
         return $stdys;
 
+    }
+
+    public static function filterStudyDescriptorsByDateRange($pubids, $request) {
+
+        $datasets = [];
+        $pub_ids = [];
+        $trial_ids = [];
+
+        foreach($pubids as $key => $value) {
+            $datasets[] = $key;
+        }
+        $stdys = StudyDescriptor::whereIn('VarValue', $datasets)->limit(50)->get();
+
+        return $stdys;
     }
 
     /**
@@ -129,6 +123,12 @@ class FilterEngine
             }
             if ($request->pubid_all != null) {
                 $q->where('PubID', $request->pubid_all);
+            }
+            if($request->dataset != null) {
+                $q->where('DataSet', $request->dataset);
+            }
+            if ($request->pubid != null) {
+                $q->where('PubID', $request->pubid);
             }
         })->get();
 
@@ -180,6 +180,12 @@ class FilterEngine
             if ($request->pubid_all != null) {
                 $q->where('PubID', $request->pubid_all);
             }
+            if($request->dataset != null) {
+                $q->where('DataSet', $request->dataset);
+            }
+            if ($request->pubid != null) {
+                $q->where('PubID', $request->pubid);
+            }
         })->get();
 
         return $nutrients;
@@ -230,6 +236,12 @@ class FilterEngine
             if ($request->pubid_all != null) {
                 $q->where('PubID', $request->pubid_all);
             }
+            if($request->dataset != null) {
+                $q->where('DataSet', $request->dataset);
+            }
+            if ($request->pubid != null) {
+                $q->where('PubID', $request->pubid);
+            }
         })->get();
 
         return $subjects;
@@ -279,6 +291,12 @@ class FilterEngine
             }
             if ($request->pubid_all != null) {
                 $q->where('PubID', $request->pubid_all);
+            }
+            if($request->dataset != null) {
+                $q->where('DataSet', $request->dataset);
+            }
+            if ($request->pubid != null) {
+                $q->where('PubID', $request->pubid);
             }
             if($request->variable_name != null) {
                 $q->where('VarName', $request->variable_name)->where('VarValue', $request->operator, (int)$request->compare_value);
@@ -340,6 +358,12 @@ class FilterEngine
             if ($request->pubid_all != null) {
                 $q->where('PubID', $request->pubid_all);
             }
+            if($request->dataset != null) {
+                $q->where('DataSet', $request->dataset);
+            }
+            if ($request->pubid != null) {
+                $q->where('PubID', $request->pubid);
+            }
             if($request->variable_name != null) {
                 $q->where('VarName', $request->variable_name)->where('VarValue', $request->operator, (int)$request->compare_value);
             }
@@ -400,6 +424,12 @@ class FilterEngine
             if ($request->pubid_all != null) {
                 $q->where('PubID', $request->pubid_all);
             }
+            if($request->dataset != null) {
+                $q->where('DataSet', $request->dataset);
+            }
+            if ($request->pubid != null) {
+                $q->where('PubID', $request->pubid);
+            }
             if($request->variable_name != null) {
                 $q->where('VarName', $request->variable_name)->where('VarValue', $request->operator, (int)$request->compare_value);
             }
@@ -459,6 +489,12 @@ class FilterEngine
             if ($request->pubid_all != null) {
                 $q->where('PubID', $request->pubid_all);
             }
+            if($request->dataset != null) {
+                $q->where('DataSet', $request->dataset);
+            }
+            if ($request->pubid != null) {
+                $q->where('PubID', $request->pubid);
+            }
             if($request->variable_name != null) {
                 $q->where('VarName', $request->variable_name)->where('VarValue', $request->operator, (int)$request->compare_value);
             }
@@ -499,6 +535,7 @@ class FilterEngine
 
     public static function returnDataSets($request)
     {
+
         if(!empty($request->all())) {
             $start_date = '';
             if ($request->start_date) {
@@ -538,54 +575,6 @@ class FilterEngine
         return $datasets_all;
 
     }
-
-//    public static function returnPubIds($request)
-//    {
-//        if(!empty($request->all())) {
-//            $start_date = '';
-//            if ($request->start_date) {
-//                $start_date = $request->start_date;
-//            }
-//            $end_date = '';
-//            if ($request->end_date) {
-//                $end_date = $request->end_date;
-//            }
-//
-//            if($start_date != '' && $end_date != ''){
-//                $pubids_study = StudyDescriptor::whereBetween('VarValue', [$start_date, $end_date])->distinct()->pluck('PubID')->toArray();
-//            } elseif ($request->dataset_all != null) {
-//                $pubids_study = StudyDescriptor::where('DataSet', $request->dataset_all)->distinct()->pluck('PubID')->toArray();
-//            } else {
-//                $pubids_study = StudyDescriptor::distinct()->pluck('PubID')->toArray();
-//            }
-//            $pubids_studies = StudyDescriptor::whereIn('PubID', $pubids_study)->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
-//            $pubids_ingredients = DietaryIngredients::whereIn('PubID', $pubids_study)->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
-//            $pubids_nutrients = DietaryNutrients::whereIn('PubID', $pubids_study)->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
-//            $pubids_subjects = Subject::whereIn('PubID', $pubids_study)->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
-//            $pubids_performances = PerformanceData::whereIn('PubID', $pubids_study)->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
-//            $pubids_infusions = Infusion::whereIn('PubID', $pubids_study)->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
-//            $pubids_invitros = InVitroData::whereIn('PubID', $pubids_study)->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
-//            $pubids_genomes = GenomeTranscript::whereIn('PubID', $pubids_study)->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
-//
-//            $pubids_all = array_unique(array_merge($pubids_studies, $pubids_ingredients, $pubids_nutrients, $pubids_subjects, $pubids_performances, $pubids_infusions, $pubids_invitros, $pubids_genomes));
-//            ksort($pubids_all);
-//            return $pubids_all;
-//        }
-//
-//        $pubids_study = StudyDescriptor::distinct()->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
-//        $pubids_ingredients = DietaryIngredients::distinct()->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
-//        $pubids_nutrients = DietaryNutrients::distinct()->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
-//        $pubids_subjects = Subject::distinct()->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
-//        $pubids_performances = PerformanceData::distinct()->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
-//        $pubids_infusions = Infusion::distinct()->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
-//        $pubids_invitros = InVitroData::distinct()->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
-//        $pubids_genomes = InVitroData::distinct()->where('VarName', 'Reference')->distinct()->pluck('PubID', 'VarValue')->toArray();
-//
-//        $pubids_all = array_unique(array_merge($pubids_study, $pubids_ingredients, $pubids_nutrients, $pubids_subjects, $pubids_performances, $pubids_infusions, $pubids_invitros, $pubids_genomes));
-//        ksort($pubids_all);
-//        return $pubids_all;
-//
-//    }
 
     public static function returnPubIds($request)
     {
@@ -660,5 +649,112 @@ class FilterEngine
             }
         })->distinct()->pluck('PubID')->toArray();
         return $performance_pubids_all;
+    }
+
+    public static function filterIngredientsByAdvanced($request)
+    {
+        $ingredients = DietaryIngredients::where(function ($q) use ($request){
+            if($request->variable_name != null) {
+                $q->where('VarName', $request->variable_name)->where('VarValue', $request->operator, (int)$request->compare_value);
+            }
+            if($request->variable_name_2 != null) {
+                $q->orWhere('VarName', $request->variable_name_2)->where('VarValue', $request->operator_2, (int)$request->compare_value_2);
+            }
+            if($request->variable_name_3 != null) {
+                $q->orWhere('VarName', $request->variable_name_3)->where('VarValue', $request->operator_3, (int)$request->compare_value_3);
+            }
+        })->limit(70)->get();
+
+        return $ingredients;
+    }
+
+    public static function filterNutrientsByAdvanced($request)
+    {
+        $nutrients = DietaryNutrients::where(function ($q) use ($request){
+            if($request->variable_name != null) {
+                $q->where('VarName', $request->variable_name)->where('VarValue', $request->operator, (int)$request->compare_value);
+            }
+            if($request->variable_name_2 != null) {
+                $q->orWhere('VarName', $request->variable_name_2)->where('VarValue', $request->operator_2, (int)$request->compare_value_2);
+            }
+            if($request->variable_name_3 != null) {
+                $q->orWhere('VarName', $request->variable_name_3)->where('VarValue', $request->operator_3, (int)$request->compare_value_3);
+            }
+        })->limit(70)->get();
+
+
+        return $nutrients;
+    }
+
+    public static function filterGenomesByAdvanced($request)
+    {
+        $genomes = GenomeTranscript::where(function ($q) use ($request){
+            if($request->variable_name != null) {
+                $q->where('VarName', $request->variable_name)->where('VarValue', $request->operator, (int)$request->compare_value);
+            }
+            if($request->variable_name_2 != null) {
+                $q->orWhere('VarName', $request->variable_name_2)->where('VarValue', $request->operator_2, (int)$request->compare_value_2);
+            }
+            if($request->variable_name_3 != null) {
+                $q->orWhere('VarName', $request->variable_name_3)->where('VarValue', $request->operator_3, (int)$request->compare_value_3);
+            }
+        })->limit(70)->get();
+
+
+        return $genomes;
+    }
+
+    public static function filterInvitroByAdvanced($request)
+    {
+        $invitros = InVitroData::where(function ($q) use ($request){
+            if($request->variable_name != null) {
+                $q->where('VarName', $request->variable_name)->where('VarValue', $request->operator, (int)$request->compare_value);
+            }
+            if($request->variable_name_2 != null) {
+                $q->orWhere('VarName', $request->variable_name_2)->where('VarValue', $request->operator_2, (int)$request->compare_value_2);
+            }
+            if($request->variable_name_3 != null) {
+                $q->orWhere('VarName', $request->variable_name_3)->where('VarValue', $request->operator_3, (int)$request->compare_value_3);
+            }
+        })->limit(70)->get();
+
+
+        return $invitros;
+    }
+
+    public static function filterInfusionsByAdvanced($request)
+    {
+        $infusions = Infusion::where(function ($q) use ($request){
+            if($request->variable_name != null) {
+                $q->where('VarName', $request->variable_name)->where('VarValue', $request->operator, (int)$request->compare_value);
+            }
+            if($request->variable_name_2 != null) {
+                $q->orWhere('VarName', $request->variable_name_2)->where('VarValue', $request->operator_2, (int)$request->compare_value_2);
+            }
+            if($request->variable_name_3 != null) {
+                $q->orWhere('VarName', $request->variable_name_3)->where('VarValue', $request->operator_3, (int)$request->compare_value_3);
+            }
+        })->limit(70)->get();
+
+
+        return $infusions;
+    }
+
+    public static function filterSubjectsByAdvanced($request)
+    {
+        $subjects = Subject::where(function ($q) use ($request){
+            if($request->variable_name != null) {
+                $q->where('VarName', $request->variable_name)->where('VarValue', $request->operator, (int)$request->compare_value);
+            }
+            if($request->variable_name_2 != null) {
+                $q->orWhere('VarName', $request->variable_name_2)->where('VarValue', $request->operator_2, (int)$request->compare_value_2);
+            }
+            if($request->variable_name_3 != null) {
+                $q->orWhere('VarName', $request->variable_name_3)->where('VarValue', $request->operator_3, (int)$request->compare_value_3);
+            }
+        })->limit(70)->get();
+
+
+        return $subjects;
     }
 }

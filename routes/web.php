@@ -57,7 +57,7 @@ Route::get('/find3', 'PagesController@find3')->name('typeahead.search3');
 
 // download link for full database
 Route::get('/download-database', 'DownloadsController@downloadDatabase')->name('data.download');
-Route::get('/download-zip-csv', 'DownloadsController@downloadZipCSV')->name('zip.download');
+Route::get('/download-zip-csv/{query}', 'DownloadsController@downloadZipCSV')->name('zip.download');
 
 
 // import links

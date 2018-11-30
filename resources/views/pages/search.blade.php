@@ -275,7 +275,25 @@
                         </div>
 
                         <div class="card-body col-md-4">
-                            <a id="csv-button" href="/download-zip-csv" class="btn btn-success expo-database-button">Export All CSV's as ZIP file</a>
+                            @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
+                            <a id="csv-button" href="{{ route('zip.download',
+                                array(
+                                'id' => $_GET['dataset_all'],
+                                'dataset' => $_GET['dataset_all'],
+                                'pubid' => $_GET['pubid_all'],
+                                'variable_name' => $_GET['variable_name'],
+                                'operator' => $_GET['operator'],
+                                'compare_value'=> $_GET['compare_value'],
+                                'variable_name_2' => $_GET['variable_name_2'],
+                                'operator_2' => $_GET['operator_2'],
+                                'compare_value_2'=> $_GET['compare_value_2'],
+                                'variable_name_3' => $_GET['variable_name_3'],
+                                'operator_3' => $_GET['operator_3'],
+                                'compare_value_3'=> $_GET['compare_value_3'],
+                                )) }}" class="btn btn-success expo-database-button">Export All CSV's as ZIP file</a>
+                                @else
+                                    <a id="csv-button" href="/download-zip-csv" class="btn btn-success expo-database-button">Export All CSV's as ZIP file</a>
+                                @endif
                         </div>
                     </div>
 
@@ -737,6 +755,7 @@
             name: 'abbreviations',
             source: engine,
             display: function(data) {
+                console.log(data);
                 return data.abbreviation  //Input value to be set when you select a suggestion.
             },
             templates: {
@@ -747,7 +766,7 @@
                     '<div class="list-group search-results-dropdown">'
                 ],
                 suggestion: function(data) {
-                    return '<div style="font-weight:normal; margin-top:-10px ! important;" class="list-group-item">' + data.abbreviation + '</div></div>'
+                    return '<div style="font-weight:normal; margin-top:-10px ! important;" class="list-group-item">' + data.abbreviation + ' ' + data.table + '</div></div>'
                 }
             }
         });
