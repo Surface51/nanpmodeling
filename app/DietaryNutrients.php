@@ -14,6 +14,7 @@ class DietaryNutrients extends Model
         'TrialID',
         'TrtID',
         'SubjectID',
+        'DaySample',
         'VarName',
         'Varvalue',
         'VarUnits',

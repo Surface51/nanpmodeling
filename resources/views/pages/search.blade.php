@@ -4,38 +4,6 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-md-12">
-                <div class="card" id="abbreviations">
-                    <div class="card-header">Abbreviations List</div>
-
-                    <div class="card-body">
-                                <div class="container-fluid">
-                                    <form action="/search" method="get" autocomplete="off" class="navbar-form navbar-left">
-                                        <div class="form-group">
-                                            <input type="text" name="search" id="search" class="form-control" placeholder="Search Abbreviations" />
-                                        </div>
-                                        <div class="table-responsive">
-                                            <h3 align="center">Total Terms : <span id="total_records"></span></h3>
-                                            <table class="table table-striped table-bordered">
-                                                <thead>
-                                                <tr>
-                                                    <th>Abbreviation</th>
-                                                    <th>Name</th>
-                                                    <th>Table</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody class="abbreviations">
-
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <br>
                 <div class="card">
                     <div class="card-header">Filter Data</div>
                     <div class="card-body">
@@ -113,7 +81,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="form-group col-md-2" id="input-query-selection">
+                                    <div class="form-group col-md-4" id="input-query-selection">
                                         {{ Form::label('Operation') }}
                                         <div class="input-group">
                                             <select class="form-control" name="operator">
@@ -125,13 +93,14 @@
                                                 <option value=" ">No Filter</option>
                                                 <option value="<"><</option>
                                                 <option value=">">></option>
+                                                <option value="=">=</option>
                                                 <option value='>='>>=</option>
                                                 <option value='<='><=</option>
                                             </select>
                                         </div>
                                     </div>
 
-                                    <div class="form-group col-md-2" id="input-query-selection">
+                                    <div class="form-group col-md-4" id="input-query-selection">
                                         {{ Form::label('Value') }}
                                         <div class="input-group">
                                             {{ Form::text('compare_value', null,
@@ -144,26 +113,15 @@
                                 <div class="col-md-12" id="input-selection-group">
                                     <div class="form-group col-md-4" id="input-query-selection">
                                         <div class="input-group">
-                                            {{--<select class="form-control" name="variable_name_2">--}}
-                                                {{--@if(isset($_GET['variable_name_2']))--}}
-                                                    {{--<option value="{{$_GET['variable_name_2']}}">{{$variable_name_2}}</option>--}}
-                                                {{--@else--}}
-                                                    {{--<option value=" ">Select Variable Name</option>--}}
-                                                {{--@endif--}}
-                                                {{--@foreach($variable_names as $variable_name)--}}
-                                                    {{--<option value="{{$variable_name}}">{{$variable_name}}</option>--}}
-                                                {{--@endforeach--}}
-                                                {{--<option value=" ">No Filter</option>--}}
-                                                    @if(isset($_GET['variable_name_2']))
-                                                        <input value="{{$_GET['variable_name_2']}}" type="search" name="variable_name_2" class="form-control" id="variable_name_2" autocomplete="off">
-                                                    @else
-                                                        <input type="search" name="variable_name_2" class="form-control" id="variable_name_2" placeholder="Search" autocomplete="off">
-                                                    @endif
-                                            {{--</select>--}}
+                                            @if(isset($_GET['variable_name_2']))
+                                                <input value="{{$_GET['variable_name_2']}}" type="search" name="variable_name_2" class="form-control" id="variable_name_2" autocomplete="off">
+                                            @else
+                                                <input type="search" name="variable_name_2" class="form-control" id="variable_name_2" placeholder="Search" autocomplete="off">
+                                            @endif
                                         </div>
                                     </div>
 
-                                    <div class="form-group col-md-2" id="input-query-selection">
+                                    <div class="form-group col-md-4" id="input-query-selection">
                                         <div class="input-group">
                                             <select class="form-control" name="operator_2">
                                                 @if(isset($_GET['operator_2']))
@@ -174,13 +132,14 @@
                                                 <option value=" ">No Filter</option>
                                                 <option value="<"><</option>
                                                 <option value=">">></option>
+                                                <option value="=">=</option>
                                                 <option value='>='>>=</option>
                                                 <option value='<='><=</option>
                                             </select>
                                         </div>
                                     </div>
 
-                                    <div class="form-group col-md-2" id="input-query-selection">
+                                    <div class="form-group col-md-4" id="input-query-selection">
                                         <div class="input-group">
                                             {{ Form::text('compare_value_2', null,
                                             ['class' => 'form-control', 'rel'=> 'tooltip', 'title' => 'Input Value', 'placeholder' => 'value']) }}
@@ -200,7 +159,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="form-group col-md-2" id="input-query-selection">
+                                            <div class="form-group col-md-4" id="input-query-selection">
                                                 <div class="input-group">
                                                     <select class="form-control" name="operator_3">
                                                         @if(isset($_GET['operator_3']))
@@ -211,13 +170,14 @@
                                                         <option value=" ">No Filter</option>
                                                         <option value="<"><</option>
                                                         <option value=">">></option>
+                                                        <option value="=">=</option>
                                                         <option value='>='>>=</option>
                                                         <option value='<='><=</option>
                                                     </select>
                                                 </div>
                                             </div>
 
-                                            <div class="form-group col-md-2" id="input-query-selection">
+                                            <div class="form-group col-md-4" id="input-query-selection">
                                                 <div class="input-group">
                                                     {{ Form::text('compare_value_3', null,
                                                     ['class' => 'form-control', 'rel'=> 'tooltip', 'title' => 'Input Value', 'placeholder' => 'value']) }}
@@ -251,22 +211,6 @@
                 </div>
                 <br>
                 <div class="card">
-                    <div class="card-header export-tables-title">Export Individual Tables</div>
-
-                    <div class="card-body">
-                        <a href="/all-study-descriptors-csv" class="btn btn-primary" id="download-button">Study Descriptors CSV</a>
-                        <a href="/all-dietary-ingredients-csv" class="btn btn-primary" id="download-button">Dietary Ingredients CSV</a>
-                        <a href="/all-dietary-nutrients-csv" class="btn btn-primary" id="download-button">Dietary Nutrients CSV</a>
-                        <a href="/all-subjects-csv" class="btn btn-primary" id="download-button">Subjects CSV</a>
-                        <a href="/all-performance-data-csv" class="btn btn-primary" id="download-button">Performance Data CSV</a>
-                        <a href="/all-infusions-data-csv" class="btn btn-primary" id="download-button">Infusions Data CSV</a>
-                        <a href="/all-in-vitro-data-csv" class="btn btn-primary" id="download-button">In Vitro Data CSV</a>
-                        <a href="/all-genome-transcripts-csv" class="btn btn-primary" id="download-button">Gen_Prot_Transcr CSV</a>
-                    </div>
-
-                </div>
-                <br>
-                <div class="card">
                     <div class="card-header">Export Database</div>
 
                     <div class="button-container col-md-8">
@@ -290,16 +234,49 @@
                                 'variable_name_3' => $_GET['variable_name_3'],
                                 'operator_3' => $_GET['operator_3'],
                                 'compare_value_3'=> $_GET['compare_value_3'],
-                                )) }}" class="btn btn-success expo-database-button">Export All CSV's as ZIP file</a>
+                                )) }}" class="btn btn-success expo-database-button">Export All Filtered CSV's as ZIP file</a>
                                 @else
-                                    <a id="csv-button" href="/download-zip-csv" class="btn btn-success expo-database-button">Export All CSV's as ZIP file</a>
+                                    <a id="csv-button" href="/download-all-tables-zip-csv" class="btn btn-success expo-database-button">Export All CSV's as ZIP file</a>
                                 @endif
                         </div>
                     </div>
 
                 </div>
                 <br>
+                @if(isset($_GET['dataset_all']) || isset($_GET['pubid_all']))
+                    @include('partials.individualfiltered')
+                @endif
+                <br>
+                <div class="card" id="abbreviations">
+                    <div class="card-header">Abbreviations List</div>
+
+                    <div class="card-body">
+                        <div class="container-fluid">
+                            <form action="/search" method="get" autocomplete="off" class="navbar-form navbar-left">
+                                <div class="form-group">
+                                    <input type="text" name="search" id="search" class="form-control" placeholder="Search Abbreviations" />
+                                </div>
+                                <div class="table-responsive">
+                                    <h3 align="center">Total Terms : <span id="total_records"></span></h3>
+                                    <table class="table table-striped table-bordered">
+                                        <thead>
+                                        <tr>
+                                            <th>Abbreviation</th>
+                                            <th>Name</th>
+                                            <th>Table</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class="abbreviations">
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <br>
             </div>
         </div>
 
@@ -370,7 +347,8 @@
                                         <th>PubID</th>
                                         <th>TrialID</th>
                                         <th>TrtID</th>
-                                        <th>IFN</th>
+                                        <th>UID</th>
+                                        <th>RepUID</th>
                                         <th>VarName</th>
                                         <th>Varvalue</th>
                                         <th>VarUnits</th>
@@ -565,6 +543,8 @@
                                         <th>TrtID</th>
                                         <th>SubjectID</th>
                                         <th>InfusionLocation</th>
+                                        <th>UID</th>
+                                        <th>RepUID</th>
                                         <th>VarName</th>
                                         <th>VarValue</th>
                                         <th>VarUnits</th>

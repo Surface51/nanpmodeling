@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="modeling">
+<table_data name="performance_datas">
+<row>
+<field name="id">1</field>
+<field name="ref" xsi:nil="true" />
+<field name="DataSet">USDA Beltsville</field>
+<field name="PubID">75</field>
+<field name="TrialID">2</field>
+<field name="TrtID">11</field>
+<field name="SubjectID">9215</field>
+<field name="Site_Sample">Animal</field>
+<field name="Day_Sample">-</field>
+<field name="Time_Sample">-</field>
+<field name="VarName">Abs_CP</field>
+<field name="VarValue">2432.8001445</field>
+<field name="VarUnits">g/d</field>
+<field name="N">-</field>
+<field name="SEM">-</field>
+<field name="SED">-</field>
+<field name="VarType">Nitrogen balance</field>
+</row>
+<row>
+<field name="id">2</field>
+<field name="ref" xsi:nil="true" />
+<field name="DataSet">USDA Beltsville</field>
+<field name="PubID">75</field>
+<field name="TrialID">4</field>
+<field name="TrtID">13</field>
+<field name="SubjectID">8866</field>
+<field name="Site_Sample">Animal</field>
+<field name="Day_Sample">-</field>
+<field name="Time_Sample">-</field>
+<field name="VarName">Abs_CP</field>
+<field name="VarValue">3227.1618437</field>
+<field name="VarUnits">g/d</field>
+<field name="N">-</field>
+<field name="SEM">-</field>
+<field name="SED">-</field>
+<field name="VarType">Nitrogen balance</field>
+</row>
+</table_data>
+</database>
+</mysqldump>

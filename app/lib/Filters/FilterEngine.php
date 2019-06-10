@@ -38,6 +38,21 @@ class FilterEngine
     }
 
     /**
+     * @param $datasets
+     * @param $pubids
+     * @return mixed
+     */
+    public static function filterStudyDescriptorsOnlyVariables($datasets, $pubids) {
+        $pubidarray = [];
+        foreach($pubids as $pubid) {
+            $pubidarray[] = $pubid;
+        }
+
+        $stdys = StudyDescriptor::whereIn('id', $pubidarray)->get();
+        return $stdys;
+    }
+
+    /**
      * @param $request
      * @return mixed
      * Filtered Study Descriptors for download as CSV return all Results that meet the filtered criteria
@@ -64,7 +79,6 @@ class FilterEngine
     }
 
     public static function filterStudyDescriptorsByDateRange($pubids, $request) {
-
         $datasets = [];
         $pub_ids = [];
         $trial_ids = [];
@@ -223,26 +237,42 @@ class FilterEngine
      */
     public static function filterToDownloadSubjects($request)
     {
-        $subjects = Subject::where(function ($q) use ($request){
-            if($request->dataset_subject != null) {
-                $q->where('DataSet', $request->dataset_subject);
-            }
-            if ($request->pubid_subject != null) {
-                $q->where('PubID', $request->pubid_subject);
-            }
-            if($request->dataset_all != null) {
-                $q->where('DataSet', $request->dataset_all);
-            }
-            if ($request->pubid_all != null) {
-                $q->where('PubID', $request->pubid_all);
-            }
+        $subjects = Subject::where(function ($q) use ($request) {
             if($request->dataset != null) {
                 $q->where('DataSet', $request->dataset);
             }
             if ($request->pubid != null) {
                 $q->where('PubID', $request->pubid);
             }
+            if (ctype_digit($request->compare_value)) {
+                if ($request->variable_name != null) {
+                    $q->where('VarName', $request->variable_name)->where('Varvalue', $request->operator, (int)$request->compare_value);
+                }
+            } else {
+                if ($request->variable_name != null) {
+                    $q->orWhere('VarName', $request->variable_name)->where('Varvalue', $request->operator, $request->compare_value);
+                }
+            }
+            if (ctype_digit($request->compare_value_2)) {
+                if ($request->variable_name_2 != null) {
+                    $q->orWhere('VarName', $request->variable_name_2)->where('Varvalue', $request->operator_2, (int)$request->compare_value_2);
+                }
+            } else {
+                if ($request->variable_name_2 != null) {
+                    $q->orWhere('VarName', $request->variable_name_2)->where('Varvalue', $request->operator_2, $request->compare_value_2);
+                }
+            }
+            if (ctype_digit($request->compare_value_3)) {
+                if ($request->variable_name_3 != null) {
+                    $q->orWhere('VarName', $request->variable_name_3)->where('Varvalue', $request->operator_3, (int)$request->compare_value_3);
+                }
+            } else {
+                if ($request->variable_name_3 != null) {
+                    $q->orWhere('VarName', $request->variable_name_3)->where('Varvalue', $request->operator_3, $request->compare_value_3);
+                }
+            }
         })->get();
+
 
         return $subjects;
     }
@@ -509,6 +539,10 @@ class FilterEngine
         return $genomes;
     }
 
+    /**
+     * @param $request
+     * @return mixed
+     */
     public static function filterPerformancesByVarName($request)
     {
         $performances = PerformanceData::where(function ($q) use ($request){
@@ -533,6 +567,10 @@ class FilterEngine
         return $performances;
     }
 
+    /**
+     * @param $request
+     * @return array
+     */
     public static function returnDataSets($request)
     {
 
@@ -576,6 +614,10 @@ class FilterEngine
 
     }
 
+    /**
+     * @param $request
+     * @return array
+     */
     public static function returnPubIds($request)
     {
 
@@ -617,6 +659,10 @@ class FilterEngine
 
     }
 
+    /**
+     * @param $request
+     * @return mixed
+     */
     public static function filterPerformancesByAdvanced($request)
     {
         $performances = PerformanceData::where(function ($q) use ($request){
@@ -635,6 +681,10 @@ class FilterEngine
         return $performances;
     }
 
+    /**
+     * @param $request
+     * @return mixed
+     */
     public static function filterPerformancesByAdvancedPubIDs($request)
     {
         $performance_pubids_all = PerformanceData::where(function ($q) use ($request){
@@ -651,6 +701,10 @@ class FilterEngine
         return $performance_pubids_all;
     }
 
+    /**
+     * @param $request
+     * @return mixed
+     */
     public static function filterIngredientsByAdvanced($request)
     {
         $ingredients = DietaryIngredients::where(function ($q) use ($request){
@@ -668,6 +722,10 @@ class FilterEngine
         return $ingredients;
     }
 
+    /**
+     * @param $request
+     * @return mixed
+     */
     public static function filterNutrientsByAdvanced($request)
     {
         $nutrients = DietaryNutrients::where(function ($q) use ($request){
@@ -686,6 +744,10 @@ class FilterEngine
         return $nutrients;
     }
 
+    /**
+     * @param $request
+     * @return mixed
+     */
     public static function filterGenomesByAdvanced($request)
     {
         $genomes = GenomeTranscript::where(function ($q) use ($request){
@@ -704,6 +766,10 @@ class FilterEngine
         return $genomes;
     }
 
+    /**
+     * @param $request
+     * @return mixed
+     */
     public static function filterInvitroByAdvanced($request)
     {
         $invitros = InVitroData::where(function ($q) use ($request){
@@ -722,6 +788,10 @@ class FilterEngine
         return $invitros;
     }
 
+    /**
+     * @param $request
+     * @return mixed
+     */
     public static function filterInfusionsByAdvanced($request)
     {
         $infusions = Infusion::where(function ($q) use ($request){
@@ -740,21 +810,174 @@ class FilterEngine
         return $infusions;
     }
 
+    /**
+     * @param $request
+     * @return mixed
+     */
     public static function filterSubjectsByAdvanced($request)
     {
-        $subjects = Subject::where(function ($q) use ($request){
-            if($request->variable_name != null) {
-                $q->where('VarName', $request->variable_name)->where('VarValue', $request->operator, (int)$request->compare_value);
-            }
-            if($request->variable_name_2 != null) {
-                $q->orWhere('VarName', $request->variable_name_2)->where('VarValue', $request->operator_2, (int)$request->compare_value_2);
-            }
-            if($request->variable_name_3 != null) {
-                $q->orWhere('VarName', $request->variable_name_3)->where('VarValue', $request->operator_3, (int)$request->compare_value_3);
-            }
-        })->limit(70)->get();
-
+            $subjects = Subject::where(function ($q) use ($request) {
+                if (ctype_digit($request->compare_value)) {
+                    if ($request->variable_name != null) {
+                        $q->where('VarName', $request->variable_name)->where('Varvalue', $request->operator, (int)$request->compare_value);
+                    }
+                } else {
+                    if ($request->variable_name != null) {
+                        $q->orWhere('VarName', $request->variable_name)->where('Varvalue', $request->operator, $request->compare_value);
+                    }
+                }
+                if (ctype_digit($request->compare_value_2)) {
+                    if ($request->variable_name_2 != null) {
+                        $q->orWhere('VarName', $request->variable_name_2)->where('Varvalue', $request->operator_2, (int)$request->compare_value_2);
+                    }
+                } else {
+                    if ($request->variable_name_2 != null) {
+                        $q->orWhere('VarName', $request->variable_name_2)->where('Varvalue', $request->operator_2, $request->compare_value_2);
+                    }
+                }
+                if (ctype_digit($request->compare_value_3)) {
+                    if ($request->variable_name_3 != null) {
+                        $q->orWhere('VarName', $request->variable_name_3)->where('Varvalue', $request->operator_3, (int)$request->compare_value_3);
+                    }
+                } else {
+                    if ($request->variable_name_3 != null) {
+                        $q->orWhere('VarName', $request->variable_name_3)->where('Varvalue', $request->operator_3, $request->compare_value_3);
+                    }
+                }
+            })->limit(70)->get();
 
         return $subjects;
+    }
+
+    /**
+     * @param $request
+     * @return mixed
+     */
+    public static function filterPubIdsForFiltering ($request) {
+        $subjects_ids = Subject::where(function ($q) use ($request) {
+            if ($request->variable_name != null) {
+                $q->where('VarName', $request->variable_name)->where('Varvalue', $request->operator, (int)$request->compare_value);
+            }
+        })->groupBy('PubID')->pluck('PubID')->toArray();
+
+        return $subjects_ids;
+    }
+
+    /**
+     * @param $model
+     * @param $pubids
+     * @return mixed
+     */
+    public static function filterByPubIds($model, $pubids) {
+        switch($model) {
+            case "performance":
+                $results = PerformanceData::whereIn('PubID', $pubids)->limit(70)->get();
+                break;
+            case "study":
+                $results = StudyDescriptor::whereIn('PubID', $pubids)->limit(70)->get();
+                break;
+            case "ingredients":
+                $results = DietaryIngredients::whereIn('PubID', $pubids)->limit(70)->get();
+                break;
+            case "nutrients":
+                $results = DietaryNutrients::whereIn('PubID', $pubids)->limit(70)->get();
+                break;
+            case "genomes":
+                $results = GenomeTranscript::whereIn('PubID', $pubids)->limit(70)->get();
+                break;
+            case "invitro":
+                $results = InVitroData::whereIn('PubID', $pubids)->limit(70)->get();
+                break;
+            case "infusions":
+                $results = Infusion::whereIn('PubID', $pubids)->limit(70)->get();
+                break;
+            case "subjects":
+                $results = Subject::whereIn('PubID', $pubids)->limit(70)->get();
+                break;
+            default:
+                $results = [];
+        }
+
+        return $results;
+    }
+
+    /**
+     * @param $pubids
+     * @return mixed
+     */
+    public static function filterStudysPubIdsForFiltering($pubids) {
+
+        foreach($pubids as $key => $value) {
+            $datasets[] = $key;
+        }
+
+        $pubids_filtered = StudyDescriptor::whereIn('VarValue', $datasets)->groupBy('PubID')->pluck('PubID')->toArray();
+
+        return $pubids_filtered;
+    }
+
+    /**
+     * @param $pubids
+     * @return mixed
+     */
+    public static function filterToDownloadPerformancesFromIds($pubids) {
+
+        $performances = PerformanceData::whereIn('PubID', $pubids)->get();
+
+        return $performances;
+    }
+
+    public static function returnDataSetsPubIds($request)
+    {
+
+        $ids_study = StudyDescriptor::where('DataSet', $request->dataset_all)->distinct()->pluck('PubID')->toArray();
+        $ids_ingredients = DietaryIngredients::where('DataSet', $request->dataset_all)->distinct()->pluck('PubID')->toArray();
+        $ids_nutrients = DietaryNutrients::where('DataSet', $request->dataset_all)->distinct()->pluck('PubID')->toArray();
+        $ids_subjects = Subject::where('DataSet', $request->dataset_all)->distinct()->pluck('PubID')->toArray();
+        $ids_performances = PerformanceData::where('DataSet', $request->dataset_all)->distinct()->pluck('PubID')->toArray();
+        $ids_infusions = Infusion::where('DataSet', $request->dataset_all)->distinct()->pluck('PubID')->toArray();
+        $ids_invitros = InVitroData::where('DataSet', $request->dataset_all)->distinct()->pluck('PubID')->toArray();
+        $ids_genomes = GenomeTranscript::where('DataSet', $request->dataset_all)->distinct()->pluck('PubID')->toArray();
+
+        $ids_all = array_unique(array_merge(
+            $ids_study,
+            $ids_ingredients,
+            $ids_nutrients,
+            $ids_subjects,
+            $ids_performances,
+            $ids_infusions,
+            $ids_invitros,
+            $ids_genomes
+        ));
+
+        return $ids_all;
+
+    }
+
+    public static function returnPubIdPubIds($pubID)
+    {
+
+        $ids_study = StudyDescriptor::where('PubID', $pubID)->groupBy('PubID')->pluck('PubID')->toArray();
+        $ids_ingredients = DietaryIngredients::where('PubID', $pubID)->groupBy('PubID')->pluck('PubID')->toArray();
+        $ids_nutrients = DietaryNutrients::where('PubID', $pubID)->groupBy('PubID')->pluck('PubID')->toArray();
+        $ids_subjects = Subject::where('PubID', $pubID)->groupBy('PubID')->pluck('PubID')->toArray();
+        $ids_performances = PerformanceData::where('PubID', $pubID)->groupBy('PubID')->pluck('PubID')->toArray();
+        $ids_infusions = Infusion::where('PubID', $pubID)->groupBy('PubID')->pluck('PubID')->toArray();
+        $ids_invitros = InVitroData::where('PubID', $pubID)->groupBy('PubID')->pluck('PubID')->toArray();
+        $ids_genomes = GenomeTranscript::where('PubID', $pubID)->groupBy('PubID')->pluck('PubID')->toArray();
+
+
+        $ids_all = array_unique(array_merge(
+            $ids_study,
+            $ids_ingredients,
+            $ids_nutrients,
+            $ids_subjects,
+            $ids_performances,
+            $ids_infusions,
+            $ids_invitros,
+            $ids_genomes
+        ));
+
+        return $ids_all;
     }
 }

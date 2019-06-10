@@ -11,10 +11,12 @@
         "laravel/framework": "5.6.*",
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "^5.6",
-        "maatwebsite/excel": "~2.1.0",
+        "maatwebsite/excel": "^3.1",
         "nicolaslopezj/searchable": "1.*",
         "prologue/alerts": "^0.4.2",
-        "spatie/db-dumper": "^2.9"
+        "sabre/xml": "^2.1",
+        "spatie/db-dumper": "^2.12",
+        "techsemicolon/laravel-query-to-csv": "^0.0.1"
     },
     "require-dev": {
         "filp/whoops": "^2.0",

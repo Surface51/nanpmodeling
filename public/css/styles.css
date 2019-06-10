@@ -2,24 +2,28 @@
 /*#193c58 - blue;*/
 /*#c3cdaf - tan*/
 /*#a91d45 - red*/
+/*#ddd - gray*/
 
 body {
     font-family: 'Montserrat', sans-serif !important;
 }
 
 .table {
-    background-color: #F4F8F2;
+    /*background-color: #F4F8F2;*/
+    background-color: #fff;
     color: #193c58;
 }
 
 .table tr:nth-child(even){
-    background-color: #dbd7a9;
+    /*background-color: #dbd7a9;*/
+    background-color: #ddd;
     color: #193c58;
 }
 
 thead {
-    background-color: #c3cdaf;
-    color: #193c58;
+    /*background-color: #c3cdaf;*/
+    background-color: white;
+    color: #a91d45;
     font-size: 14px;
     /*text-transform: uppercase;*/
 }
@@ -164,7 +168,7 @@ td {
 }
 
 #studies-table th,  #studies-table td {
-    width: 15%;
+    width: 5%;
 }
 
 #ingredients-table td, #ingredients-table th, #nutrients-table td, #nutrients-table th, #subjects-table td,
@@ -172,8 +176,9 @@ td {
     width: 13em;
 }
 
-#performances-table td, #performances-table th, #invitros-table td, #invitros-table th {
+#performances-table td, #performances-table th, #invitros-table td, #invitros-table th, #infusions-table td, #infusions-table th {
     width: 12em;
+    font-size: 10px
 }
 
 #abbreviations th, #abbreviations td {

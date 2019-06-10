@@ -71,7 +71,8 @@ class TableImport
                 'PubID' => $data->pubid,
                 'TrialID' => $data->trialid,
                 'TrtID' => $data->trtid,
-                'IFN' => $data->ifn,
+                'UID' => $data->uid,
+                'RepUID' => $data->repuid,
                 'VarName' => $data->varname,
                 'Varvalue' => $data->varvalue,
                 'VarUnits' => $data->varunits,
@@ -91,7 +92,8 @@ class TableImport
                 'PubID' => $data->pubid,
                 'TrialID' => $data->trialid,
                 'TrtID' => $data->trtid,
-                'IFN' => $data->ifn,
+                'UID' => $data->uid,
+                'RepUID' => $data->repuid,
                 'VarName' => $data->varname,
                 'Varvalue' => $data->varvalue,
                 'VarUnits' => $data->varunits,
@@ -215,9 +217,10 @@ class TableImport
                     'SubTrtID' => $data->subtrtid,
                     'Site_sample' => $data->site_sample,
                     'Cell_Type' => $data->cell_type,
-                    'Day_Sample' => $data->day_sample,
-                    'Day_Sample2' => $data->day_sample2,
-                    'Time_Sample' => $data->time_sample,
+                    'DaySampleofPeriod_InVivo' => $data->daysampleofperiod_invivo,
+                    'DaySampleofPeriod_InVitro' => $data->daysampleofperiod_invitro,
+                    'TimeSampleofPeriod_InVivo' => $data->timesampleofperiod_invivo,
+                    'TimeSampleofPeriod_InVitro' => $data->timesampleofperiod_invitro,
                     'VarName' => $data->varname,
                     'VarUnits' => $data->varunits,
                     'N' => $data->n,
@@ -241,9 +244,10 @@ class TableImport
                 'SubTrtID' => $data->subtrtid,
                 'Site_sample' => $data->site_sample,
                 'Cell_Type' => $data->cell_type,
-                'Day_Sample' => $data->day_sample,
-                'Day_Sample2' => $data->day_sample2,
-                'Time_Sample' => $data->time_sample,
+                'DaySampleofPeriod_InVivo' => $data->daysampleofperiod_invivo,
+                'DaySampleofPeriod_InVitro' => $data->daysampleofperiod_invitro,
+                'TimeSampleofPeriod_InVivo' => $data->timesampleofperiod_invivo,
+                'TimeSampleofPeriod_InVitro' => $data->timesampleofperiod_invitro,
                 'VarName' => $data->varname,
                 'VarUnits' => $data->varunits,
                 'N' => $data->n,
@@ -324,6 +328,8 @@ class TableImport
                     'TrtID' => $data->trtid,
                     'SubjectID' => $data->subjectid,
                     'InfusionLocation' => $data->infusionlocation,
+                    'UID' => $data->uid,
+                    'RepUID' => $data->repuid,
                     'VarName' => $data->varname,
                     'VarValue' => $data->varvalue,
                     'VarUnits' => $data->varunits,
@@ -345,6 +351,8 @@ class TableImport
                 'TrtID' => $data->trtid,
                 'SubjectID' => $data->subjectid,
                 'InfusionLocation' => $data->infusion_location,
+                'UID' => $data->uid,
+                'RepUID' => $data->repuid,
                 'VarName' => $data->varname,
                 'VarValue' => $data->varvalue,
                 'VarUnits' => $data->varunits,
@@ -377,15 +385,16 @@ class TableImport
                     'SubTrtID' => $data->subtrtid,
                     'Site_sample' => $data->sitesample,
                     'Cell_Type' => $data->celltype,
-                    'Day_Sample' => $data->day_sample,
-                    'Day_Sample2' => $data->day_sample2,
-                    'Time_Sample' => $data->time_sample,
+                    'DaySampleofPeriod_InVivo' => $data->daysampleofperiod_invivo,
+                    'DaySampleofPeriod_InVitro' => $data->daysampleofperiod_invitro,
+                    'TimeSampleofPeriod_InVivo' => $data->timesampleofperiod_invivo,
+                    'TimeSampleofPeriod_InVitro' => $data->timesampleofperiod_invitro,
                     'VarName' => $data->varname,
                     'VarValue' => $data->varvalue,
                     'VarUnits' => $data->varunits,
                     'N' => $data->n,
-                    'SEM' => $data->sem,
-                    'SED' => $data->sed,
+                    'SE' => $data->se,
+                    'SD' => $data->sd,
                     'VarType' => $data->vartype,
                     'ref' => $data->dataset . $data->pubid . $data->trialid . $data->trtid . $data->subjectid
                 ]);
@@ -405,15 +414,16 @@ class TableImport
                 'SubTrtID' => $data->subtrtid,
                 'Site_sample' => $data->site_sample,
                 'Cell_Type' => $data->cell_type,
-                'Day_Sample' => $data->day_sample,
-                'Day_Sample2' => $data->day_sample2,
-                'Time_Sample' => $data->time_sample,
+                'DaySampleofPeriod_InVivo' => $data->daysampleofperiod_invivo,
+                'DaySampleofPeriod_InVitro' => $data->daysampleofperiod_invitro,
+                'TimeSampleofPeriod_InVivo' => $data->timesampleofperiod_invivo,
+                'TimeSampleofPeriod_InVitro' => $data->timesampleofperiod_invitro,
                 'VarName' => $data->varname,
                 'VarValue' => $data->varvalue,
                 'VarUnits' => $data->varunits,
                 'N' => $data->n,
-                'SEM' => $data->sem,
-                'SED' => $data->sed,
+                'SE' => $data->se,
+                'SD' => $data->sd,
                 'VarType' => $data->vartype
             ]);
             $duplicate->save();
@@ -566,6 +576,37 @@ class TableImport
         return $filename;
     }
 
+    public static function createFilteredPerformancesFromIds($pubids, $request) {
+
+        $table = FilterEngine::filterToDownloadPerformancesFromIds($pubids);
+
+        $filename = "performances.csv";
+        $handle = fopen($filename, 'w+');
+        fputcsv($handle, array(
+            'DataSet', 'PubID', 'TrialID', 'TrtID', 'SubjectID', 'Site_Sample', 'Day_Sample', 'Time_Sample',
+            'VarName', 'VarValue', 'VarUnits', 'N', 'SEM', 'SED', 'VarType'
+        ));
+
+
+        foreach($table->chunk(100) as $chunk) {
+            foreach($chunk as $row) {
+                fputcsv($handle, array(
+                    $row['DataSet'], $row['PubID'], $row['TrialID'], $row['TrtID'],
+                    $row['SubjectID'], $row['Site_Sample'], $row['Day_Sample'], $row['Time_Sample'],
+                    $row['VarName'], $row['VarValue'], $row['VarUnits'],
+                    $row['N'], $row['SEM'], $row['SED'], $row['VarType']
+                ));
+            }
+        }
+
+        fclose($handle);
+
+        $headers = array(
+            'Content-Type' => 'text/csv',
+        );
+
+        return $filename;
+    }
     public static function createFilteredPerformancesFile(Request $request)
     {
         $table = FilterEngine::filterToDownloadPerformances($request);

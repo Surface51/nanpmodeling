@@ -16,6 +16,8 @@ class Infusion extends Model
         'TrtID',
         'SubjectID',
         'InfusionLocation',
+        'UID',
+        'RepUID',
         'VarName',
         'VarValue',
         'VarUnits',

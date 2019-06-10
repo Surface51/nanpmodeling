@@ -1,12 +1,18 @@
 <?php
 
 namespace App\Http\Controllers;
+ini_set('max_execution_time', 1800);
+ini_set('auto_detect_line_endings', true);
 
+
+use App\Exports\PerformancesExport;
 use App\PerformanceData;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Validator;
+use Maatwebsite\Excel\Facades\Excel;
+use Symfony\Component\HttpFoundation\StreamedResponse;
 
 class PerformanceDataController extends Controller
 {
@@ -100,5 +106,70 @@ class PerformanceDataController extends Controller
 
         return Redirect::to('/administrators-dashboard/performance-data')->with('alerts', 'Successfully Removed Data');
 
+    }
+
+    public function export()
+    {
+//        $filename= public_path(). "/downloadable/performance_datas.csv";
+//        return Excel::download(new PerformancesExport, $filename);
+        $response = new StreamedResponse(function () {
+            // Open output stream
+//            $filename = "performances.csv";
+            $filename= public_path(). "/downloadable/performance_datas.csv";
+            $handle = fopen($filename, 'w+');
+
+            // Add CSV headers
+            fputcsv($handle, [
+                'id',
+                'ref',
+                'DataSet',
+                'PubID',
+                'TrialID',
+                'TrtID',
+                'SubjectID',
+                'Site_Sample',
+                'Time_Sample',
+                'VarName',
+                'VarValue',
+                'VarUnits',
+                'N',
+                'SEM',
+                'SED',
+                'VarType'
+            ]);
+
+            PerformanceData::chunk(1000, function ($performances) use ($handle) {
+                foreach ($performances as $performance) {
+                    // Add a new row with data
+                    fputcsv($handle, [
+                        $performance->id,
+                        $performance->ref,
+                        $performance->DataSet,
+                        $performance->PubID,
+                        $performance->TrialID,
+                        $performance->TrtID,
+                        $performance->SubjectID,
+                        $performance->Site_Sample,
+                        $performance->Time_Sample,
+                        $performance->VarName,
+                        $performance->VarValue,
+                        $performance->VarUnits,
+                        $performance->N,
+                        $performance->SEM,
+                        $performance->SED,
+                        $performance->VarType
+                    ]);
+                }
+
+                // Close the output stream
+                fclose($handle);
+            }, 1000, [
+                'Content-Type' => 'text/csv',
+                'Content-Disposition' => 'attachment; filename="performance_datas.csv"',
+            ]);
+        });
+
+        return $response;
+//        return 'done';
     }
 }

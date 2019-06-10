@@ -27,13 +27,22 @@ Route::get('/search', 'FiltersController@filterAll')->name('filter.all');
 
 // download links for full tables
 Route::get('/all-study-descriptors-csv', 'DownloadsController@downloadStudys')->name('studydescriptors.download');
+Route::get('/all-acknowledgments-csv', 'DownloadsController@downloadAcknowledgments')->name('acknowledgments.download');
+Route::get('/all-labels-csv', 'DownloadsController@downloadLabels')->name('labels.download');
 Route::get('/all-dietary-ingredients-csv', 'DownloadsController@downloadIngredients')->name('dietaryingredients.download');
 Route::get('/all-dietary-nutrients-csv', 'DownloadsController@downloadNutrients')->name('dietarynutrients.download');
 Route::get('/all-subjects-csv', 'DownloadsController@downloadSubjects')->name('subjects.download');
 Route::get('/all-performance-data-csv', 'DownloadsController@downloadPerformances')->name('performancedata.download');
+//Route::get('/all-performance-data-csv', 'PerformanceDataController@export')->name('performancedata.download');
 Route::get('/all-infusions-data-csv', 'DownloadsController@downloadInfusions')->name('infusiondata.download');
 Route::get('/all-in-vitro-data-csv', 'DownloadsController@downloadInvitro')->name('invitrodata.download');
 Route::get('/all-genome-transcripts-csv', 'DownloadsController@downloadGenomes')->name('genome.download');
+Route::get('/download-csv', 'DownloadsController@getDownload')->name('get.download');
+Route::get('/create-csv', 'PerformanceDataController@export')->name('performancedata.download');
+Route::get('/create-archive', 'DownloadsController@createArchive')->name('performance.create');
+Route::get('/download-performance-data', 'DownloadsController@exportPerformanceData')->name('export.performance');
+Route::get('/convert-performance-data', 'DownloadsController@convertFileToCsv')->name('convert.performance');
+
 
 // download links for filtered tables
 Route::get('/filtered-study-descriptors-csv/{query}', 'DownloadsController@downloadFilteredStudies')->name('download.filteredStudies');
@@ -58,6 +67,8 @@ Route::get('/find3', 'PagesController@find3')->name('typeahead.search3');
 // download link for full database
 Route::get('/download-database', 'DownloadsController@downloadDatabase')->name('data.download');
 Route::get('/download-zip-csv/{query}', 'DownloadsController@downloadZipCSV')->name('zip.download');
+Route::get('/download-all-tables-zip-csv', 'DownloadsController@downloadAllZipCSV')->name('allzip.download');
+Route::get('/create-zip-csv', 'DownloadsController@createArchive')->name('zip.archive');
 
 
 // import links

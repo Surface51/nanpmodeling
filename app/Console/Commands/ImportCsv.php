@@ -66,7 +66,6 @@ class ImportCsv extends Command
                 }
             }
         }
-
         return true;
     }
 }

@@ -4,7 +4,8 @@
         <td>{{ $ingredient->PubID }}</td>
         <td>{{ $ingredient->TrialID }}</td>
         <td>{{ $ingredient->TrtID }}</td>
-        <td>{{ $ingredient->IFN }}</td>
+        <td>{{ $ingredient->UID }}</td>
+        <td>{{ $ingredient->RepUID }}</td>
         <td>{{ $ingredient->VarName }}</td>
         <td>{{ $ingredient->Varvalue }}</td>
         <td>{{ $ingredient->VarUnits }}</td>

@@ -1,1 +1,2376 @@
 DataSet,PubID,TrialID,TrtID,SubjectID,InfusionLocation,VarName,VarValue,VarUnits,DayofPeriodStart,DayofPeriodStop,TimeofDayStart,TimeofDayStop
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_Arg,13.9,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_Arg,13.9,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_Arg,11.6,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_Arg,9.3,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_Ash,15,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_Ash,15,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_Ash,12.5,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_Ash,10,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_CP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_CP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_CP,32,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_CP,32,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_CP,12,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_CP,30,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_CP,42,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_CP,366,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_CP,12,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_CP,30,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_CP,42,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_CP,366,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_CP,10,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_CP,25,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_CP,35,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_CP,305,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_CP,8,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_CP,20,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_CP,28,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_CP,243,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_CP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_CP,20,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_CP,30,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_CP,40,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_DM,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_DM,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_DM,32,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_DM,32,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_DM,12,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_DM,30,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_DM,42,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_DM,400,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_DM,12,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_DM,30,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_DM,42,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_DM,400,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_DM,10,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_DM,25,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_DM,35,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_DM,333,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_DM,8,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_DM,20,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_DM,28,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_DM,266,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_DM,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_DM,20,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_DM,30,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_DM,40,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_His,11.6,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_His,11.6,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_His,9.7,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_His,7.7,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_Ile,22.6,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_Ile,22.6,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_Ile,18.8,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_Ile,15,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_Leu,35.1,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_Leu,35.1,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_Leu,29.2,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_Leu,23.3,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_Lys,24,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_Lys,24,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_Lys,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_Lys,30,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_Lys,30,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_Lys,29.8,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_Lys,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_Lys,30,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_Lys,30,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_Lys,29.8,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_Lys,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_Lys,25,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_Lys,25,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_Lys,24.8,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_Lys,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_Lys,20,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_Lys,20,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_Lys,19.8,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_Lys,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_Lys,10,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_Lys,20,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_Lys,30,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_Met,8,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_Met,8,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_Met,12,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_Met,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_Met,12,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_Met,10.7,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_Met,12,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_Met,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_Met,12,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_Met,10.7,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_Met,10,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_Met,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_Met,10,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_Met,8.9,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_Met,8,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_Met,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_Met,8,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_Met,7.1,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_Met,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_Met,10,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_Met,10,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_Met,10,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_Phe,19.4,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_Phe,19.4,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_Phe,16.1,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_Phe,12.9,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_TDRUP_RUP,95,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_TDRUP_RUP,95,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_TDRUP_RUP,95,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_TDRUP_RUP,95,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_Thr,16.9,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_Thr,16.9,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_Thr,14.1,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_Thr,11.2,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_Trp,4.5,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_Trp,4.5,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_Trp,3.8,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_Trp,3,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_Val,26.1,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_Val,26.1,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_Val,21.7,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_Val,17.3,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,214,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,215,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,216,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",83,1,217,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46100,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46200,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,46300,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47100,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47200,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,47300,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48100,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48200,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,48300,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49100,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49200,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",123,1,49300,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,163,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,164,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,165,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (NRC 2001)",163,1,166,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_CP,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_CP,69.6,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_CP,41.7,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_CP,54.7,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_CP,51.3,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_DM,250,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_DM,319.6,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_DM,291.7,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_DM,304.7,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_DM,301.3,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_Glc,250,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_Glc,250,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_Glc,250,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_Glc,250,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_Glc,250,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_His,8.5,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_His,8.5,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_His,8.5,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_His,8.5,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_Ile,14.9,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_Ile,14.9,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_Ile,14.9,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_Leu,27.9,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_Leu,27.9,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_Leu,27.9,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_Val,18.3,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_Val,18.3,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_Val,18.3,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,637,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,638,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,639,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,640,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Digestion (2019)",240,1,641,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_Acet,0,"% ",-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_ADF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_ADFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_Arg,30.1,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_Arg,29,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_Arg,31.3,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_Arg,29.4,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_Arg,30,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_Arg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_Arg,39.36,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_Arg,39.36,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_Arg,39.36,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_Arg,39.36,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_Arg,39.36,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_Ash,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_Butr,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_Ca,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_CP,60.4,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_CP,58.4,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_CP,56.4,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_CP,50.4,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_CP,34.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_CP,34.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_CP,34.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_CP,34.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_CP,34,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_CP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_CP,6.5,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_CP,12.5,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_CP,25.5,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_CP,31.5,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_CP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_CP,10,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_CP,20,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_CP,30,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_CP,40,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_CP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_CP,15,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_CP,30,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_CP,45,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_CP,60,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_CP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_CP,50,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_CP,15.9,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_CP,65.6,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_CP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_CP,33,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_CP,98,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_CP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_CP,1075,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_CP,1010.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_CP,1045.7,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_CP,1027.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_CP,845,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_CP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_CP,562.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_CP,530.64,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_CP,535.44,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_CP,468.72,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_CP,548.64,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_CPARum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_CPBRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_CPCRum_CP,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_DM,60.415,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_DM,58.415,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_DM,56.415,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_DM,50.415,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_DM,34.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_DM,34.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_DM,34.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_DM,34.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_DM,34,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_DM,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_DM,6.5,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_DM,12.5,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_DM,25.5,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_DM,31.5,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_DM,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_DM,10,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_DM,20,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_DM,30,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_DM,40,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_DM,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_DM,15,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_DM,30,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_DM,45,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_DM,60,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_DM,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_DM,50,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_DM,15.9,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_DM,65.6,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_DM,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_DM,33,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_DM,98,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_DM,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_DM,1075,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_DM,1010.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_DM,1045.7,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_DM,1027.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_DM,844.96,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_DM,562.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_DM,530.64,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_DM,535.44,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_DM,468.72,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_DM,548.64,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_EE,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_Glc,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_Glu,42,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_Glu,32,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_Glu,22,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_Glu,27.2,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_Glu,20.4,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_Glu,13.6,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_Glu,6.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_Glu,215.3,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_Glu,207.6,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_Glu,224,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_Glu,210.4,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_Glu,214.1,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_Glu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_His,6.5,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_His,6.5,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_His,6.5,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_His,6.5,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_His,23.2,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_His,22.4,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_His,24.2,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_His,23.1,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_His,32.16,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_His,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_His,32.16,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_His,32.16,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_His,32.16,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_Ile,15,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_Ile,58.5,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_Ile,56.4,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_Ile,60.9,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_Ile,57.2,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_Ile,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_Ile,57.36,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_Ile,57.36,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_Ile,57.36,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_Ile,57.36,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_Ile,57.36,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_kCPBPass,0,g/g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_Leu,35,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_Leu,99.4,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_Leu,95.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_Leu,103.4,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_Leu,97.1,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_Leu,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_Leu,94.08,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_Leu,94.08,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_Leu,94.08,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_Leu,94.08,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_Leu,94.08,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_Lg,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_Lys,18.415,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_Lys,18.415,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_Lys,18.415,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_Lys,18.415,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_Lys,10,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_Lys,10,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_Lys,10,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_Lys,10,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_Lys,10,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_Lys,19,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_Lys,19,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_Lys,15,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_Lys,30,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_Lys,45,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_Lys,60,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_Lys,50,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_Lys,49.4,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_Lys,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_Lys,21,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_Lys,21,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_Lys,69.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_Lys,67.3,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_Lys,68.2,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_Lys,69.4,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_Lys,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_Lys,98.16,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_Lys,98.16,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_Lys,98.16,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_Lys,98.16,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_Lys,98.16,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_Met,8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_Met,16,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_Met,32,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_Met,6,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_Met,12,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_Met,18,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_Met,24,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_Met,6,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_Met,6,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_Met,10,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_Met,20,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_Met,30,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_Met,40,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_Met,15.9,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_Met,16.2,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_Met,12,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_Met,12,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_Met,26.5,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_Met,27.6,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_Met,25.9,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_Met,26.4,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_Met,27.36,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_Met,27.36,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_Met,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_Met,27.36,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_Met,27.36,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_NDF,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_NDFIP,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_Phe,101.6,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_Phe,97.9,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_Phe,105.7,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_Phe,99.3,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_Phe,101,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_Phe,94.08,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_Phe,94.08,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_Phe,94.08,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_Phe,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_Phe,94.08,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_Prop,0,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_St,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_TDRUP_RUP,100,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_TDSt_St,98,%,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_Thr,53,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_Thr,51.1,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_Thr,55.1,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_Thr,51.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_Thr,52.7,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_Thr,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_Thr,42.24,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_Thr,42.24,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_Thr,42.24,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_Thr,42.24,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_Thr,42.24,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_Trp,16.6,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_Trp,16,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_Trp,17.2,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_Trp,16.2,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_Trp,16.5,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_Trp,14.16,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_Trp,14.16,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_Trp,14.16,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_Trp,14.16,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_Trp,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_Val,15,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_Val,67.3,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_Val,64.9,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_Val,70.1,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_Val,65.8,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_Val,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_Val,63.84,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_Val,63.84,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_Val,63.84,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_Val,63.84,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_Val,63.84,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1125,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1126,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1127,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",289,1,1128,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1129,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1130,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1131,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1132,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",290,1,1133,-,Duodenum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1134,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1135,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1136,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1137,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",291,1,1138,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1139,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1140,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1141,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1142,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1143,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1144,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1145,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1146,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1147,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",292,1,1148,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1149,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1150,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1151,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",293,1,1152,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1153,-,Jugular,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1154,-,Jugular,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",294,1,1155,-,Jugular,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1402,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1403,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1404,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1405,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1406,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",334,1,1407,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1408,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1409,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1410,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1411,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1412,-,Abomasum,Inf_VFA,0,g,-,-,-,-
+"Dairy Amino Acid Supplementation (2019)",335,1,1413,-,Abomasum,Inf_VFA,0,g,-,-,-,-
