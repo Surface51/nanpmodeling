@@ -1,2 +1,2 @@
-DataSet,PubID,TrialID,TrtID,SubjectID,InfusionLocation,VarName,VarValue,VarUnits,DayofPeriodStart ,DayofPeriodStop ,TimeofDayStart,TimeofDayStop
+DataSet,PubID,TrialID,TrtID,SubjectID,InfusionLocation,UID,RepUID,VarName,VarValue,VarUnits,DayofPeriodStart,DayofPeriodStop,TimeofDayStart,TimeofDayStop
 ,,,,,,,,,,,,

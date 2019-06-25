@@ -1,2 +1,2 @@
-DataSet,PubID,TrialID,TrtID,SubjectID,Site_Sample,Day_Sample,Time_Sample,VarName,VarValue,VarUnits,N,SE,SD,VarType
+DataSet,PubID,TrialID,TrtID,SubjectID,Site_Sample,Day_Sample,Time_Sample,VarName,VarValue,VarUnits,N,SEM,SED,VarType
 ,,,,,,,,,,,,,,

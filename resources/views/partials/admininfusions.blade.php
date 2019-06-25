@@ -9,6 +9,8 @@
         <td>{{ $infusion->TrtID }}</td>
         <td>{{ $infusion->SubjectID }}</td>
         <td>{{ $infusion->InfusionLocation }}</td>
+        <td>{{ $infusion->UID }}</td>
+        <td>{{ $infusion->RepUID }}</td>
         <td>{{ $infusion->VarName }}</td>
         <td>{{ $infusion->VarValue }}</td>
         <td>{{ $infusion->VarUnits }}</td>

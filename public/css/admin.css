@@ -49,3 +49,37 @@ body {
 #create-form {
     padding: 10px;
 }
+
+.table-header-admin {
+    font-size: 6px;
+}
+
+.admin-tables-studies td {
+    width: 14.28%;
+    font-size: 8px;
+}
+
+.admin-tables-ingredients td {
+    width: 7.14%;
+    font-size: 8px;
+}
+
+.admin-tables-subjects td {
+    width: 8.33%;
+}
+
+.admin-tables-performances td {
+    width: 6.25%;
+}
+
+.admin-tables-invitros td {
+     width: 4.56%;
+ }
+
+.admin-tables-infusions td {
+    width: 6.25%;
+}
+
+.admin-tables-genomes td {
+    width: 4.56%;
+}

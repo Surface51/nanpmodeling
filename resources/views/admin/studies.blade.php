@@ -20,7 +20,7 @@
                                     <div class="container-fluid">
                                         <table class="table table-bordered">
                                             <thead>
-                                            <tr id='table-rows'>
+                                            <tr id='table-rows' class="table-header-admin">
                                                 <th>Actions</th>
                                                 <th>DataSet</th>
                                                 <th>PubID</th>
@@ -30,7 +30,7 @@
                                                 <th>VarUnits</th>
                                             </tr>
                                             </thead>
-                                            <tbody>
+                                            <tbody class="admin-tables-studies">
                                             @include('partials.adminstudies')
                                             </tbody>
                                         </table>

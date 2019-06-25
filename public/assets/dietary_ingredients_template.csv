@@ -1,2 +1,2 @@
-DataSet,PubID,TrialID,TrtID,IFN,VarName,Varvalue,VarUnits,N,SE,SD
+DataSet,PubID,TrialID,TrtID,UID,RepUID,VarName,Varvalue,VarUnits,N,SE,SD
 ,,,,,,,,,,

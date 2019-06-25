@@ -1,2 +1,2 @@
-DataSet,PubID,TrialID,TrtID,SubjectID,PlateID,WellID,SubTrtID,Site_Sample,Cell_Type,Day_Sample,Time_Sample,VarName,VarValue,VarUnits,N,SE,SD,VarType
+DataSet,PubID,TrialID,TrtID,SubjectID,PlateID,WellID,SubTrtID,Site_Sample,Cell_Type,DaySampleofPeriod_InVivo,DaySampleofPeriod_InVitro,TimeSampleofPeriod_InVivo,TimeSampleofPeriod_InVitro,VarName,VarValue,VarUnits,N,SE,SD,VarType
 ,,,,,,,,,,,,,,,,,,

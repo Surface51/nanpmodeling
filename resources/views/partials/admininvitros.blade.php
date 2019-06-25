@@ -13,9 +13,10 @@
         <td>{{ $invitro->SubTrtID }}</td>
         <td>{{ $invitro->Site_sample }}</td>
         <td>{{ $invitro->Cell_Type }}</td>
-        <td>{{ $invitro->Day_Sample }}</td>
-        <td>{{ $invitro->Day_Sample2 }}</td>
-        <td>{{ $invitro->Time_Sample }}</td>
+        <td>{{ $invitro->DaySampleofPeriod_InVivo }}</td>
+        <td>{{ $invitro->DaySampleofPeriod_InVitro }}</td>
+        <td>{{ $invitro->TimeSampleofPeriod_InVivo }}</td>
+        <td>{{ $invitro->TimeSampleofPeriod_InVitro }}</td>
         <td>{{ $invitro->VarName }}</td>
         <td>{{ $invitro->VarValue }}</td>
         <td>{{ $invitro->VarUnits }}</td>

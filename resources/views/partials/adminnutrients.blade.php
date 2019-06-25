@@ -9,7 +9,7 @@
         <td>{{ $nutrient->TrtID }}</td>
         <td>{{ $nutrient->SubjectID }}</td>
         <td>{{ $nutrient->VarName }}</td>
-        <td>{{ $nutrient->VarValue }}</td>
+        <td>{{ $nutrient->Varvalue }}</td>
         <td>{{ $nutrient->VarUnits }}</td>
         <td>{{ $nutrient->N }}</td>
         <td>{{ $nutrient->SE }}</td>

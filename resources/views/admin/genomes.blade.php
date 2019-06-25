@@ -20,7 +20,7 @@
                                 <div class="container-fluid">
                                     <table class="table table-bordered">
                                         <thead>
-                                        <tr id='table-rows'>
+                                        <tr id='table-rows' class="table-header-admin">
                                             <th>Actions</th>
                                             <th>DataSet</th>
                                             <th>PubID</th>
@@ -32,9 +32,10 @@
                                             <th>SubTrtID</th>
                                             <th>Site_sample</th>
                                             <th>Cell_Type</th>
-                                            <th>Day_Sample</th>
-                                            <th>Day_Sample2</th>
-                                            <th>Time_Sample</th>
+                                            <th>DaySampleofPeriod_InVivo</th>
+                                            <th>DaySampleofPeriod_InVitro</th>
+                                            <th>TimeSampleofPeriod_InVivo</th>
+                                            <th>TimeSampleofPeriod_InVitro</th>
                                             <th>VarName</th>
                                             <th>VarValue</th>
                                             <th>VarUnits</th>
@@ -44,7 +45,7 @@
                                             <th>VarType</th>
                                         </tr>
                                         </thead>
-                                        <tbody>
+                                        <tbody class="admin-tables-genomes">
                                         @include('partials.admingenomes')
                                         </tbody>
                                     </table>

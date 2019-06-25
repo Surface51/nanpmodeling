@@ -42,7 +42,8 @@ class AdministratorsController extends Controller
 
     public function nutrients()
     {
-        $nutrients = DietaryNutrients::all();
+//        $nutrients = DietaryNutrients::all();
+        $nutrients = DB::table('dietary_nutrients')->simplePaginate(15);
 
         return view('admin.nutrients', compact('nutrients'));
     }

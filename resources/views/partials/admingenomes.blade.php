@@ -13,9 +13,10 @@
         <td>{{ $genome->SubTrtID }}</td>
         <td>{{ $genome->Site_sample }}</td>
         <td>{{ $genome->Cell_Type }}</td>
-        <td>{{ $genome->Day_Sample }}</td>
-        <td>{{ $genome->Day_Sample2 }}</td>
-        <td>{{ $genome->Time_Sample }}</td>
+        <td>{{ $genome->DaySampleofPeriod_InVivo }}</td>
+        <td>{{ $genome->DaySampleofPeriod_InVitro }}</td>
+        <td>{{ $genome->TimeSampleofPeriod_InVivo }}</td>
+        <td>{{ $genome->TimeSampleofPeriod_InVitro }}</td>
         <td>{{ $genome->VarName }}</td>
         <td>{{ $genome->VarValue }}</td>
         <td>{{ $genome->VarUnits }}</td>

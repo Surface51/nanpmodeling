@@ -20,7 +20,7 @@
                                 <div class="container-fluid">
                                     <table class="table table-bordered">
                                         <thead>
-                                        <tr id='table-rows'>
+                                        <tr id='table-rows' class="table-header-admin">
                                             <th>Actions</th>
                                             <th>DataSet</th>
                                             <th>PubID</th>
@@ -28,6 +28,8 @@
                                             <th>TrtID</th>
                                             <th>SubjectID</th>
                                             <th>InfusionLocation</th>
+                                            <th>UID</th>
+                                            <th>RepUID</th>
                                             <th>VarName</th>
                                             <th>VarValue</th>
                                             <th>VarUnits</th>
@@ -37,7 +39,7 @@
                                             <th>TimeofDayStop</th>
                                         </tr>
                                         </thead>
-                                        <tbody>
+                                        <tbody class="admin-tables-infusions">
                                         @include('partials.admininfusions')
                                         </tbody>
                                     </table>
